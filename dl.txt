@@ -1,0 +1,11 @@
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+
+    $name = $group.Name
+    $alias = $group.Alias 
+    $managedBy = $group.ManagedBy
+    $members = $group.Members -split ";"
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members
+}
