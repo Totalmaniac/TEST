@@ -1,0 +1,15 @@
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+    $name = $group.Name
+    $alias = $group.Alias 
+    $managedBy = $group.ManagedBy -split ";"
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    # Use DisplayName for ManagedBy and Members
+    $managedByObjects = $managedBy | Get-User | Select-Object -ExpandProperty DisplayName
+    $membersObjects = $members | Get-Recipient | Select-Object -ExpandProperty DisplayName
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedByObjects -Members $membersObjects -PrimarySmtpAddress $primarySmtpAddress
+}
