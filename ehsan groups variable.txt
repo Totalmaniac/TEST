@@ -1,0 +1,6 @@
+$userUPN = 'Ehsan.Hamadani@wearejust.co.uk'
+$groupNames = "Role EDP ELZ Retail Data Scientist Prod",
+"Role EDP ELZ Retail Data Scientist Non-Prod",
+"Role EDP ELZ DB Data Scientist Prod",
+"Role EDP ELZ DB Data Scientist Non-Prod"
+

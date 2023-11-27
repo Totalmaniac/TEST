@@ -1,0 +1,7 @@
+foreach ($name in $groupNames){
+
+  $desc = $groupDesc[$name]
+  
+  New-AzureADGroup -DisplayName $name -Description $desc -MailEnabled $false -SecurityEnabled $true -MailNickname "notSet"
+
+}

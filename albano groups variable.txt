@@ -1,0 +1,7 @@
+$userUPN = 'AlbanoSeitaj@wearejust.co.uk'
+$groupNames = 
+"Role EDP ELZ Retail Finance Data Provider",
+"Role EDP ELZ Retail Finance Data Provider",
+"Role EDP ELZ DB Finance Data Provider Prod",
+"Role EDP ELZ DB Finance Data Provider Non-Prod"
+

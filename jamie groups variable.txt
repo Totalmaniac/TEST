@@ -1,0 +1,9 @@
+$userUPN = 'Jamie.Hill@wearejust.co.uk'
+$groupNames = "Role EDP ELZ Retail Platform Engineer Prod",
+"Role EDP ELZ Retail Platform Engineer FA Prod",
+"Role EDP ELZ Retail Platform Engineer Non-Prod",
+"Role EDP ELZ Retail Platform Engineer FA Non-Prod",
+"Role EDP ELZ DB Platform Engineer Prod",
+"Role EDP ELZ DB Platform Engineer FA Prod",
+"Role EDP ELZ DB Platform Engineer Non-Prod",
+"Role EDP ELZ DB Platform Engineer FA Non-Prod"
