@@ -1,12 +1,13 @@
- Set the domain controller for the live01 domain
+# Set the domain controller for the live01 domain
 $domainController = "live01.yourdomain.com"
 
 # Set the path for the CSV output file
 $outputPath = "C:\Path\To\Output\GroupsInfo.csv"
 
 # Get groups with both security and distribution types
-$groups = Get-ADGroup -Filter {(GroupCategory -eq 'Security') -and (GroupScope -eq 'Global')} -Server $domainController
-$groups += Get-ADGroup -Filter {(GroupCategory -eq 'Distribution') -and (GroupScope -eq 'Global')} -Server $domainController
+$securityGroups = Get-ADGroup -Filter {(GroupCategory -eq 'Security') -and (GroupScope -eq 'Global')} -Server $domainController
+$distributionGroups = Get-ADGroup -Filter {(GroupCategory -eq 'Distribution') -and (GroupScope -eq 'Global')} -Server $domainController
+$groups = $securityGroups + $distributionGroups
 
 # Create an array to store group information
 $groupInfo = @()
@@ -14,10 +15,10 @@ $groupInfo = @()
 # Iterate through each group and extract information
 foreach ($group in $groups) {
     $groupInfo += [PSCustomObject]@{
-        "GroupName" = $group.Name
-        "Description" = $group.Description
-        "GroupType" = $group.GroupCategory
-        "GroupScope" = $group.GroupScope
+        "GroupName"    = $group.Name
+        "Description"  = $group.Description
+        "GroupType"    = $group.GroupCategory
+        "GroupScope"   = $group.GroupScope
     }
 }
 
