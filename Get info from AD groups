@@ -1,0 +1,26 @@
+This script gets the details from AD groups
+# Import the Active Directory module
+Import-Module ActiveDirectory
+
+# Get all on-premises AD groups
+$groups = Get-ADGroup -Filter * -Properties Description | Where-Object { $_.GroupCategory -eq 'Security' }
+
+# Create an array to store group information
+$groupInfo = @()
+
+# Populate the array with group information
+foreach ($group in $groups) {
+    $groupName = $group.Name
+    $description = $group.Description
+
+    $groupInfo += [PSCustomObject]@{
+        'GroupName'  = $groupName
+        'Description' = $description
+    }
+}
+
+# Export the information to a CSV file
+$csvFilePath = "C:\Path\To\Your\Export\File.csv"
+$groupInfo | Export-Csv -Path $csvFilePath -NoTypeInformation
+
+Write-Host "CSV file created successfully at $csvFilePath"
