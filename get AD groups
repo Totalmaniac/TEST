@@ -1,0 +1,35 @@
+basic script to get AD groups
+# Get all AD groups
+$groups = Get-ADGroup -Filter *
+
+# Iterate through each group
+foreach ($group in $groups) {
+    # Get the current description
+    $description = $group.Description
+
+    # Check if description is not empty
+    if ($description) {
+        # Replace '/' with ';'
+        $description = $description -replace '/', ';'
+
+        # Add ';' before 'Deputy' if not present
+        $description = $description -replace 'Deputy', ';Deputy'
+
+        # Replace '&' with ';'
+        $description = $description -replace '&', ';'
+
+        # Remove anything after '-'
+        $description = $description -replace '-.*$', ''
+
+        # Remove specific phrases
+        $description = $description -replace '\(DO NOT USE\)|DO NOT USE|No Longer Used|\(No Longer Used\)', ''
+
+        # Trim leading and trailing spaces
+        $description = $description.Trim()
+
+        # Update the group description
+        Set-ADGroup -Identity $group -Description $description
+    }
+}
+
+Write-Host "Script completed successfully!"
