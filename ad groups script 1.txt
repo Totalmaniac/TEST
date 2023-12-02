@@ -1,1 +1,1 @@
-=CONCATENATE("Owner: ",PROPER(SUBSTITUTE(LEFT(A2,FIND(";",A2)-1),",","")),"; ",PROPER(SUBSTITUTE(MID(A2,FIND(";",A2)+1,FIND("Deputy",A2)-FIND(";",A2)-1),",","")),"; Deputy: ",PROPER(RIGHT(A2,LEN(A2)-FIND("Deputy",A2)-8)))
+="Owner: "&PROPER(SUBSTITUTE(LEFT(A2,FIND(";",A2)-1),",",""))&"; "&PROPER(SUBSTITUTE(MID(A2,FIND(";",A2)+1,FIND("Deputy",A2)-FIND(";",A2)-1),",",""))&"; Deputy: "&PROPER(RIGHT(A2,LEN(A2)-FIND("Deputy",A2)-8))
