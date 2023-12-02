@@ -1,0 +1,7 @@
+this is a script for sorting data in Excel:
+
+=SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A2,"/",""),"-","")," ",""),"\","")
+
+
+then after this run this:
+=IF(ISNUMBER(SEARCH("Deputy",B2)),";" & SUBSTITUTE(B2,"Deputy","Deputy"),B2)
