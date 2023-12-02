@@ -1,0 +1,26 @@
+# Get all AD groups
+$groups = Get-ADGroup -Filter *
+
+# Output variables  
+$name = @()
+$info = @() 
+$type = @()
+
+# Extract details
+foreach ($group in $groups) {
+  $name += $group.Name
+  $info += $group.Info  # Use Info instead of Description
+  $type += $group.GroupCategory
+}
+
+# Export to CSV
+$export = @()
+for ($i=0; $i -lt $name.Count; $i++) {
+  $export += [PSCustomObject]@{
+    Name = $name[$i]  
+    Description = $info[$i]  # Map to Description column
+    Type = $type[$i]
+  }
+}
+
+$export | Export-Csv -Path "C:\ad_groups.csv" -NoTypeInformation
