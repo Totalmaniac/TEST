@@ -1,1 +1,29 @@
-="Owner: "&PROPER(SUBSTITUTE(LEFT(A2,FIND(";",A2)-1),",",""))&"; "&PROPER(SUBSTITUTE(MID(A2,FIND(";",A2)+1,FIND("Deputy",A2)-FIND(";",A2)-1),",",""))&"; Deputy: "&PROPER(RIGHT(A2,LEN(A2)-FIND("Deputy",A2)-8))
+# Path to input CSV file
+$inFile = "C:\input.csv" 
+
+# Path to output formatted CSV file
+$outFile = "C:\output.csv"
+
+# Import the CSV 
+$csv = Import-Csv $inFile
+
+# Loop through each row
+foreach ($row in $csv) {
+
+    # Format the description
+    $name1 = Get-NamePart -FullName $row.Description -First
+    $name2 = Get-NamePart -FullName $row.Description -Last 
+    $newDesc = "Owner: $name1; $name2;"
+
+    # Clean up special characters
+    $newDesc = $newDesc -replace "[^A-Za-z0-9();:\s]",""
+
+    # Remove content after dash
+    $newDesc = $newDesc -replace "(-\w.*)",""
+
+    # Set back on row object 
+    $row.Description = $newDesc
+}
+
+# Export formatted data
+$csv | Export-Csv $outFile -NoTypeInformation
