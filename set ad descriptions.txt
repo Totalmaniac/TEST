@@ -1,0 +1,3 @@
+Import-Csv "C:\groups.csv" | ForEach-Object { 
+    Set-ADGroup -Identity $_.Name -Description $_.Description 
+}
