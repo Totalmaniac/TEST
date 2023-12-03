@@ -1,9 +1,6 @@
-Import-Csv "C:\groups.csv" | ForEach-Object {
-
-    # Access description from CSV
-    $newDesc = $_.Description
+$groups.GetEnumerator() | ForEach-Object {
+    $name = $_.Key
+    $desc = $_.Value
     
-    # Update description
-    Set-ADGroup -Identity $_.Name -Description $newDesc
-
+    Set-ADGroup -Identity $name -Description $desc
 }
