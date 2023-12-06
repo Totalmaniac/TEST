@@ -1,29 +1,10 @@
-# Path to input CSV file
-$inFile = "C:\input.csv" 
+$groups.GetEnumerator() | ForEach-Object {
 
-# Path to output formatted CSV file
-$outFile = "C:\output.csv"
+    $name = $_.Key
+    $desc = $_.Value
 
-# Import the CSV 
-$csv = Import-Csv $inFile
+    Set-ADGroup -Identity $name -Description $desc
 
-# Loop through each row
-foreach ($row in $csv) {
+    Write-Host "Successfully updated description for group: $name"
 
-    # Format the description
-    $name1 = Get-NamePart -FullName $row.Description -First
-    $name2 = Get-NamePart -FullName $row.Description -Last 
-    $newDesc = "Owner: $name1; $name2;"
-
-    # Clean up special characters
-    $newDesc = $newDesc -replace "[^A-Za-z0-9();:\s]",""
-
-    # Remove content after dash
-    $newDesc = $newDesc -replace "(-\w.*)",""
-
-    # Set back on row object 
-    $row.Description = $newDesc
 }
-
-# Export formatted data
-$csv | Export-Csv $outFile -NoTypeInformation
