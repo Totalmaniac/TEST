@@ -179,7 +179,6 @@ $groups = @{
 "002 G Live Func Remote Assistance" = 	"Owner: Service Support Manager " 
 "002 DL Live Data Server054 JRMS Learning and Development Modify" = 	"Owner: Kathryn Gray" 
 "002 DL Live Data Server045 IT Modify" = 	"Owner: Data Architect" 
-"FI Sales Distribution List" = 	"Owner: Mark Harding" 
 "002 DL Live Data Server015 BCP JRS Modify" = 	"Owner: Simon Gray" 
 "002 DL Live Data Server054 JRMS Projects Area Read" = 	"Owner: Simone Murrough; Deputy: John Rollerson" 
 "002 DL Live Data Server054 JRMS Executive PA's Modify" = 	"Owner: Lesley Hall" 
