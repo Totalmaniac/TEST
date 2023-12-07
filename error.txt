@@ -1,0 +1,6 @@
+Set-ADGroup : replace
+At line:4 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (G Live Mailbox Test:ADGroup) [Set-ADGroup], ADInvalidOperationException
+    + FullyQualifiedErrorId : ActiveDirectoryServer:0,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
