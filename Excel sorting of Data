@@ -1,7 +1,16 @@
-this is a script for sorting data in Excel:
+$groups.GetEnumerator() | ForEach-Object {
+    $name = $_.Key
+    $desc = $_.Value
 
-=SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A2,"/",""),"-","")," ",""),"\","")
+    # Get the existing description
+    $existingDesc = (Get-ADGroup -Identity $name -Properties Description).Description
 
-
-then after this run this:
-=IF(ISNUMBER(SEARCH("Deputy",B2)),";" & SUBSTITUTE(B2,"Deputy","Deputy"),B2)
+    # Check if the description is empty or different
+    if (-not $existingDesc -or $existingDesc -ne $desc) {
+        # Update the description only if it's different or empty
+        Set-ADGroup -Identity $name -Description $desc
+        Write-Host "Successfully updated description for group: $name"
+    } else {
+        Write-Host "Description for group $name is already up to date"
+    }
+}
