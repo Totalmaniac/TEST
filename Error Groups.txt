@@ -1,0 +1,2669 @@
+
+Set-ADGroup : Cannot find an object with identity: 'CS Contact Centre and Lifetime Mortgage - 
+Management DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Contact Cent...- Management DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Eloqua Admin' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Eloqua Admin:ADGroup) [Set-ADGroup], ADIdentityNotFou 
+   ndException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'All Finance Legal and CoSec DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (All Finance Legal and CoSec DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Technology Management' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Technology Management:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'actuarial reporting and analysis reigate' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (actuarial reporting and analysis reigate:ADGroup) [Se 
+   t-ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Lifetime Mortgage - SP1 DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Lifetime Mortgage - SP1 DL:ADGroup) [Set-ADGroup], AD 
+   IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Role EDP HUB ER PBI Dialler MI UPM Data Team 
+Reader Non-Prod' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Role EDP HUB ER...Reader Non-Prod:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Change-Leadership DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Change-Leadership DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Architecture Change Approval DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery A...nge Approval DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Sustainable Bond Forum' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Sustainable Bond Forum:ADGroup) [Set-ADGroup], AD 
+   IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_Dl Marketing & Distribution All Staff' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_Dl Marketing & Distribution All Staff:ADGroup) [Set- 
+   ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Data Team - Godel Consultants DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery D... Consultants DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Destination Retirement Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Destination Retirement Team DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail New Business - All DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail New Business - All DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HT BMS Notification Level 1 DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HT BMS Notification Level 1 DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL HUB Daily Apps' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL HUB Daily Apps:ADGroup) [Set-ADGroup], ADIdentity 
+   NotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Apollo DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Apollo DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundE 
+   xception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Matt Allen Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Matt Allen Team DL:ADGroup) [Set-ADGroup], ADIdentity 
+   NotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DBDocuSign DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DBDocuSign DL:ADGroup) [Set-ADGroup], ADIdentityNotFo 
+   undException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Change Function' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Change Function:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Compliance - CC DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Compliance - CC DL:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_O365 Dist List Test Migration 2' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_O365 Dist List Test Migration 2:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retirement Lending Pricing Change Committee' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retirement Lend...hange Committee:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DG Data Champions' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DG Data Champions:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'All London Staff DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (All London Staff DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Customer Services - DPCs DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Customer Services - DPCs DL:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL The Pioneers' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL The Pioneers:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Business Readiness Change Approval 
+DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery B...nge Approval DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retirement Income Pricing CHange Committee DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retirement Inco...ge Committee DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Line Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Line Managers DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Investment Strategy' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Investment Strategy:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail New Business - GIFL NB DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail New Business - GIFL NB DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just AD EDR' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just AD EDR:ADGroup) [Set-ADGroup], ADIdentityNotFoun 
+   dException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'RPA' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (RPA:ADGroup) [Set-ADGroup], ADIdentityNotFoundExcepti 
+   on
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL Live Data Server015 Harry - Project Melrose 
+Read' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL Live Data Se...ct Melrose Read:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail New Business - Care DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail New Business - Care DL:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Just Delivery Data Team EDP Technical Users' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Just Delive...Technical Users:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Atlantis Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Atlantis Team DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Live Mailbox Just50' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Live Mailbox Just50:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Engineering DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Engineering DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'VIB Team DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (VIB Team DL:ADGroup) [Set-ADGroup], ADIdentityNotFoun 
+   dException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_Dl FI Sales Events Team' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_Dl FI Sales Events Team:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Legal Customer Survey' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Legal Customer Survey:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'JD Agile Coaches DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (JD Agile Coaches DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'U Func Dev Delegated SPN Admin' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (U Func Dev Delegated SPN Admin:ADGroup) [Set-ADGroup  
+  ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail Distribution SLI Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail Distribution SLI Team DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'UK Retail Funds Committee DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (UK Retail Funds Committee DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail New Business - GIFL Quotes DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail New Business - GIFL Quotes DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Group M2L Upload Notifications' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Group M2L Upload Notifications:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Jasmine Bulk Payment First Authorisers DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Jasmine Bulk Pa... Authorisers DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Senior Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Senior Leadership Team DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Legal DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Legal DL:ADGroup) [Set-ADGroup], ADIdentityNotFou 
+   ndException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Jasmine Data Cleanse Authorisers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Jasmine Data Cleanse Authorisers DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery UK Retail Pricing Committee' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery U...icing Committee:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Marketing Data Strategy & Analysis Team' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Marketing D...& Analysis Team:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SLI Squad' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SLI Squad:ADGroup) [Set-ADGroup], ADIdentityNotFoundE 
+   xception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'UK Retail Pricing Committee' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (UK Retail Pricing Committee:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Del InfoSec DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Del InfoSec DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL D365 SlickProd' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL D365 SlickProd:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Destination Retirement Marketing DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Destination Retirement Marketing DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail Leadership Team DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB RN Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB RN Management DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Service Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Service Team DL:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Change Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Change Team DL:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Approval Team DR Management' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Approval Team DR Management:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Project Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Project Managers DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'PBRS Financial Warehouse Users DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (PBRS Financial Warehouse Users DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Angel Lane Evacuation Group DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Angel Lane Evacuation Group DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Sales & Business Development DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Sales & Business Development DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery SSAB Attendees DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery SSAB Attendees DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'U License Microsoft 365 E5 - Teams Conferencing' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (U License Micro...ms Conferencing:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Inv Actuarial and Controls DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Inv Actuarial and Controls DL:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW PayingForCare Web Admin dev' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW PayingForCare Web Admin dev:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Customer Services - Training DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Customer Services - Training DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'MI Pack Production DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MI Pack Production DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery CAB Attendees DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery CAB Attendees DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Marketing Services DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Marketing Services DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Live Func Arc Alplication User' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Live Func Arc Alplication User:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Data Team EDP Tulip RI End Users 
+DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery D...RI End Users DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Finance Data Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Finance Data Team DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW Orbus - DO NOT USE' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW Orbus - DO NOT USE:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Finance Systems' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Finance Systems:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Legal Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Legal Leadership Team DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'VS Lead DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (VS Lead DL:ADGroup) [Set-ADGroup], ADIdentityNotFound 
+   Exception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'BD Analysts DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (BD Analysts DL:ADGroup) [Set-ADGroup], ADIdentityNotF 
+   oundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'LTM and XML Service Updates DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (LTM and XML Service Updates DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW PayingForCare Everyone dev' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW PayingForCare Everyone dev:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Func PA.Int PricingAnalytics_R&D Modify' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Func PA.Int ...tics_R&D Modify:ADGroup) [Set-ADGro  
+  up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HR Business Partnering Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HR Business Partnering Team DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB Investment Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB Investment Team DL:ADGroup) [Set-ADGroup], AD 
+   IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Strategy & Digital Advice DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Strategy & Digital Advice DL:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Group Finance Treasury Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Group Finance Treasury Team DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Reporting and Analysis London' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Reporting and Analysis London:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Data Gov Op Group DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Data Gov Op Group DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Customer Contact - All DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Customer Contact - All DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Capital Management & Investment DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Capital Management & Investment DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Angel Lane Alerts - IT DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Angel Lane Alerts - IT DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Public Credit DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Public Credit DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'UK Retail Rate Change Committee' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (UK Retail Rate Change Committee:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Analysts Studying DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Analysts Studying DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail Division DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail Division DL:ADGroup) [Set-ADGroup], ADIdentity 
+   NotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Pricing DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Pricing DL:ADGroup) [Set-ADGroup], ADIdentityNotFo 
+   undException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Customer Services - Business Analysis DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Customer Services - Business Analysis DL:ADGroup) [Se 
+   t-ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Live Data GP SmartConnect Modify' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Live Data GP SmartConnect Modify:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Responsible Investment DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Responsible Investment DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery DW Developers' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery DW Developers:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB RI Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB RI Management DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW ServiceNow Dept Architecture' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW ServiceNow Dept Architecture:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Data Team - Third Party 
+Consultants' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery D...rty Consultants:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'GVS Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (GVS Leadership Team DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL HUB Tech Release' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL HUB Tech Release:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial CPD DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial CPD DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB PC Marketing DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB PC Marketing DL:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'ECC DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ECC DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundExce 
+   ption
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'International Management Committee DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (International Management Committee DL:ADGroup) [Set-A 
+   DGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery PMO DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery PMO DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Data Analysis Team' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Data Analysis Team:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Information Security Change 
+Approval DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery I...nge Approval DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundExc 
+   eption
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Data Governance Forum DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Data Governance Forum DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail SMT DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail SMT DL:ADGroup) [Set-ADGroup], ADIdentityNotFo 
+   undException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Growth & Innovation DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Growth & Innovation DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Just People Managers' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Just People Managers:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB PS DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB PS DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundE 
+   xception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Security Requests DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Security Requests DL:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Pricing and Development Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Pricing and Development Team DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Treasury Collateral DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Treasury Collateral DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL Live Data DFS Sysytem TFS Dev Builds Delete' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL Live Data DF...v Builds Delete:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Deals' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Deals:ADGroup) [Set-ADGroup], ADIdentityNotFoundE 
+   xception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Sustainability Working Group' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Sustainability Working Group:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Defined Benefit Solutions DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Defined Benefit Solutions DL:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Corndel Candidates DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Corndel Candidates DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Month End Status Updates' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Month End Status Updates:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Client Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Client Management DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Just Delivery Data Team EDP End Users' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Just Delive...m EDP End Users:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Customer Experience - QA Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Customer Experience - QA Team DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Pricing & Property Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Pricing & Property Management DL:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery BI-Data Change Approval DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery BI-Data Change Approval DL:ADGroup) [Se 
+   t-ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Tech Ops Cloud Platform Engineering DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Tech Ops Cloud Platform Engineering DL:ADGroup) [Set- 
+   ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Retail Value Stream' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Retail Value Stream:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Customer Contact - LTM DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Customer Contact - LTM DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Tech Ops Cloud Operations DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Tech Ops Cloud Operations DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Angel Lane Alerts - Facilities DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Angel Lane Alerts - Facilities DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail Servicing - Claims DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail Servicing - Claims DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Eloqua Users' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Eloqua Users:ADGroup) [Set-ADGroup], ADIdentityNotFou 
+   ndException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DBLegal DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DBLegal DL:ADGroup) [Set-ADGroup], ADIdentityNotFound 
+   Exception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery People Managers' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery People Managers:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB Retail Service Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB Retail Service Managers DL:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'P1 Communications' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (P1 Communications:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail Servicing - Servicing Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail Servicing - Servicing Team DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Senior Leadership Extended DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Senior Leadership Extended DL:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Transitions team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Transitions team DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Lifetime Mortgage - SP2' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Lifetime Mortgage - SP2:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery BPO & Governance DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery BPO & Governance DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Underwriting Admin DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Underwriting Admin DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Business Development DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Business Development DL:ADGroup) [Set-ADGroup], AD 
+   IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Chief Actuary team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Chief Actuary team DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Reynholm Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Reynholm Team DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'TriageCommDB DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (TriageCommDB DL:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Investment Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Investment Leadership Team DL:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Transitions Admins DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Transitions Admins DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Business Analysts Contractors' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery B...sts Contractors:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DR Core Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DR Core Team DL:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB Workplace Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB Workplace Team DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Retail New Business - Agency DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Retail New Business - Agency DL:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SAS Rotshild Main DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SAS Rotshild Main DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Scrum Master DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Scrum Master DL:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Providing Retirement Solutions Dev and Test DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Providing Retir...Dev and Test DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Just Group Compliance' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Just Group Compliance:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Finance, Legal & Actuarial Teams DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Finance, Legal & Actuarial Teams DL:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Providing Retirement Solutions DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Providing Retirement Solutions DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HR Departmental Division DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HR Departmental Division DL:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Planning and Developments DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Planning and Developments DL:ADGroup) [Set- 
+   ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Sales' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Sales:ADGroup) [Set-ADGroup], ADIdentityNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Analyst Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Analyst Managers DL:ADGroup) [Set-ADGroup], 
+    ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Distribution Compliance' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Distribution Compliance:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CS Lifetime Mortgage - Property Underwriting DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CS Lifetime Mor...Underwriting DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SAS Annuities Finance DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SAS Annuities Finance DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB Marketing DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB Marketing DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Enterprise Risk - DR DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Enterprise Risk - DR DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Retail SMT' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Retail SMT:ADGroup) [Set-ADGroup], ADIdentityNotF 
+   oundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CM & I Management Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CM & I Management Team DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW Document Merger' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW Document Merger:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Just Delivery Datacentre Alerts' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Just Delivery Datacentre Alerts:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'London Running Club DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (London Running Club DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Customer Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Customer Team DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Lincoln Project Team' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Lincoln Project Team:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Corporate Marketing Team Distribution List' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Corporate Marke...stribution List:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Customer Experience Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Customer Experience Team DL:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'PrognoSys 2.0 Working Group DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (PrognoSys 2.0 Working Group DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Technology SKIP Level DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Technology SKIP Level DL:ADGroup) [Set- 
+   ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Recruitment Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Recruitment Team DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SAS Administrators Batch DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SAS Administrators Batch DL:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Group Services - Procurement DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Group Services - Procurement DL:ADGroup) [Set-ADGroup 
+   ], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just AD Combined Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just AD Combined Team DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Treasury Actuarial DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Treasury Actuarial DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Propositions - Destination Retirement DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Proposition...n Retirement DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'UK Retail Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (UK Retail Team DL:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL HUB FERN Release' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL HUB FERN Release:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Live Mailbox EA New Business Super User' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Live Mailbox ...ness Super User:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Func PA.Int Data Modify' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Func PA.Int Data Modify:ADGroup) [Set-ADGroup], AD  
+  IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'ALCO DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ALCO DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundExc 
+   eption
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Lead Business Analysts DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Lead Business Analysts DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery UK Retail Rate Change Committee' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery U...hange Committee:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Heads DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Heads DL:ADGroup) [Set-ADGroup], ADIdentity 
+   NotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL Underwriting Retirement Lending' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL Underwriting Retirement Lending:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Reigate distribution list' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Reigate distribution list:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Legal JN DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Legal JN DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'CoSeC DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (CoSeC DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundEx 
+   ception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'MD Demographic Risk DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MD Demographic Risk DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW PayingForCare content approver dev' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW PayingForCare content approver dev:ADGroup) [Se 
+   t-ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'RH Access DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (RH Access DL:ADGroup) [Set-ADGroup], ADIdentityNotFou 
+   ndException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery UK Retail Value Stream DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery UK Retail Value Stream DL:ADGroup) [Set 
+   -ADGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail Tech Pricing & UW Committee DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail Tech Pricing & UW Committee DL:ADGroup) [Set-A 
+   DGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'private investments DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (private investments DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Infrastructure Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Infrastructure Team DL:ADGroup) [Set-AD 
+   Group], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Change & Transformation DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Change & Transformation DL:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Financial Risk - AB DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Financial Risk - AB DL:ADGroup) [Set-ADGroup], ADIden 
+   tityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DC Direct Reports DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DC Direct Reports DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Oracle EBS Users DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Oracle EBS Users DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Retail Direct Reports' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Retail Direct Reports:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SAS Valuation Finance DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SAS Valuation Finance DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Infrastructure Change Approval DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery I...nge Approval DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Data Team Communicate Incidents 
+DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery D...te Incidents DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Investments DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Investments DL:ADGroup) [Set-ADGroup], ADIdentityNotF 
+   oundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB extended team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB extended team DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Reinsurance DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Reinsurance DL:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Change Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Change Management DL:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Operations DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Operations DL:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW PayingForCare Web Editor dev' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW PayingForCare Web Editor dev:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Group Actuary - PJ DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Group Actuary - PJ DL:ADGroup) [Set-ADGroup], AD 
+   IdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Value Stream DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Value Stream DL:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Actuarial Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Actuarial Managers DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Service Desk Change Approval DL' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery S...nge Approval DL:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Management Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Management Team DL:ADGroup) [Set-ADGrou 
+   p], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery BI Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery BI Team DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'SAS Rotshild Monthly DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (SAS Rotshild Monthly DL:ADGroup) [Set-ADGroup], ADIde 
+   ntityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL SE Value Stream' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL SE Value Stream:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Engineering Godel DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Engineering Godel DL:ADGroup) [Set-ADGr 
+   oup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Hub Retirement Income Co-Ordinators' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Hub Retirement Income Co-Ordinators:ADGroup) [Set-ADG 
+   roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Func PA.Int Files for PLR Modify' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Func PA.Int Files for PLR Modify:ADGroup) [Set-ADG  
+  roup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'ServiceNow Admins' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (ServiceNow Admins:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB SLT DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB SLT DL:ADGroup) [Set-ADGroup], ADIdentityNotFoundE 
+   xception
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Credit Research DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Credit Research DL:ADGroup) [Set-ADGroup], ADIdentity 
+   NotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Partners DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Partners DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Pricing & Underwriting DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Pricing & Underwriting DL:ADGroup) [Set-ADGroup], ADI 
+   dentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc Tone of Voice' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc Tone of Voice:ADGroup) [Set-ADGroup], ADIdentityN 
+   otFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Digital Solutions DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Digital Solutions DL:ADGroup) [Set-ADGroup], ADId 
+   entityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '002 DL Live Data Server015 Project Olympic' 
+under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (002 DL Live Dat...Project Olympic:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: '_DL Team Not Hotdog' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (_DL Team Not Hotdog:ADGroup) [Set-ADGroup], ADIdentit 
+   yNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HR Leadership Team DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HR Leadership Team DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Just Delivery Programme Management DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Just Delivery Programme Management DL:ADGroup) [Set-A 
+   DGroup], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'G Func PA.Int OS_ResD Operational - TPA data and 
+control Modify' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (G Func PA.Int O...control Modify:ADGroup) [Set-ADGro  
+  up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL Azure_Just Cen Svcs Apps Acceptance_Privilege 
+Contibutor' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL Azure_Just C...lege Contibutor:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'RH Digital Wealth DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (RH Digital Wealth DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB SLT Members' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB SLT Members:ADGroup) [Set-ADGroup], ADIdentityNot 
+   FoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Pricing Review DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Pricing Review DL:ADGroup) [Set-ADGroup], ADIdenti 
+   tyNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DL SW ServiceNow Team Templars' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DL SW ServiceNow Team Templars:ADGroup) [Set-ADGroup] 
+   , ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Meeting Room Admin DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Meeting Room Admin DL:ADGroup) [Set-ADGroup], ADIdent 
+   ityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB True Up DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB True Up DL:ADGroup) [Set-ADGroup], ADIdentityNotFo 
+   undException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Product Experience and Delivery Distribution 
+List' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Product Experie...stribution List:ADGroup) [Set-ADGro 
+   up], ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Arc HUB Regional Managers DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Arc HUB Regional Managers DL:ADGroup) [Set-ADGroup],  
+   ADIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'HUB Executive DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HUB Executive DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Hub Investment Committee DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Hub Investment Committee DL:ADGroup) [Set-ADGroup], A 
+   DIdentityNotFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Internal Model' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Internal Model:ADGroup) [Set-ADGroup], ADIdentityNotF 
+   oundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'Marketing DL' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Marketing DL:ADGroup) [Set-ADGroup], ADIdentityNotFou 
+   ndException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DPC' under: 'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DPC:ADGroup) [Set-ADGroup], ADIdentityNotFoundExcepti 
+   on
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+ 
+Set-ADGroup : Cannot find an object with identity: 'DB Commercial DL' under: 
+'DC=live01,DC=lan,DC=local'.
+At line:6 char:5
++     Set-ADGroup -Identity $name -Description $desc
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (DB Commercial DL:ADGroup) [Set-ADGroup], ADIdentityNo 
+   tFoundException
+    + FullyQualifiedErrorId : ActiveDirectoryCmdlet:Microsoft.ActiveDirectory.Management.ADIdentityN 
+   otFoundException,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
