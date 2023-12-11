@@ -27,3 +27,20 @@ foreach ($group in $groupMappings.Keys) {
      Set-Mailbox -Identity $group -Description $newDesc 
   } 
 }
+
+--------------------------
+
+
+
+# Connect
+Connect-ExchangeOnline
+
+# Loop through groups
+foreach ($group in $groups.Keys) {
+
+  # Set new description
+  Set-DistributionGroup -Identity $group -Description $groups[$group]
+}
+
+# Disconnect
+Disconnect-ExchangeOnline
