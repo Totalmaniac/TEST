@@ -1,0 +1,984 @@
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW PayingForCare Everyone dev' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Func PA.Int PricingAnalytics_R&D Modify' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                            Description
+----                            -----------
+_DL HR Business Partnering Team {Owner: Emma Lees}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Arc HUB Investment Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                              Description
+----                              -----------
+_DL HUB Strategy & Digital Advice {Owner: Rob Hudson; Deputy: Caroline Liew}
+
+
+Name                            Description
+----                            -----------
+_DL Group Finance Treasury Team {Owner: Nick Ketley}
+
+
+Name                                       Description
+----                                       -----------
+_DL Actuarial Reporting and Analysis PLACL {Owner: Dean Senior}
+
+
+Name                  Description
+----                  -----------
+_DL Data Gov Op Group {Owner: Raidas Naginevicius Deputy: Terry Gadd}
+
+
+Name                                         Description
+----                                         -----------
+_DL Customer Services Customer Contact - All {Owner: Gary Hughes}
+
+
+Name                                     Description
+----                                     -----------
+_DL Just Capital Management & Investment {Owner: Alison Pyke}
+
+
+Name                       Description
+----                       -----------
+_DL Angel Lane Alerts - IT {Owner: Jon Cole}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Public Credit DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                Description
+----                                -----------
+_DL UK Retail Rate Change Committee {Owner: Jeannine Thorpe}
+
+
+Name              Description
+----              -----------
+_DL Just Delivery {Owner: Alison Pyke}
+
+
+Name                            Description
+----                            -----------
+_DL Actuarial Analysts Studying {Owner: Robert Edwards}
+
+
+Name                Description
+----                -----------
+_DL Retail Division {Owner: Jacky Wood}
+
+
+Name           Description
+----           -----------
+_DL DB Pricing {Owner: Louise Teggart Graves; Jon Appleby}
+
+
+Name                                      Description
+----                                      -----------
+_DL Customer Services - Business Analysis {Owner: Liz Lindsay}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Live Data GP SmartConnect Modify' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                       Description
+----                       -----------
+_DL Responsible Investment {Owner: Nimisha Sodha}
+
+
+Name                            Description
+----                            -----------
+_DL Just Delivery DW Developers {Owner: Raidas Naginevicius Deputy: Terry Gadd}
+
+
+Name                      Description
+----                      -----------
+_DL Arc HUB RI Management {Owner: Joe Preen - NOT FOR NEW STARTERS/TRANSFERS}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW ServiceNow Dept Architecture' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Just Delivery Data Team - Third Party Consultants' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                    Description
+----                    -----------
+_DL GVS Leadership Team {Owner: Bruce Thurtell, Deputy: Brendon Callister}
+
+
+Name                 Description
+----                 -----------
+_DL HUB Tech Release {Owner: John Beech}
+
+
+Name              Description
+----              -----------
+_DL Actuarial CPD {Owner: Robert Edwards; Deputy: Jacky Wood}
+
+
+Name                     Description
+----                     -----------
+_DL Arc HUB PC Marketing {Owner: Joe Preen}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'ECC DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                   Description
+----                                   -----------
+_DL International Management Committee {Owner: Jacky Wood}
+
+
+Name                  Description
+----                  -----------
+_DL Just Delivery PMO {Owner: Doula Pont}
+
+
+Name                                 Description
+----                                 -----------
+_DL Just Delivery Data Analysis Team {Owner: Raidas Naginevicius Deputy: Terry Gadd}
+
+
+Name                                                   Description
+----                                                   -----------
+_DL Just Delivery Information Security Change Approval {Owner: Scott Bancroft}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Just DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                      Description
+----                      -----------
+_DL Data Governance Forum {Owner: Raidas Naginevicius Deputy: Terry Gadd}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Retail SMT DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                    Description
+----                    -----------
+_DL Growth & Innovation {Owner: Jacky Wood}
+
+
+Name                     Description
+----                     -----------
+_DL Just People Managers {Owner: No longer in USE}
+
+
+Name       Description
+----       -----------
+_DL HUB PS {Owner: Caroline Liew}
+
+
+Name                                Description
+----                                -----------
+_DL Just Delivery Security Requests {Owner: Scott Bancroft}
+
+
+Name                             Description
+----                             -----------
+_DL Pricing and Development Team {Owner: Robert Edwards}
+
+
+Name                    Description
+----                    -----------
+_DL Treasury Collateral {Owner: Jonathan Bell}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL Live Data DFS Sysytem TFS Dev Builds Delete' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name      Description
+----      -----------
+_DL Deals {Owner: Robert Belcher}
+
+
+Name                             Description
+----                             -----------
+_DL Sustainability Working Group {Owner: (NO LONGER USED)}
+
+
+Name                              Description
+----                              -----------
+_DL Arc Defined Benefit Solutions {Owner: Joe Preen}
+
+
+Name                   Description
+----                   -----------
+_DL Corndel Candidates {Owner: Christina Turner}
+
+
+Name                         Description
+----                         -----------
+_DL Month End Status Updates {Owner: Mike Whiteman}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'HUB Client Management DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                      Description
+----                                      -----------
+_DL Just Delivery Data Team EDP End Users {Owner: Nina Monckton; Marek Kluczynski}
+
+
+Name                             Description
+----                             -----------
+_DL Customer Services  - QA Team {Owner: Marie Howe}
+
+
+Name                                Description
+----                                -----------
+_DL Pricing and Property Management {Owner: Tom Kenny}
+
+
+Name                                      Description
+----                                      -----------
+_DL Just Delivery BI-Data Change Approval {Owner: Andrew Thomas}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Tech Ops Cloud Platform Engineering DL' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                    Description
+----                    -----------
+_DL Retail Value Stream {Owner: Doula Pont}
+
+
+Name                                         Description
+----                                         -----------
+_DL Customer Services Customer Contact - LTM {Owner: Gary Hughes (No Longer used)}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Tech Ops Cloud Operations DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                               Description
+----                               -----------
+_DL Angel Lane Alerts - Facilities {Owner: Tom Kearney}
+
+
+Name                                            Description
+----                                            -----------
+_DL Customer Services Retail Servicing - Claims {Owner: Daniel Jordan}
+
+
+Name             Description
+----             -----------
+_DL Eloqua Users {Owner: Keighley Hill}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DBLegal DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                              Description
+----                              -----------
+_DL Just Delivery People Managers {Owner: Alison Pyke}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Arc HUB Retail Service Managers DL' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                  Description
+----                  -----------
+_DL P1 Communications {Owner: Katie Homewood Deputy: Chris Matthews}
+
+
+Name                                                       Description
+----                                                       -----------
+_DL Customer Services Retail Servicing - Policy Management {Owner: Daniel Jordan}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Senior Leadership Extended DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB Transitions team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                                      Description
+----                                                      -----------
+_DL Customer Services Lifetime Mortgage - Servicing Pod 2 {Owner: Matt Brown}
+
+
+Name                               Description
+----                               -----------
+_DL Just Delivery BPO & Governance {Owner: Simone Murrough}
+
+
+Name                   Description
+----                   -----------
+_DL Underwriting Admin {Owner: Yvonne Turnbull}
+
+
+Name                        Description
+----                        -----------
+_DL DB Business Development {Owner: Rob Mechem}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Chief Actuary team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name              Description
+----              -----------
+_DL Reynholm Team {Owner: Gareth Crabb}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'TriageCommDB DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Investment Leadership Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB Transitions Admins DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                            Description
+----                                            -----------
+_DL Just Delivery Business Analysts Contractors {Owners: Suzanne Keenan; Richard Jackson; Abhey Blaggan; Duncan Teatherton}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DR Core Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Arc HUB Workplace Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                               Description
+----                                               -----------
+_DL Customer Services Retail New Business - Agency {Owner: Laura Butler}
+
+
+Name                  Description
+----                  -----------
+_DL SAS Rotshild Main {Owner: Christian Aluya}
+
+
+Name             Description
+----             -----------
+_DL Scrum Master {Owner: Michael Green}
+
+
+Name                                            Description
+----                                            -----------
+_DL Providing Retirement Solutions Dev and Test {Owner: Nathan Mackelworth}
+
+
+Name                      Description
+----                      -----------
+_DL Just Group Compliance {Owner: Jeannine Thorpe}
+
+
+Name                                 Description
+----                                 -----------
+_DL Finance, Legal & Actuarial Teams {Owner: Lesley Montague}
+
+
+Name                               Description
+----                               -----------
+_DL Providing Retirement Solutions {Owners: Doula Pont}
+
+
+Name                         Description
+----                         -----------
+_DL HR Departmental Division {Owner: Jeannine Lawlor-Thorpe}
+
+
+Name                                    Description
+----                                    -----------
+_DL Actuarial Planning and Developments {Owner: Rachael Davies}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB Sales' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                           Description
+----                           -----------
+_DL Actuarial Analyst managers {Owner: Robert Edwards Deputy: Phil Gwilt & Jacky Wood}
+
+
+Name                        Description
+----                        -----------
+_DL Distribution Compliance {Owner: Michelle Heselden}
+
+
+Name                                                            Description
+----                                                            -----------
+_DL Customer Services Lifetime Mortgage - Property Underwriting {Owner: Sue Rose}
+
+
+Name                      Description
+----                      -----------
+_DL SAS Annuities Finance {Owner: Christian Aluya}
+
+
+Name                  Description
+----                  -----------
+_DL Arc HUB Marketing {Owner: Joe Preen}
+
+
+Name                          Description
+----                          -----------
+_DL Just Enterprise Risk - SG {Owner: Jeannine Lawlor-Thorpe}
+
+
+Name                             Description
+----                             -----------
+{_DL Retail SMT, _DL Retail SMT} {Owner: Jacky Wood, Owner: Jacky Wood}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'CM & I Management Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW Document Merger' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                Description
+----                                -----------
+_DL Just Delivery Datacentre Alerts {Owner: Jon Cole; Deputy: Jamie Hill}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'London Running Club DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Customer Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                     Description
+----                     -----------
+_DL Lincoln Project Team {Owner - NO LONGER USED}
+
+
+Name                         Description
+----                         -----------
+_DL Corporate Marketing Team {Owner: Gareth Foster}
+
+
+Name                         Description
+----                         -----------
+_DL Customer Experience Team {Owner: Jenny Cadman}
+
+
+Name                            Description
+----                            -----------
+_DL PrognoSys 2.0 Working Group {Owner: Sarah Morris Simpson}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Just Delivery Technology SKIP Level DL' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                 Description
+----                 -----------
+_DL Recruitment Team {Owner: Sam Swindells}
+
+
+Name                         Description
+----                         -----------
+_DL SAS Administrators Batch {Owner: Raidas Naginevicius Deputy: Terry Gadd}
+
+
+Name                             Description
+----                             -----------
+_DL Group Services - Procurement {Owner: Chris R Jones}
+
+
+Name                      Description
+----                      -----------
+_DL Just AD Combined Team {Owner: Jeannine Thorpe}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Treasury Actuarial DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                          Description
+----                                          -----------
+_DL Arc Propositions - Destination Retirement {Owner: Joe Preen}
+
+
+Name               Description
+----               -----------
+_DL UK Retail Team {Owner: Jeannine Lawlor-Thorpe}
+
+
+Name                 Description
+----                 -----------
+_DL HUB FERN Release {Owner: John Beech}
+
+
+Name                                      Description
+----                                      -----------
+G Live Mailbox EA New Business Super User {Owner: Stuart McQueen}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Func PA.Int Data Modify' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'ALCO DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                     Description
+----                                     -----------
+_DL Just Delivery Lead Business Analysts {Owner: Ben Blease}
+
+
+Name                                              Description
+----                                              -----------
+_DL Just Delivery UK Retail Rate Change Committee {Owner: Robert Edwards / Alec Findlater}
+
+
+Name                Description
+----                -----------
+_DL Actuarial Heads {Owner: Robert Edwards Deputy: Phil Gwilt & Jacky Wood}
+
+
+Name                                Description
+----                                -----------
+_DL Underwriting Retirement Lending {Owner: Tom Kenny}
+
+
+Name              Description
+----              -----------
+_DL Reigate Staff {Owner: Line Manager}
+
+
+Name               Description
+----               -----------
+_DL Just Legal FLB {Owner: Tania Brick}
+
+
+Name      Description
+----      -----------
+_DL CoSeC {Owner: Kate Leonard}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'MD Demographic Risk DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW PayingForCare content approver dev' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'RH Access DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                     Description
+----                                     -----------
+_DL Just Delivery UK Retail Value Stream {Owner: Kate Wooller}
+
+
+Name                                   Description
+----                                   -----------
+_DL Retail Tech Pricing & UW Committee {Owner: Amanda Tulloch}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'private investments DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                  Description
+----                                  -----------
+_DL Just Delivery Infrastructure Team {Owner: Ashish Patel}
+
+
+Name                            Description
+----                            -----------
+_DL HUB Change & Transformation {Owner: Caroline Liew}
+
+
+Name                         Description
+----                         -----------
+_DL Just Financial Risk - AB {Owner: Hayley Tippett}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DC Direct Reports DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Oracle EBS Users DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                      Description
+----                      -----------
+_DL Retail Direct Reports {Owner: Jacky Wood}
+
+
+Name                      Description
+----                      -----------
+_DL SAS Valuation Finance {Owner: Christian Aluya}
+
+
+Name                                             Description
+----                                             -----------
+_DL Just Delivery Infrastructure Change Approval {Owner: Andrew Thomas}
+
+
+Name                                              Description
+----                                              -----------
+_DL Just Delivery Data Team Communicate Incidents {Owner: Alan Hack, Deputy: Rob Bell}
+
+
+Name            Description
+----            -----------
+_DL Investments {Owner: Robert Belcher}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB extended team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB Reinsurance DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                Description
+----                                -----------
+_DL Just Delivery Change Management {Owner: Doula Pont}
+
+
+Name               Description
+----               -----------
+_DL HUB Operations {Owner: Leanne Hamilton; Deputy: Caroline Liew}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW PayingForCare Web Editor dev' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                        Description
+----                        -----------
+_DL Just Group Actuary - PJ {Owner: Hayley Tippett}
+
+
+Name                 Description
+----                 -----------
+_DL HUB Value Stream {Owner: Doula Pont}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Actuarial Managers DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                           Description
+----                                           -----------
+_DL Just Delivery Service Desk Change Approval {Owner: Andrew Thomas}
+
+
+Name                              Description
+----                              -----------
+_DL Just Delivery Management Team {Owner: Alison Pyke}
+
+
+Name                      Description
+----                      -----------
+_DL Just Delivery BI Team {Owner: Marek Kluczynski; Deputy: Nina Monckton}
+
+
+Name                     Description
+----                     -----------
+_DL SAS Rotshild Monthly {Owner: Christian Aluya}
+
+
+Name                Description
+----                -----------
+_DL SE Value Stream {Owner: Ben Blease}
+
+
+Name                            Description
+----                            -----------
+Just Delivery Engineering Godel {Owner: Paul Law}
+
+
+Name                                    Description
+----                                    -----------
+_DL Hub Retirement Income Co-ordinators {Owner: Lorna McMurray}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Func PA.Int Files for PLR Modify' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                  Description
+----                  -----------
+_DL ServiceNow Admins {Owner: Katie Homewood}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB SLT DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                Description
+----                -----------
+_DL Credit Research {Owner: Mohamed Tabi}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'Just Delivery Partners DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                       Description
+----                       -----------
+_DL Pricing & Underwriting {Owner: Jacky Wood}
+
+
+Name                  Description
+----                  -----------
+_DL Arc Tone of Voice {Owner: Liz Lindsay}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'HUB Digital Solutions DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object '002 DL Live Data Server015 Project Olympic' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                Description
+----                -----------
+_DL Team Not Hotdog {Owner: Jonathan Oakman}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'HR Leadership Team DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                   Description
+----                                   -----------
+_DL Just Delivery Programme Management {Owner: Ben Blease; Deputy: Doula Pont}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Func PA.Int OS_ResD Operational - TPA data and control Modify' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL Azure_Just Cen Svcs Apps Acceptance_Privilege Contibutor' couldn't be found on
+'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'RH Digital Wealth DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                Description
+----                -----------
+_DL HUB SLT Members {Owner: Louise Taylor}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB Pricing Review DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DL SW ServiceNow Team Templars' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                   Description
+----                   -----------
+_DL Meeting Room Admin {Owner: Chris Denman}
+
+Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'DB True Up DL' couldn't be found on 'VI1PR07A001DC06.EURPR07A001.prod.outlook.com'.
+
+Name Description
+---- -----------
+     
+
+
+Name                                Description
+----                                -----------
+_DL Product Experience and Delivery {Owner: Allen Murrough, Admin: Anastasia Koleva}
+
+
+Name                          Description
+----                          -----------
+_DL Arc HUB Regional Managers {Owner: Joe Preen}
+
+
+Name              Description
+----              -----------
+_DL HUB Executive {Owner: Caroline Liew; Deputy: Jason Causer}
+
+
+Name                         Description
+----                         -----------
+_DL Hub Investment Committee {Owner: Louise Taylor}
+
+Get-DistributionGroup: |Microsoft.Exchange.Management.Tasks.RecipientTaskException|The current operation is not supported on GroupMailbox.
+
+Name Description
+---- -----------
+     
+
+
+Name                            Description
+----                            -----------
+_DL Marketing Distribution List {Owner: Steve Lowe; Deputy: Caroline Liew}
+
+
+Name    Description
+----    -----------
+_DL DPC {Owner: Poppy Offer}
+
+
+Name          Description
+----          -----------
+DB Commercial {Owner: Rob Mechem}
