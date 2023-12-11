@@ -13,7 +13,7 @@ foreach ($group in $groups) {
   # Output group name and current description
   New-Object -TypeName PSObject -Property @{
       "Name" = $groupDetails.DisplayName
-      "Description" = $groupDetails.Description
+      "Description" = $groupDetails.Description.ToString()
   }  
 }
 
@@ -22,70 +22,27 @@ Disconnect-ExchangeOnline
 
 --------------------------------------------
 EDIITED PART:
-# List of groups  
+# List of groups
 $groups = "Group1", "Group2", "Group3"
 
-# Connect
-Connect-ExchangeOnline  
+# Connect 
+Connect-ExchangeOnline
 
 # Loop through groups
 foreach ($group in $groups) {
 
-  # Get group details 
-  $groupDetails = Get-DistributionGroup -Identity $group
+  # Get group details
+  $groupDetails = Get-DistributionGroup -Identity $group 
 
-  # Output name and description
-  New-Object -TypeName PSObject -Property @{
-      "Name" = $groupDetails.DisplayName
-      "Description" = $groupDetails.Description
+  # Create object with name and description
+  $groupOutput = [PSCustomObject]@{
+    "Name" = $groupDetails.DisplayName   
+    "Description" = $groupDetails.Description
   }
+
+  # Output in table format
+  $groupOutput | Format-Table
 }
 
 # Disconnect 
-Disconnect-ExchangeOnline
-
-
----------------------------------------
-# Groups to retrieve details for
-$groups = "Group1", "Group2", "Group3"
-
-# Import AD module for cmdlets 
-Import-Module ActiveDirectory
-
-# Loop through each group
-foreach ($group in $groups) {
-
-  # Get group details from AD
-  $groupDetails = Get-ADGroup -Identity $group -Properties Description
-
-  # Output group name and description
-  New-Object -TypeName PSObject -Property @{  
-      "Name" = $groupDetails.Name
-      "Description" = $groupDetails.Description
-  }
-}
-
-
------------------------------------------------------------
-Complete description:
-# List of groups 
-$groups = "Group1","Group2","Group3"
-
-# Connect
-Connect-ExchangeOnline  
-
-# Loop through groups
-foreach ($group in $groups) {
-
-  # Get group details  
-  $groupDetails = Get-DistributionGroup -Identity $group -Property DisplayName, Description
-
-  # Output only name and description 
-  New-Object -TypeName PSObject -Property @{
-        "Name" = $groupDetails.DisplayName
-        "Description" = $groupDetails.Description
-  }
-} 
-
-# Disconnect
 Disconnect-ExchangeOnline
