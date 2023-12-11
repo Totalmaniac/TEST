@@ -1,0 +1,29 @@
+# Connect to Exchange Online
+Connect-ExchangeOnline
+
+# Loop through hash table
+foreach ($group in $groupMappings.Keys) {
+
+  # Store new description 
+  $newDesc = $groupMappings[$group]
+
+  # Update distribution group  
+  if($group -like "DistributionGroup*") {
+      Set-DistributionGroup -Identity $group -Description $newDesc
+  }
+  
+  # Update security group
+  elseif($group -like "SecurityGroupName*") {
+      Set-UnifiedGroup -Identity $group -Description $newDesc
+  }
+
+  # Update Office 365 group
+  elseif($group -like "Office365Group*") {
+      Set-UnifiedGroup -Identity $group -Description $newDesc
+  }
+
+  # Update shared mailbox
+  elseif($group -like "SharedMailbox*") {
+     Set-Mailbox -Identity $group -Description $newDesc 
+  } 
+}
