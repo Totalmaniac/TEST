@@ -19,3 +19,27 @@ foreach ($group in $groups) {
 
 # Disconnect
 Disconnect-ExchangeOnline
+
+--------------------------------------------
+EDIITED PART:
+# List of groups  
+$groups = "Group1", "Group2", "Group3"
+
+# Connect
+Connect-ExchangeOnline  
+
+# Loop through groups
+foreach ($group in $groups) {
+
+  # Get group details 
+  $groupDetails = Get-DistributionGroup -Identity $group
+
+  # Output name and description
+  New-Object -TypeName PSObject -Property @{
+      "Name" = $groupDetails.DisplayName
+      "Description" = $groupDetails.Description
+  }
+}
+
+# Disconnect 
+Disconnect-ExchangeOnline
