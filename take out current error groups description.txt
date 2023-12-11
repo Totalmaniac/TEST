@@ -43,3 +43,24 @@ foreach ($group in $groups) {
 
 # Disconnect 
 Disconnect-ExchangeOnline
+
+
+---------------------------------------
+# Groups to retrieve details for
+$groups = "Group1", "Group2", "Group3"
+
+# Import AD module for cmdlets 
+Import-Module ActiveDirectory
+
+# Loop through each group
+foreach ($group in $groups) {
+
+  # Get group details from AD
+  $groupDetails = Get-ADGroup -Identity $group -Properties Description
+
+  # Output group name and description
+  New-Object -TypeName PSObject -Property @{  
+      "Name" = $groupDetails.Name
+      "Description" = $groupDetails.Description
+  }
+}
