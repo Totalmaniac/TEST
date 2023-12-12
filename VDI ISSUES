@@ -1,0 +1,12 @@
+Issue of VDI
+Russel Gomes:  VDI profile is corrupted.
+Jason Knight: network drive issue not available, Screen sharing issue
+Robin: teams screen sharing issue
+Robin, Koshal: require Flo access.
+Sanjana: Network Map driving issue, datamart extension issue
+Simon: VDI performance issue, 
+VDI performance issue: 
+1) Screen is very laggy, blurry
+2) VDI gets into reconnecting mode very frequently 
+3) if auto reconnect is unsuccessful, force Sign out is required to log back in
+4) No table to expand the screen to dual desktops
