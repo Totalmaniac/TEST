@@ -1,0 +1,76 @@
+Mailed enabled security groups:
+#Names of security groups:
+
+
+$groupNames = @(
+    "EDP CORE DMZ Purview Data Reader Non-Prod",
+    "EDP ELZ HUB Data Lake Query Storage Blob Reader Non-Prod",
+    "EDP ELZ HUB Azure Data Factory Reader Prod",
+    "EDP ELZ HUB Azure Data Factory Contributor Prod",
+    "EDP ELZ HUB Azure Data Factory Log Analytics Reader Prod",
+    "EDP ELZ HUB Azure Data Factory Monitoring Reader Prod",
+    "EDP ELZ HUB Azure Data Factory Owner Prod",
+    "EDP ELZ HUB Azure Data Factory Reader Non-Prod",
+    "EDP ELZ HUB Azure Data Factory Contributor Non-Prod",
+    "EDP ELZ HUB Azure Data Factory Log Analytics Reader Non-Prod",
+    "EDP ELZ HUB Azure Data Factory Log Monitoring Reader Non-Prod",
+    "EDP ELZ HUB Azure Data Factory Owner Non-Prod",
+    "EDP ELZ Retail Azure Data Factory Reader Prod",
+    "EDP ELZ Retail Azure Data Factory Contributor Prod",
+    "EDP ELZ Retail Azure Data Factory Log Analytics Reader Prod",
+    "EDP ELZ Retail Azure Data Factory Monitoring Reader Prod",
+    "EDP ELZ Retail Azure Data Factory Owner Prod",
+    "EDP ELZ Retail Azure Data Factory Reader Non-Prod",
+    "EDP ELZ Retail Azure Data Factory Contributor Non-Prod",
+    "EDP ELZ Retail Azure Data Factory Log Analytics Reader Non-Prod",
+    "EDP ELZ Retail Azure Data Factory Log Monitoring Reader Non-Prod",
+    "EDP ELZ Retail Azure Data Factory Owner Non-Prod",
+    "EDP ELZ DB Azure Data Factory Reader Prod",
+    "EDP ELZ DB Azure Data Factory Contributor Prod",
+    "EDP ELZ DB Azure Data Factory Log Analytics Reader Prod",
+    "EDP ELZ DB Azure Data Factory Monitoring Reader Prod",
+    "EDP ELZ DB Azure Data Factory Owner Prod",
+    "EDP ELZ DB Azure Data Factory Reader Non-Prod",
+    "EDP ELZ DB Azure Data Factory Contributor Non-Prod",
+    "EDP ELZ DB Azure Data Factory Log Analytics Reader Non-Prod",
+    "EDP ELZ DB Azure Data Factory Log Monitoring Reader Non-Prod",
+    "EDP ELZ DB Azure Data Factory Owner Non-Prod"
+)
+
+
+#HASH MAP:_
+
+$groupDesc = @{
+    "EDP CORE DMZ Purview Data Reader Non-Prod" = "EDP Core Data Management Zone Prod group that provides read-only access to data assets, classifications, classification rules, collections, and glossary terms in purview hosted in the EDP DMZ Azure Non-Prod Subscription"
+    "EDP ELZ HUB Data Lake Query Storage Blob Reader Non-Prod" = "Group that grants reader to the storage blob in the query layer located in the EDP ELZ HUB in Non-Prod Subscription"
+    "EDP ELZ HUB Azure Data Factory Reader Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ HUB in Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Contributor Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ HUB in Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Log Analytics Reader Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ HUB in Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Monitoring Reader Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ HUB in Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Owner Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ HUB in Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Reader Non-Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ HUB in Non-Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Contributor Non-Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ HUB in Non-Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Log Analytics Reader Non-Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ HUB in Non-Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Log Monitoring Reader Non-Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ HUB in Non-Prod Subscriptions"
+    "EDP ELZ HUB Azure Data Factory Owner Non-Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ HUB in Non-Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Reader Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ Retail in Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Contributor Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ Retail in Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Log Analytics Reader Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ Retail in Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Monitoring Reader Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ Retail in Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Owner Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ Retail in Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Reader Non-Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ Retail in Non-Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Contributor Non-Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ Retail in Non-Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Log Analytics Reader Non-Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ Retail in Non-Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Log Monitoring Reader Non-Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ Retail in Non-Prod Subscriptions"
+    "EDP ELZ Retail Azure Data Factory Owner Non-Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ Retail in Non-Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Reader Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ DB in Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Contributor Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ DB in Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Log Analytics Reader Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ DB in Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Monitoring Reader Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ DB in Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Owner Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ DB in Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Reader Non-Prod" = "Group that grants reader to the Azure Data Factories in the EDP ELZ DB in Non-Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Contributor Non-Prod" = "Group that grants contributor to the Azure Data Factories in the EDP ELZ DB in Non-Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Log Analytics Reader Non-Prod" = "Group that grants log analytics reader to the Azure Data Factories in the EDP ELZ DB in Non-Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Log Monitoring Reader Non-Prod" = "Group that grants monitoring reader to the Azure Data Factories in the EDP ELZ DB in Non-Prod Subscriptions"
+    "EDP ELZ DB Azure Data Factory Owner Non-Prod" = "Group that grants monitoring owner to the Azure Data Factories in the EDP ELZ DB in Non-Prod Subscriptions"
+}
