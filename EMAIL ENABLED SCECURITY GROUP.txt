@@ -1,5 +1,4 @@
 EMAIL ENABLED SCECURITY GROUP:
-
 $groupNames = @(
     "Role DB CRM Team Business User Non-Prod",
     "Role DB CRM Team Business Power User Non-Prod",
@@ -14,6 +13,32 @@ $groupNames = @(
     "Power App DB CRM Power BI Workspace Contributor Production",
     "Power App DB CRM Power BI Workspace Member Production"
 )
+
+$groupSettings = @{
+    "Role DB CRM Team Business User Non-Prod" = "Role-DB-CRM-Team-Business-User-Non-Prod@wearejust.co.uk"
+    "Role DB CRM Team Business Power User Non-Prod" = "Role-DB-CRM-Team-Business-Power-User-Non-Prod@wearejust.co.uk"
+    "Role DB CRM Power App Team Power User Non-Prod" = "Role-DB-CRM-Power-App-Team-Power-User-Non-Prod@wearejust.co.uk"
+    "Role DB CRM Team Business User Prod" = "Role-DB-CRM-Team-Business-User-Prod@wearejust.co.uk"
+    "Role DB CRM Team Business Power User Prod" = "Role-DB-CRM-Team-Business-Power-User-Prod@wearejust.co.uk"
+    "Role DB CRM Power App Team Power User Prod" = "Role-DB-CRM-Power-App-Team-Power-User-Prod@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Viewer Sandbox" = "Power-App-DB-CRM-Power-BI-Workspace-Viewer-Sandbox@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Contributor Sandbox" = "Power-App-DB-CRM-Power-BI-Workspace-Contributor-Sandbox@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Member Sandbox" = "Power-App-DB-CRM-Power-BI-Workspace-Member-Sandbox@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Viewer Production" = "Power-App-DB-CRM-Power-BI-Workspace-Viewer-Production@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Contributor Production" = "Power-App-DB-CRM-Power-BI-Workspace-Contributor-Production@wearejust.co.uk"
+    "Power App DB CRM Power BI Workspace Member Production" = "Power-App-DB-CRM-Power-BI-Workspace-Member-Production@wearejust.co.uk"
+}
+
+$groupSettings = @{
+    "Group1" = "group1@contoso.com"  
+    "Group2" = "group2@contoso.com"
+}
+ 
+foreach ($name in $groupSettings.Keys) {
+    $email = $groupSettings[$name]
+    New-AzureADGroup -DisplayName $name -MailEnabled $true `
+                     -MailNickname $email -SecurityEnabled $true
+}
 
 
 
