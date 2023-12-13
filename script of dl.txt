@@ -19,17 +19,18 @@ foreach ($group in $groups) {
 
     $name = $group.Name
     $alias = $group.Alias
+    
     $managedBy = $group.ManagedBy -split ";"
-    $members = $group.Members -split ";"
-    $owners = $group.Owners -split ";"
-
-    $memberDisplayNames = $members | ForEach-Object { 
-        Get-Recipient -Identity $_ | Select-Object -ExpandProperty DisplayName 
-    }
-    $ownerDisplayNames = $owners | ForEach-Object {
+    $managedByDisplayNames = $managedBy | ForEach-Object {
         Get-Recipient -Identity $_ | Select-Object -ExpandProperty DisplayName
     }
 
-    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy `
-        -Members $memberDisplayNames -Owners $ownerDisplayNames
+    $members = $group.Members -split ";" 
+    $memberDisplayNames = $members | ForEach-Object {
+        Get-Recipient -Identity $_ | Select-Object -ExpandProperty DisplayName
+    }
+
+    New-DistributionGroup -Name $name -Alias $alias `
+        -ManagedBy $managedByDisplayNames `
+        -Members $memberDisplayNames
 }
