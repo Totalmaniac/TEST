@@ -34,3 +34,19 @@ foreach ($group in $groups) {
         -ManagedBy $managedByDisplayNames `
         -Members $memberDisplayNames
 }
+
+------------------------------------------------------
+ADDING THE NAME OF SYNCED AD GROUP:
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+    $name = $group.Name
+    $managedBy = $group.ManagedBy -split ";"
+    $members = $group.Members -split ";"
+
+    # Assuming $name is the name of the synced AD group
+    foreach ($member in $members) {
+        Add-ADGroupMember -Identity $name -Members $member
+    }
+}
+This script assumes that the $name variable contains the name of the synced AD group you want to add members to. It iterates through the list of members in the CSV file and adds each member to the specified AD group using the Add-ADGroupMember cmdlet.
