@@ -72,3 +72,33 @@ foreach ($group in $groups) {
     # Create the Office 365 distribution group
     New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
 }
+
+--------------------------------------------------------
+# Import CSV containing distribution groups information
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+
+    # Extract information from CSV
+    $name = $group.Name
+    $alias = $group.Alias 
+    $managedBy = $group.ManagedBy -split ";"
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    # Create distribution group online
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
+
+    # Get Active Directory groups
+    $adGroups = Get-ADGroup -Filter * -Properties Members
+
+    foreach ($adGroup in $adGroups) {
+        # Check if the AD group is a member of the distribution list
+        if ($adGroup.Members -contains $name) {
+            # Add users from the AD group to the distribution list
+            foreach ($member in $adGroup.Members) {
+                Add-DistributionGroupMember -Identity $name -Member $member
+            }
+        }
+    }
+}
