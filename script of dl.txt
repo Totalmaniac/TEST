@@ -50,3 +50,25 @@ foreach ($group in $groups) {
     }
 }
 This script assumes that the $name variable contains the name of the synced AD group you want to add members to. It iterates through the list of members in the CSV file and adds each member to the specified AD group using the Add-ADGroupMember cmdlet.
+
+--------------------------------------------------------
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+    $name = $group.Name
+    $alias = $group.Alias 
+    $managedBy = $group.ManagedBy -split ";"
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    # Fetch synchronized groups from Azure AD
+    $syncedGroups = Get-AzureADGroup | Where-Object { $_.DisplayName -like "*YourSyncPattern*" }
+
+    # Add synchronized groups to the Office 365 distribution group
+    foreach ($syncedGroup in $syncedGroups) {
+        Add-DistributionGroupMember -Identity $name -Member $syncedGroup.ObjectId
+    }
+
+    # Create the Office 365 distribution group
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
+}
