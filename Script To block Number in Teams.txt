@@ -1,0 +1,27 @@
+Script To block Number in Teams:
+LINK:
+https://learn.microsoft.com/en-us/microsoftteams/block-inbound-calls
+
+*Test whether a number is blocked*
+To verify whether a number is blocked in the tenant, use the Test-CsInboundBlockedNumberPattern cmdlet.
+
+The PhoneNumber parameter is required, and should be a numeric string without any extra characters, such as +, - or (). The resulting IsNumberBlocked parameter returns a value of True if the number is blocked in the tenant; the parameter returns False if it's not blocked.
+
+The phone number 1 (312) 555-8883 is allowed based on the exemption created below.
+
+SCRIPT:
+
+" Test-CsInboundBlockedNumberPattern -PhoneNumber 13125558883 "
+
+OUTPUT:
+RunspaceId      : 09537e45-6f0c-4001-8b85-a79002707b0c
+httpStatusCode  : NoContent
+IsNumberBlocked : False
+errorMessage    :
+
+           *BLOCKING A NUMBER:*
+In the next example, the tenant administrator wants to block all calls coming from the number 1 (412) 555-1234. To turn on the number pattern, the Enabled parameter is set to True.
+
+SCRIPT:
+
+New-CsInboundBlockedNumberPattern -Name "BlockNumber1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551234$"
