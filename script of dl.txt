@@ -167,3 +167,18 @@ $members = $dl.Members | ForEach-Object {
 }
 
 $members
+
+
+
+
+
+
+
+$dl = "DL Name"
+$members = Get-DistributionGroupMember -Identity $dl | 
+             ForEach-Object { 
+                Get-Recipient -Identity $_.Name | 
+                    Select-Object -ExpandProperty PrimarySmtpAddress 
+             }
+
+$members
