@@ -1,0 +1,20 @@
+$userUPN = 'Marek.Kluczynski@wearejust.co.uk'
+$groupNames = 
+"EDP ELZ HUB Azure Subscription Reader Prod",
+"EDP ELZ HUB Azure Subscription Contributor Prod",
+"EDP ELZ HUB Azure Subscription Owner Prod",
+"EDP ELZ HUB Azure Subscription Reader Non-Prod",
+"EDP ELZ HUB Azure Subscription Contributor Non-Prod",
+"EDP ELZ HUB Azure Subscription Owner Non-Prod",
+"EDP ELZ Retail Azure Subscription Reader Prod",
+"EDP ELZ Retail Azure Subscription Contributor Prod",
+"EDP ELZ Retail Azure Subscription Owner Prod",
+"EDP ELZ Retail Azure Subscription Reader Non-Prod",
+"EDP ELZ Retail Azure Subscription Contributor Non-Prod",
+"EDP ELZ Retail Azure Subscription Owner Non-Prod",
+"EDP ELZ DB Azure Subscription Reader Prod",
+"EDP ELZ DB Azure Subscription Contributor Prod",
+"EDP ELZ DB Azure Subscription Owner Prod",
+"EDP ELZ DB Azure Subscription Reader Non-Prod",
+"EDP ELZ DB Azure Subscription Contributor Non-Prod",
+"EDP ELZ DB Azure Subscription Owner Non-Prod"
