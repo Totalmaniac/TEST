@@ -1,0 +1,18 @@
+# Hardcoded enterprise app name
+$appName = "My Application"  
+
+# Array of security group names 
+$groupNames = @("Group1", "Group2", "Group3")
+
+# Get service principal by name 
+$app = Get-AzureADServicePrincipal -Filter "DisplayName eq '$appName'"  
+
+# Get objectIds for the security groups
+$groupIds = $groupNames | ForEach-Object { 
+    (Get-AzureADGroup -SearchString $_).ObjectId 
+}
+
+# Update membership claims
+Update-AzureADServicePrincipal -ObjectId $app.ObjectId -GroupMembershipClaims @(
+    New-Object Microsoft.Open.AzureAD.Model.GroupIdsForMembershipCheck -ArgumentList $groupIds  
+)
