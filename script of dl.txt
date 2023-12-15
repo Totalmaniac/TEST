@@ -11,167 +11,7 @@ foreach ($group in $groups) {
     New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
 }
 
--------------------------------------------
-
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-
-    $name = $group.Name
-    $alias = $group.Alias
-    
-    $managedBy = $group.ManagedBy -split ";"
-    $managedByDisplayNames = $managedBy | ForEach-Object {
-        Get-Recipient -Identity $_ | Select-Object -ExpandProperty DisplayName
-    }
-
-    $members = $group.Members -split ";" 
-    $memberDisplayNames = $members | ForEach-Object {
-        Get-Recipient -Identity $_ | Select-Object -ExpandProperty DisplayName
-    }
-
-    New-DistributionGroup -Name $name -Alias $alias `
-        -ManagedBy $managedByDisplayNames `
-        -Members $memberDisplayNames
-}
-
-------------------------------------------------------
-ADDING THE NAME OF SYNCED AD GROUP:
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-    $name = $group.Name
-    $managedBy = $group.ManagedBy -split ";"
-    $members = $group.Members -split ";"
-
-    # Assuming $name is the name of the synced AD group
-    foreach ($member in $members) {
-        Add-ADGroupMember -Identity $name -Members $member
-    }
-}
-This script assumes that the $name variable contains the name of the synced AD group you want to add members to. It iterates through the list of members in the CSV file and adds each member to the specified AD group using the Add-ADGroupMember cmdlet.
-
---------------------------------------------------------
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-    $name = $group.Name
-    $alias = $group.Alias 
-    $managedBy = $group.ManagedBy -split ";"
-    $members = $group.Members -split ";"
-    $primarySmtpAddress = $group.PrimarySmtpAddress
-
-    # Fetch synchronized groups from Azure AD
-    $syncedGroups = Get-AzureADGroup | Where-Object { $_.DisplayName -like "*YourSyncPattern*" }
-
-    # Add synchronized groups to the Office 365 distribution group
-    foreach ($syncedGroup in $syncedGroups) {
-        Add-DistributionGroupMember -Identity $name -Member $syncedGroup.ObjectId
-    }
-
-    # Create the Office 365 distribution group
-    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
-}
-
---------------------------------------------------------
-# Import CSV containing distribution groups information
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-
-    # Extract information from CSV
-    $name = $group.Name
-    $alias = $group.Alias 
-    $managedBy = $group.ManagedBy -split ";"
-    $members = $group.Members -split ";"
-    $primarySmtpAddress = $group.PrimarySmtpAddress
-
-    # Create distribution group online
-    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress
-
-    # Get Active Directory groups
-    $adGroups = Get-ADGroup -Filter * -Properties Members
-
-    foreach ($adGroup in $adGroups) {
-        # Check if the AD group is a member of the distribution list
-        if ($adGroup.Members -contains $name) {
-            # Add users from the AD group to the distribution list
-            foreach ($member in $adGroup.Members) {
-                Add-DistributionGroupMember -Identity $name -Member $member
-            }
-        }
-    }
-}
-
-_--------------------------------
-
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-
-    $name = $group.Name
-    $alias = $group.Alias 
-    $managedBy = $group.ManagedBy -split ";"
-    
-    $members = $group.Members -split ";"
-    $adGroups = $group.ADGroups -split ";"
-
-    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy
-    
-    Add-DistributionGroupMember -Identity $name -Member $members
-    Add-DistributionGroupMember -Identity $name -Member $adGroups
-}
-
-Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
-"Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
-to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
-Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
-"Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
-to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
-
-
-=---------------------------
-
-$groups = Import-Csv C:\dl.csv
-
-foreach ($group in $groups) {
-
-    $name = $group.Name
-    $alias = $group.Alias
-    
-    $managedBy = $group.ManagedBy -split ";"
-    
-    $members = $group.Members -split ";"
-    $adGroups = $group.ADGroups -split ";"
-
-    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy
-    
-    Add-DistributionGroupMember -Identity $name -Member $members
-
-    # Convert AD group names to objects
-    $adGroups | ForEach-Object {
-        Get-DistributionGroup -Identity $_ | 
-            Add-DistributionGroupMember -Identity $name 
-    }
-}
-
-Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
-"Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
-to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
-Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Live Mailbox Test ' couldn't be found on 'AM0PR07A001DC03.EURPR07A001.prod.outlook.com'.
-
-
-$dl = Get-DistributionGroup -Identity "DL Name"
-$members = $dl.Members | ForEach-Object { 
-    Get-Recipient -Identity $_ | Select-Object -ExpandProperty PrimarySmtpAddress 
-}
-
-$members
-
-
-
-
-
+-----------------------------------------------------------------------------
 
 
 $dl = "DL Name"
@@ -182,3 +22,42 @@ $members = Get-DistributionGroupMember -Identity $dl |
              }
 
 $members
+
+-----------------------------------------------------------------------------
+
+# Increase console display width and height 
+$host.UI.RawUI.BufferSize = New-Object System.Management.Automation.Host.Size(500, 99999)
+$host.UI.RawUI.WindowSize = New-Object System.Management.Automation.Host.Size(200, 99999)
+
+# Store distribution group details
+$dlInfo = @()
+
+# Get all distribution groups
+$distributionGroups = Get-DistributionGroup -ResultSize Unlimited
+
+foreach ($dg in $distributionGroups) {
+
+   # Get primary SMTP addresses   
+   $managedBy = Get-User -Identity $dg.ManagedBy | 
+                   Select-Object -ExpandProperty PrimarySmtpAddress
+
+   $members = Get-DistributionGroupMember -Identity $dg.Name |
+                Select-Object -ExpandProperty PrimarySmtpAddress
+
+   # Format member list over multiple lines
+   $memberList = @($members) -join "`n"
+
+   # Create custom object with formatted output
+   $props = [ordered]@{
+        Name = $dg.Name
+        Alias = $dg.Alias 
+        Description = $dg.Description
+        ManagedBy = $managedBy -join ";"        
+        Members = $memberList
+   }
+
+   $dlInfo += New-Object -TypeName PSObject -Property $props
+}
+
+# Output objects vertically with no truncation
+$dlInfo | Format-List
