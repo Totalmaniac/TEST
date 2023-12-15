@@ -159,3 +159,11 @@ Add-DistributionGroupMember: Cannot process argument transformation on parameter
 "Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
 to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
 Get-DistributionGroup: Ex6F9304|Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException|The operation couldn't be performed because object 'G Live Mailbox Test ' couldn't be found on 'AM0PR07A001DC03.EURPR07A001.prod.outlook.com'.
+
+
+$dl = Get-DistributionGroup -Identity "DL Name"
+$members = $dl.Members | ForEach-Object { 
+    Get-Recipient -Identity $_ | Select-Object -ExpandProperty PrimarySmtpAddress 
+}
+
+$members
