@@ -128,3 +128,29 @@ to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParame
 Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
 "Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
 to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
+
+
+=---------------------------
+
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+
+    $name = $group.Name
+    $alias = $group.Alias
+    
+    $managedBy = $group.ManagedBy -split ";"
+    
+    $members = $group.Members -split ";"
+    $adGroups = $group.ADGroups -split ";"
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy
+    
+    Add-DistributionGroupMember -Identity $name -Member $members
+
+    # Convert AD group names to objects
+    $adGroups | ForEach-Object {
+        Get-DistributionGroup -Identity $_ | 
+            Add-DistributionGroupMember -Identity $name 
+    }
+}
