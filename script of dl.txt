@@ -102,3 +102,22 @@ foreach ($group in $groups) {
         }
     }
 }
+
+_--------------------------------
+
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+
+    $name = $group.Name
+    $alias = $group.Alias 
+    $managedBy = $group.ManagedBy -split ";"
+    
+    $members = $group.Members -split ";"
+    $adGroups = $group.ADGroups -split ";"
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy
+    
+    Add-DistributionGroupMember -Identity $name -Member $members
+    Add-DistributionGroupMember -Identity $name -Member $adGroups
+}
