@@ -121,3 +121,10 @@ foreach ($group in $groups) {
     Add-DistributionGroupMember -Identity $name -Member $members
     Add-DistributionGroupMember -Identity $name -Member $adGroups
 }
+
+Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
+"Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
+to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
+Add-DistributionGroupMember: Cannot process argument transformation on parameter 'Member'. Cannot convert value "System.Collections.Generic.List`1[System.String]" to type
+"Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]". Error: "Object of type 'System.Collections.Generic.List`1[System.String]' cannot be converted
+to type 'Microsoft.Exchange.Configuration.Tasks.RecipientWithAdUserGroupIdParameter`1[Microsoft.Exchange.Configuration.Tasks.RecipientIdParameter]'."
