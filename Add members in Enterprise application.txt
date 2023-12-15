@@ -53,3 +53,7 @@ $memberGroups = New-Object 'Microsoft.Open.AzureAD.Model.GroupIdsForMembershipCh
 $memberGroups.GroupIds = $groupIds
 
 Update-AzureADServicePrincipal -ObjectId $app.ObjectId -GroupMembershipClaims $memberGroups
+
+Error:
+Update-AzureADServicePrincipal: The term 'Update-AzureADServicePrincipal' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
