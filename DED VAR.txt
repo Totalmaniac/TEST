@@ -1,3 +1,5 @@
+Set-PSDefaultParameterValues -Path "Microsoft.Azure.Management.ResourceProvider" -MaxResults 50MB
+
 $groupMappings = @{
 "_DL HR Business Partnering Team "=	"Owner: Emma Lees",
 "_DL HUB Strategy & Digital Advice "=	"Owner: Rob Hudson; Deputy: Caroline Liew",
