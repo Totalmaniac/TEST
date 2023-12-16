@@ -92,3 +92,10 @@ $DLOwners = Get-DistributionGroup <DLName> | Select-Object ManagedBy
 ForEach ($Owner in $DLOwners.ManagedBy) {
     Get-User -Filter "DisplayName -eq '$Owner'" | Select-Object PrimarySmtpAddress
 }
+--------------
+
+$DLOwners = Get-DistributionGroup <DLName> | Select-Object ManagedBy
+
+ForEach ($owner in $DLOwners.ManagedBy){
+    Get-User -Filter "UserPrincipalName -eq '$owner'" | Select-Object PrimarySmtpAddress
+}
