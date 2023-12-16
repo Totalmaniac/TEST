@@ -73,3 +73,14 @@ $owners = Get-DistributionGroup -Identity $dl | ForEach-Object {
 }
 
 $owners
+
+
+--------------------
+
+try {
+  $owners = Get-DistributionGroup -Identity $dl | ForEach-Object { 
+    Get-Recipient -Identity $_.ManagedBy | Select-Object -ExpandProperty PrimarySmtpAddress  
+  }
+} catch {
+  Write-Output "An error occurred: $_"
+}
