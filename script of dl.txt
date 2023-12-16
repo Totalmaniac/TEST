@@ -61,3 +61,15 @@ foreach ($dg in $distributionGroups) {
 
 # Output objects vertically with no truncation
 $dlInfo | Format-List
+
+
+------------------------------
+
+$dl = "DL Name"
+
+$owners = Get-DistributionGroup -Identity $dl | ForEach-Object {
+    Get-Recipient -Identity $_.ManagedBy | 
+        Select-Object -ExpandProperty PrimarySmtpAddress 
+}
+
+$owners
