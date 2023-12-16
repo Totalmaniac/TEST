@@ -84,3 +84,11 @@ try {
 } catch {
   Write-Output "An error occurred: $_"
 }
+-------------------------------
+
+
+$DLOwners = Get-DistributionGroup <DLName> | Select-Object ManagedBy
+
+ForEach ($Owner in $DLOwners.ManagedBy) {
+    Get-User -Filter "DisplayName -eq '$Owner'" | Select-Object PrimarySmtpAddress
+}
