@@ -4,3 +4,17 @@ $members = Get-DistributionGroupMember "<DLname>"
 foreach ($member in $members) {
     Get-Mailbox -Identity $member.Name | Select PrimarySmtpAddress | Format-List
 }
+
+--------------------
+
+$members = Get-DistributionGroupMember "<DLname>" -Recursive
+$addresses = @()
+
+foreach ($member in $members) {
+    $email = Get-Mailbox -Identity $member.Name -ErrorAction SilentlyContinue | Select -Expand PrimarySmtpAddress
+    if($email) {
+        $addresses += $email 
+    }
+}
+
+$addresses
