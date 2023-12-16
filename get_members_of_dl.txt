@@ -1,0 +1,6 @@
+Connect-ExchangeOnline
+
+$members = Get-DistributionGroupMember "<DLname>"
+foreach ($member in $members) {
+    Get-Mailbox -Identity $member.Name | Select PrimarySmtpAddress | Format-List
+}
