@@ -123,3 +123,24 @@ Write-Output $owner.EmailAddress
 Get-DistributionGroup -ResultSize Unlimited | 
     Select-Object Name, PrimarySmtpAddress, Alias, Description | 
     Export-Csv -Path "C:\Groups.csv" -NoTypeInformation
+
+
+-------------------
+
+foreach ($dl in $distLists) {
+
+  Write-Output "$($dl.DisplayName)"
+
+  $dlOwners = $dl.ManagedBy
+
+  foreach ($owner in $dlOwners) {
+
+    Get-User -Filter "UserPrincipalName -eq '$owner'" | 
+       Select-Object -ExpandProperty PrimarySmtpAddress |
+       Write-Output
+
+  }
+
+  Write-Output "" # Empty line between DLs
+
+}
