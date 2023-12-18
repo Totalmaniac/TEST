@@ -15,3 +15,14 @@ foreach ($groupName in $groupsToAdd) {
 
 
 
+------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~
+     | Error occurred while executing AddGroupMember 
+Code: Request_ResourceNotFound
+Message: Resource 'b3c990b8-6adb-45c6-baac-4da240264002' does not exist or one of its queried reference-property objects are not present.
+RequestId: ec464325-61be-4dd4-b83d-8dfe66af65c0
+DateTimeStamp: Mon, 18 Dec 2023 12:30:37 GMT
+HttpStatusCode: NotFound
+HttpStatusDescription: Not Found
+HttpResponseStatus: Completed
