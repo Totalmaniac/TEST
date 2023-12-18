@@ -99,3 +99,20 @@ $DLOwners = Get-DistributionGroup <DLName> | Select-Object ManagedBy
 ForEach ($owner in $DLOwners.ManagedBy){
     Get-User -Filter "UserPrincipalName -eq '$owner'" | Select-Object PrimarySmtpAddress
 }
+
+
+---------------------
+# Connect to Exchange Online
+Connect-ExchangeOnline
+
+# Get the DL you want the owner of 
+$dl = Get-DistributionGroup -Identity "DLName"
+
+# Get the owner's ID 
+$ownerId = $dl.ManagedBy
+
+# Get the user object for the owner 
+$owner = Get-User -Identity $ownerId
+
+# Output the email address 
+Write-Output $owner.EmailAddress
