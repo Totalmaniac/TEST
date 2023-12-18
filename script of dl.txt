@@ -116,3 +116,10 @@ $owner = Get-User -Identity $ownerId
 
 # Output the email address 
 Write-Output $owner.EmailAddress
+
+
+--------------------------------
+
+Get-DistributionGroup -ResultSize Unlimited | 
+    Select-Object Name, PrimarySmtpAddress, Alias, Description | 
+    Export-Csv -Path "C:\Groups.csv" -NoTypeInformation
