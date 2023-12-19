@@ -29,7 +29,7 @@ if ($enterpriseApp) {
 }
 
 
-
+Add-AzureADApplicationGroupMember -ObjectId <applicationObjectId> -RefObjectId <groupObjectId>
 ------------------------------------------------------------------
 Second Script:
 
