@@ -1,0 +1,64 @@
+Adding AAD groups to Enterprise Application:
+
+# Install AzureAD module if you haven't already
+# Install-Module -Name AzureAD
+
+# Connect to Azure AD
+Connect-AzureAD
+
+# Define variables
+$enterpriseAppDisplayName = "Your_Enterprise_App_Name"
+$aadGroupName = "Your_AAD_Group_Name"
+
+# Get the Enterprise Application
+$enterpriseApp = Get-AzureADServicePrincipal -Filter "DisplayName eq '$enterpriseAppDisplayName'"
+
+if ($enterpriseApp) {
+    # Get the AAD Group
+    $aadGroup = Get-AzureADGroup -SearchString $aadGroupName
+
+    if ($aadGroup) {
+        # Add the AAD Group to the Enterprise Application
+        Add-AzureADGroupMember -ObjectId $enterpriseApp.ObjectId -RefObjectId $aadGroup.ObjectId
+        Write-Host "Added '$aadGroupName' to '$enterpriseAppDisplayName' successfully."
+    } else {
+        Write-Host "AAD Group '$aadGroupName' not found."
+    }
+} else {
+    Write-Host "Enterprise Application '$enterpriseAppDisplayName' not found."
+}
+
+
+
+------------------------------------------------------------------
+Second Script:
+
+# Connect to Azure AD
+Connect-AzureAD
+
+# Define variables
+$enterpriseAppName = "Your_Enterprise_App_Name"
+$aadGroupName = "Your_AAD_Group_Name"
+
+# Get the Enterprise Application
+$enterpriseApp = Get-AzureADServicePrincipal -Filter "DisplayName eq '$enterpriseAppName'"
+
+if ($enterpriseApp) {
+    # Get the AAD Group
+    $aadGroup = Get-AzureADGroup -Filter "DisplayName eq '$aadGroupName'"
+
+    if ($aadGroup) {
+        # Add the AAD Group to the Enterprise Application
+        $membership = New-Object -TypeName Microsoft.Open.AzureAD.Model.GroupAddMemberParameters
+        $membership.GroupId = $aadGroup.ObjectId
+        $membership.MemberObjectId = $enterpriseApp.ObjectId
+        Add-AzureADGroupMember -RefObjectId $membership.MemberObjectId -ObjectId $membership.GroupId
+        Write-Host "Added '$aadGroupName' to '$enterpriseAppName' successfully."
+    } else {
+        Write-Host "AAD Group '$aadGroupName' not found."
+    }
+} else {
+    Write-Host "Enterprise Application '$enterpriseAppName' not found."
+}
+
+
