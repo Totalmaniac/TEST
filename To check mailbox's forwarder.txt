@@ -24,7 +24,10 @@ if ($mailbox.ForwardingSmtpAddress) {
 # Send email report using Send-MailMessage cmdlet
 Send-MailMessage -From $senderAddress -To $recipientAddress -Subject "Mailbox Forwarding Status Report" -Body $output -SmtpServer $smtpServer -Port $smtpPort -Credential $credential -UseSsl
 Please replace "user@domain.com", "sender@example.com", "recipient@example.com", "smtp.office365.com", and adjust the port ($smtpPort) as needed for your specific configuration.
-
+-
+------------------------------------------------------
+-NewMessage: The term '-NewMessage' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 -------------------------
 INSH:
 
