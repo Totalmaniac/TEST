@@ -87,3 +87,41 @@ Replace placeholders:
 <distribution_list_name>: Name of the DL to check.
 sender@yourdomain.com, recipients@yourdomain.com: Replace with appropriate email addresses.
 https://your-tracking-server/track-pixel.gif: Replace with your tracking pixel URL.
+
+-------------------------------------
+
+HUZ:
+
+# Define the shared mailbox address and relevant user(s) to notify
+$sharedMailboxAddress = "sharedmailbox@example.com"
+$notifyUsers = "user1@example.com", "user2@example.com"  # Add relevant user email addresses
+
+# Connect to Exchange Online PowerShell
+Connect-ExchangeOnline -UserPrincipalName youradmin@example.com -ShowProgress $true
+
+# Check if email forwarding is configured for the shared mailbox
+$forwardingStatus = Get-Mailbox -Identity $sharedMailboxAddress | Select-Object ForwardingSmtpAddress
+
+if ($forwardingStatus.ForwardingSmtpAddress -ne $null) {
+    # Forwarding is configured
+    $forwardingState = "Forwarding is ENABLED for $sharedMailboxAddress to $($forwardingStatus.ForwardingSmtpAddress)"
+} else {
+    # Forwarding is not configured
+    $forwardingState = "Forwarding is NOT ENABLED for $sharedMailboxAddress"
+}
+
+# Send email notifications to relevant users with the forwarding state
+foreach ($user in $notifyUsers) {
+    $emailSubject = "Shared Mailbox Forwarding Status"
+    $emailBody = "Hello, 
+
+    This is to inform you about the forwarding status of the shared mailbox $sharedMailboxAddress:
+
+    $forwardingState
+
+    Regards,
+    Your IT Team"
+    
+    Send-MailMessage -To $user -From "sender@example.com" -Subject $emailSubject -Body $emailBody -SmtpServer "smtp.example.com"
+}
+
