@@ -1,0 +1,45 @@
+To check if a mailbox's forwarder is functioning and send a report email to users if it's not working, you'll need a script that:
+Validates the functionality of the forwarder.
+Sends an email report to users if the forwarder isn't working as expected.
+Here's a general outline of how you might approach this task using PowerShell:
+powershellCopy 
+
+code# Define the mailbox address and the forwarded address
+
+$mailboxAddress = "mailbox@example.com"
+$forwardedAddress = "forwardedaddress@example.com"
+# Check if the forwarder is functioning
+$forwardingStatus = Get-Mailbox -Identity $mailboxAddress | Select-Object ForwardingSmtpAddress
+if ($forwardingStatus.ForwardingSmtpAddress -eq $null) {
+    # Forwarder is not set
+    # Send an email report indicating that the forwarder is not set
+    $reportSubject = "Forwarder Not Set for $mailboxAddress"
+    $reportBody = "The forwarder is not set for the mailbox: $mailboxAddress."
+    Send-MailMessage -To $forwardedAddress -From "sender@example.com" -Subject $reportSubject -Body $reportBody -SmtpServer "smtp.example.com"
+}
+else {
+    # Forwarder is set, attempt to send a test email to check its functionality
+    $testSubject = "Test Forwarder for $mailboxAddress"
+    $testBody = "This is a test email to check the functionality of the forwarder."
+    Send-MailMessage -To $forwardedAddress -From $mailboxAddress -Subject $testSubject -Body $testBody -SmtpServer "smtp.example.com"
+    # Check if the test email was successfully sent
+    if ($?) {
+        # Test email sent successfully
+        Write-Host "Test email sent successfully to $forwardedAddress."
+    }
+    else {
+        # Test email failed to send
+        # Send a report email indicating the forwarder might not be working
+        $reportSubject = "Forwarder Issue for $mailboxAddress"
+        $reportBody = "The forwarder for $mailboxAddress might not be working properly. Please check."
+        Send-MailMessage -To $forwardedAddress -From "sender@example.com" -Subject $reportSubject -Body $reportBody -SmtpServer "smtp.example.com"
+    }
+}
+
+
+This script does the following:
+Checks if the specified mailbox has a forwarder set.
+If the forwarder is not set, it sends a report email indicating so.
+If the forwarder is set, it attempts to send a test email through the forwarder. If the test fails, it sends a report email indicating a potential issue with the forwarder.
+Replace "mailbox@example.com", "forwardedaddress@example.com", "sender@example.com", and "smtp.example.com" with your actual mailbox addresses, sender address, and SMTP server details.
+Please note that this script assumes you have the necessary permissions to check mailbox forwarding and send test emails. Also, ensure that the SMTP server details are accurate and accessible from the system running this script.
