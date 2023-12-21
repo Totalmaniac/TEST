@@ -18,3 +18,20 @@ if($mailbox.DeliverToMailboxAndForward) {
   Write-Host "Forwarding is NOT enabled for $($mailbox.UserPrincipalName)"
  
 }
+------------------------------------------------------------------
+
+$mailbox = Get-Mailbox -Identity "Test.Users@wearejust.co.uk"
+
+$body = "Forwarding Report for $($mailbox.UserPrincipalName)`n" 
+
+if($mailbox.DeliverToMailboxAndForward) {
+    $forwardTo = $mailbox.ForwardingAddress
+    $body += "Forwarding is enabled`n"
+    $body += "Forwarding to: $forwardTo"
+}
+else {
+    $body += "Forwarding is NOT enabled"  
+}
+
+Send-MailMessage -To "recipient@example.com" -From "sender@example.com" `
+                 -Subject "Forwarding Report" -Body $body -SmtpServer "smtp.office365.com"
