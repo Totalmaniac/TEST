@@ -1,21 +1,20 @@
-# Specify the email addresses
-$sourceMailbox = "source@example.com"
-$destinationMailbox = "destination@example.com"
-
-# Get forwarding information for the source mailbox
-$forwarding = Get-Mailbox $sourceMailbox | Select-Object ForwardingSmtpAddress, ForwardingAddress
-
-if ($forwarding.ForwardingSmtpAddress -eq $destinationMailbox -or $forwarding.ForwardingAddress -eq $destinationMailbox) {
-    # Forwarding is set up correctly
-    $output = "Forwarding is set up successfully. Source: $sourceMailbox is forwarding to $destinationMailbox."
-} else {
-    # Forwarding is not set up
-    $output = "Forwarding is not set up. Source: $sourceMailbox is not forwarding to $destinationMailbox."
+Connect-ExchangeOnline
+ 
+# Get the mailbox you want to check 
+$mailbox = Get-Mailbox -Identity "Test.Users@wearejust.co.uk"
+ 
+# Check if email forwarding is enabled
+if($mailbox.DeliverToMailboxAndForward) {
+ 
+  # Get the forwarding address 
+  $forwardTo = $mailbox.ForwardingAddress
+ 
+  # Output results
+  Write-Host "Forwarding is enabled for $($mailbox.UserPrincipalName)"
+  Write-Host "Forwarding to: $forwardTo"
+ 
+}else {
+ 
+  Write-Host "Forwarding is NOT enabled for $($mailbox.UserPrincipalName)"
+ 
 }
-
-# Display the output
-Write-Host $output
-
-
-------------------------
-Get-Mailbox “mailboxaddress” | FL ForwardingSmtpAddress, DisplayName, UserPrincipalName, DeliverToMailboxAndForward
