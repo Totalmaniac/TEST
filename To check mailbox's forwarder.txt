@@ -43,3 +43,47 @@ If the forwarder is not set, it sends a report email indicating so.
 If the forwarder is set, it attempts to send a test email through the forwarder. If the test fails, it sends a report email indicating a potential issue with the forwarder.
 Replace "mailbox@example.com", "forwardedaddress@example.com", "sender@example.com", and "smtp.example.com" with your actual mailbox addresses, sender address, and SMTP server details.
 Please note that this script assumes you have the necessary permissions to check mailbox forwarding and send test emails. Also, ensure that the SMTP server details are accurate and accessible from the system running this script.
+
+----------------------------------------------------------------------------------------------------------------
+
+
+Here's a PowerShell script framework incorporating the requested tasks:
+
+PowerShell
+# Connect to Exchange Online
+Connect-ExchangeOnline -UserPrincipalName <your_admin_UPN>
+
+# Get the DL's forwarder address
+$dlName = "<distribution_list_name>"
+$dl = Get-DistributionGroup $dlName
+$forwarderAddress = $dl.ForwardingAddress
+
+# Send a test email with tracking pixel
+$testEmailSubject = "Test Email for Forwarder - $(Get-Date -Format yyyyMMdd-HHmm)"
+$testEmailBody = "This is a test email to check the forwarder on $dlName."
+$trackingPixelUrl = "https://your-tracking-server/track-pixel.gif"
+Send-MailMessage -From "sender@yourdomain.com" -To $forwarderAddress -Subject $testEmailSubject -Body $testEmailBody -BodyAsHtml -SmtpServer "smtp.office365.com" -Port 587 -UseSsl
+
+# Check for delivery status (example using a tracking pixel)
+$deliveryStatus = Test-NetConnection $trackingPixelUrl -InformationLevel Quiet
+
+# Trigger actions based on delivery status
+if ($deliveryStatus.StatusCode -eq 200) {
+    # Forwarder working
+    Write-Output "Forwarder is working."
+    # (Optional) Send success notification to Dynatrace or log in Dynatrace using Custom Extensions
+} else {
+    # Forwarder not working
+    Write-Output "Forwarder is not working."
+    # Send report email
+    Send-MailMessage -From "sender@yourdomain.com" -To "recipients@yourdomain.com" -Subject "Forwarder Failure on $dlName" -Body "The forwarder on $dlName is not working. Please investigate." -SmtpServer "smtp.office365.com" -Port 587 -UseSsl
+    # Trigger Dynatrace alert using Custom Extensions or external automation
+}
+Use code with caution. Learn more
+Important Notes:
+
+Replace placeholders:
+<your_admin_UPN>: Your Exchange Online admin credentials.
+<distribution_list_name>: Name of the DL to check.
+sender@yourdomain.com, recipients@yourdomain.com: Replace with appropriate email addresses.
+https://your-tracking-server/track-pixel.gif: Replace with your tracking pixel URL.
