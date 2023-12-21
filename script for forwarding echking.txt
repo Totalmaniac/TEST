@@ -15,3 +15,7 @@ if ($forwarding.ForwardingSmtpAddress -eq $destinationMailbox -or $forwarding.Fo
 
 # Display the output
 Write-Host $output
+
+
+------------------------
+Get-Mailbox “mailboxaddress” | FL ForwardingSmtpAddress, DisplayName, UserPrincipalName, DeliverToMailboxAndForward
