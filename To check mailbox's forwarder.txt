@@ -1,3 +1,35 @@
+# Define mailboxes
+$mailboxAddress = "mailbox@example.com" 
+$forwardedAddress = "forwardedaddress@example.com"
+ 
+# Check if forwarding is configured
+$forwarding = Get-Mailbox $mailboxAddress | Select-Object ForwardingSmtpAddress
+ 
+if(!$forwarding) {
+  # Send non-configured report
+  $message = New-MailMessage -To $forwardedAddress -From "sender@example.com" -Subject "Forwarding Not Set" -Body "Forwarding is not enabled for $mailboxAddress"
+  Send-Mail $message -SmtpServer "smtp.server.com"
+ 
+} else {
+ 
+  # Send test email 
+  $testMessage = New-MailMessage -To $forwardedAddress -From $mailboxAddress -Subject "Forwarder Test" -Body "This is a test message" 
+  Send-Mail $testMessage -SmtpServer "smtp.server.com"
+ 
+  # Check if test message was received
+  if(!$?) {
+    # Send report that forwarder failed
+    $reportMessage = New-MailMessage -To $forwardedAddress -From "sender@example.com" -Subject "Forwarder Issue" -Body "The forwarder for $mailboxAddress may not be working"
+    Send-Mail $reportMessage -SmtpServer "smtp.server.com"
+ 
+  } else {
+    Write-Host "Test email successfully sent"
+  }
+ 
+}
+---------------------------------------------------------------------------
+
+
 To check if a mailbox's forwarder is functioning and send a report email to users if it's not working, you'll need a script that:
 Validates the functionality of the forwarder.
 Sends an email report to users if the forwarder isn't working as expected.
