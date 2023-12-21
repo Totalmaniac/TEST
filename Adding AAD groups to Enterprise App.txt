@@ -86,4 +86,15 @@ foreach ($group in $groups) {
     New-AzureADGroupAppRoleAssignment -ObjectId $group.ObjectId -PrincipalId $group.ObjectId -ResourceId $sp.ObjectId -Id $defaultAccessRoleId   
 }                                
 
+---------------------------------------
 
+
+# Get service principal for your enterprise app
+$sp = Get-AzureADServicePrincipal -Filter "displayName eq '<YourAppName>'"
+
+# Get app roles 
+$roles = Get-AzureADServiceAppRoleAssignedTo -ObjectId $sp.ObjectId
+
+# Find ID for "User" role 
+$userRole = $roles | Where-Object {$_.DisplayName -eq "User"}
+$userRoleId = $userRole.Id
