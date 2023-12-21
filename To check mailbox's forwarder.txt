@@ -179,4 +179,25 @@ else {
   Write-Host "Forwarding is NOT enabled for $($mailbox.UserPrincipalName)"
  
 }
+-------------------------------------------------------
 
+# New enterprise app display name
+$app_name = "Expense Reporting"
+
+# Group names
+$groupNames = @("Group1","Group2","Group3")
+
+# Get groups
+$groups = foreach ($name in $groupNames) { Get-AzureADGroup -SearchString $name }
+
+# Get updated service principal
+$sp = Get-AzureADServicePrincipal -Filter "displayName eq '$app_name'"
+
+# Retrieve the object ID of the "User" role for this application
+$userRole = Get-AzureADServiceAppRoleAssignment -ObjectId $sp.ObjectId | Where-Object { $_.DisplayName -eq "User" }
+$userRoleObjectId = $userRole.Id
+
+# Assign groups to the "User" role
+foreach ($group in $groups) {
+    New-AzureADGroupAppRoleAssignment -ObjectId $group.ObjectId -PrincipalId $group.ObjectId -ResourceId $sp.ObjectId -Id $userRoleObjectId
+}
