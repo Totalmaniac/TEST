@@ -1,0 +1,16 @@
+# Set the mailboxes to check 
+$mailbox = "user@domain.com"
+$forwardTo = "otheruser@domain.com"
+
+# Get the mailbox forward details
+$mailboxForward = Get-Mailbox $mailbox | Select-Object ForwardingSMTPAddress
+
+# Check if forwarding is set to the expected mailbox
+if ($mailboxForward.ForwardingSMTPAddress -eq $forwardTo) {
+  # Forwarding is correctly set up
+  Write-Host "Mailbox $mailbox is successfully forwarding to $forwardTo"
+}
+else {
+  # Forwarding not set up properly
+  Write-Host "ERROR: Mailbox $mailbox is not forwarding to $forwardTo"  
+}
