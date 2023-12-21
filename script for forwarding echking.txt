@@ -1,16 +1,17 @@
-# Set the mailboxes to check 
-$mailbox = "user@domain.com"
-$forwardTo = "otheruser@domain.com"
+# Specify the email addresses
+$sourceMailbox = "source@example.com"
+$destinationMailbox = "destination@example.com"
 
-# Get the mailbox forward details
-$mailboxForward = Get-Mailbox $mailbox | Select-Object ForwardingSMTPAddress
+# Get forwarding information for the source mailbox
+$forwarding = Get-Mailbox $sourceMailbox | Select-Object ForwardingSmtpAddress, ForwardingAddress
 
-# Check if forwarding is set to the expected mailbox
-if ($mailboxForward.ForwardingSMTPAddress -eq $forwardTo) {
-  # Forwarding is correctly set up
-  Write-Host "Mailbox $mailbox is successfully forwarding to $forwardTo"
+if ($forwarding.ForwardingSmtpAddress -eq $destinationMailbox -or $forwarding.ForwardingAddress -eq $destinationMailbox) {
+    # Forwarding is set up correctly
+    $output = "Forwarding is set up successfully. Source: $sourceMailbox is forwarding to $destinationMailbox."
+} else {
+    # Forwarding is not set up
+    $output = "Forwarding is not set up. Source: $sourceMailbox is not forwarding to $destinationMailbox."
 }
-else {
-  # Forwarding not set up properly
-  Write-Host "ERROR: Mailbox $mailbox is not forwarding to $forwardTo"  
-}
+
+# Display the output
+Write-Host $output
