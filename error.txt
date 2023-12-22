@@ -50,3 +50,29 @@ Line |
 PS /home/noman> 
 PS /home/noman> Send-MailMessage @props $body  
 Send-MailMessage: Cannot validate argument on parameter 'To'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again.
+
+_--------------------
+
+
+
+
+$securePassword = ConvertTo-SecureString "Computerworld123456!" -AsPlainText -Force
+
+$sendmbox = "noman.khan@wearejust.o.uk"  
+$receivembox = "noman.khan@wearejust.co.uk"
+
+$cred = New-Object System.Management.Automation.PSCredential ($sendmbox, $securePassword)
+
+$props = @{
+  SMTPServer = "smtp.office365.com"
+  From = $sendmbox 
+  To = $receivembox
+  Subject = "test"
+  UserSSL = $true
+  port = 587  
+  Credential = $cred
+}
+
+$body = "this is a test email"
+
+Send-MailMessage @props $body
