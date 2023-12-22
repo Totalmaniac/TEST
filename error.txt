@@ -76,3 +76,8 @@ $props = @{
 $body = "this is a test email"
 
 Send-MailMessage @props $body
+
+_----------------------
+
+WARNING: The command 'Send-MailMessage' is obsolete. This cmdlet does not guarantee secure connections to SMTP servers. While there is no immediate replacement available in PowerShell, we recommend you do not use Send-MailMessage at this time. See https://aka.ms/SendMailMessage for more information.
+Send-MailMessage: Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [AS4P191CA0018.EURP191.PROD.OUTLOOK.COM 2023-12-22T12:37:57.388Z 08DC02A8D047AE0E]
