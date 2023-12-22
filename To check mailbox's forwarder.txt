@@ -75,3 +75,41 @@ $userRoleObjectId = $userRole.Id
 foreach ($group in $groups) {
     New-AzureADGroupAppRoleAssignment -ObjectId $group.ObjectId -PrincipalId $group.ObjectId -ResourceId $sp.ObjectId -Id $userRoleObjectId
 }
+
+----------------------------------------------------------------
+
+
+# Connect to Exchange Online
+Connect-ExchangeOnline
+
+# Get the mailbox you want to check
+$mailbox = Get-Mailbox -Identity "user@domain.com" 
+
+# Capture output
+$output = New-Object System.Text.StringBuilder
+
+if($mailbox.DeliverToMailboxAndForward) {
+
+  $forwardTo = $mailbox.ForwardingAddress
+
+  [void]$output.AppendLine("Forwarding is enabled for $($mailbox.UserPrincipalName)")
+  [void]$output.AppendLine("Forwarding to: $forwardTo")
+
+}
+else {
+
+  [void]$output.AppendLine("Forwarding is NOT enabled for $($mailbox.UserPrincipalName)")
+
+}
+
+# Create email message 
+$emailParams = @{
+  To = "recipient@domain.com"
+  From = "sender@domain.com" 
+  Subject = "Script Output"
+  Body = $output.ToString()
+}
+$emailMessage = New-MailMessage @emailParams
+
+# Send email
+Send-MailMessageV2 -MailMessage $emailMessage
