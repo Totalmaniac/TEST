@@ -113,3 +113,6 @@ $mailMessage.Body = "This is a test email message."
 
 # Send the message
 $smtpClient.Send($mailMessage)
+---------------------------
+Error:
+MethodInvocationException: Exception calling "Send" with "1" argument(s): "The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.57 Client not authenticated to send mail. Error: 535 5.7.3 Authentication unsuccessful [AS4P190CA0022.EURP190.PROD.OUTLOOK.COM 2023-12-22T12:49:23.374Z 08DC02B8FB5E105E]"
