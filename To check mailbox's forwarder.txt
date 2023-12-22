@@ -113,3 +113,52 @@ $emailMessage = New-MailMessage @emailParams
 
 # Send email
 Send-MailMessageV2 -MailMessage $emailMessage
+
+
+_--------------------------------------------------------------------------------
+
+
+# Connect to Exchange Online
+Connect-ExchangeOnline
+
+# Get the mailbox you want to check
+$mailbox = Get-Mailbox -Identity "user@domain.com"
+
+# Set the file path for the output on the server or file share
+$outputFilePath = "\\Server\Share\Path\output.csv"
+
+# Check if email forwarding is enabled
+if ($mailbox.DeliverToMailboxAndForward) {
+
+    # Get the forwarding address
+    $forwardTo = $mailbox.ForwardingAddress
+
+    # Output results to console
+    Write-Host "Forwarding is enabled for $($mailbox.UserPrincipalName)"
+    Write-Host "Forwarding to: $forwardTo"
+
+    # Create a custom object with the output data
+    $outputObject = [PSCustomObject]@{
+        UserPrincipalName = $mailbox.UserPrincipalName
+        ForwardingEnabled = $true
+        ForwardingTo = $forwardTo
+    }
+
+} else {
+
+    # Output results to console
+    Write-Host "Forwarding is NOT enabled for $($mailbox.UserPrincipalName)"
+
+    # Create a custom object with the output data
+    $outputObject = [PSCustomObject]@{
+        UserPrincipalName = $mailbox.UserPrincipalName
+        ForwardingEnabled = $false
+        ForwardingTo = $null
+    }
+}
+
+# Export the output object to a CSV file on the server or file share
+$outputObject | Export-Csv -Path $outputFilePath -NoTypeInformation
+
+# Output the file path
+Write-Host "Output file saved to: $outputFilePath"
