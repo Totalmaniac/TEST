@@ -166,3 +166,8 @@ Write-Host "Output file saved to: $outputFilePath"
 --------------------------------------------------------
 
 Start-Process powershell.exe -ArgumentList "-File C:\Path\To\Your\Script\MyScript.ps1" -WindowStyle Hidden
+
+
+
+-------------
+Powershell.exe -executionpolicy remotesigned -File  C:\Users\SE\Desktop\ps.ps1
