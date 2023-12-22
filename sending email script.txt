@@ -1,0 +1,22 @@
+$pwd_1 = "Computerworld123456!"
+$pws_2 = ConverTo-SecureString $pwd_1 -AsPlainText -Force
+
+$sendmbox = "noman.khan@wearejust.o.uk"
+
+$receivembox = "noman.khan@wearejust.co.uk"
+
+$body = "this is a test email"
+
+$props = @{
+    
+SMTPServer = "smtp.office365.com"
+
+From = $sendmbox
+To = $reveivembox
+Subject = "test"
+UserSSL = $true 
+port = 587
+Credential = New-Object System.Management.Automation.PSCredential($sendmbox,$pwd_2)
+}
+
+Send-MailMessage @props $body  
