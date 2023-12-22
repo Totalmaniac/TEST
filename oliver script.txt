@@ -1,0 +1,34 @@
+# PRTG Exchange Remote Powershell monitoring script - Noman Khan 2023
+
+#Working code back to initially set password into txt file
+#$Credentials = Get-Credential
+#$Credentials.Password | ConvertFrom-SecureString | Set-Content C:\prtg_mon_ouput\donottouch_prtg.txt
+#$Username = $Credentials.Username
+#$Password = Get-Content “C:\prtg_mon_ouput\donottouch_prtg.txt” | ConvertTo-SecureString
+#$Credentials = New-Object System.Management.Automation.PSCredential $Username,$Password
+
+# GotCreds?
+$Username = "live01\_prtg-remote"
+$Password = Get-Content “C:\prtg_mon_ouput\donottouch_prtg.txt” | ConvertTo-SecureString
+$Credentials = New-Object System.Management.Automation.PSCredential $Username,$Password
+
+# Create Session
+$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http://server535.live01.lan.local/PowerShell/ -Authentication Kerberos -Credential $Credentials
+
+# Open Remote Power Session
+Import-PSSession $Session -DisableNameChecking -AllowClobber
+
+# Code here
+Get-Mailbox -Identity help@wearejust.co.uk | select ForwardingSmtpAddress | Format-List | Out-File output.txt
+(Get-Content 'output.txt') -join ' ' | Set-Content 'help-wearejust-capita-monitor.txt'
+Copy-Item -Path 'c:\prtg_mon_ouput\help-wearejust-capita-monitor.txt' -Destination '\\VLS097\prtg_mon_output\help-wearejust-capita-monitor.txt'
+# Always close the session, or all hell will break loose
+Remove-pssession -Session $session
+
+c:\prtg_mon_ouput\help-wearejust-capita-monitor.txt
+
+
+
+
+
+
