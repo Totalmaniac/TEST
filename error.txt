@@ -1,6 +1,52 @@
-Set-ADGroup : replace
-At line:4 char:5
-+     Set-ADGroup -Identity $name -Description $desc
-+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : InvalidOperation: (G Live Mailbox Test:ADGroup) [Set-ADGroup], ADInvalidOperationException
-    + FullyQualifiedErrorId : ActiveDirectoryServer:0,Microsoft.ActiveDirectory.Management.Commands.SetADGroup
+$pwd_1 = "Computerworld123456!"
+$pws_2 = ConvertTo-SecureString $pwd_1 -AsPlainText -Force
+
+$sendmbox = "noman.khan@wearejust.o.uk"
+
+$receivembox = "noman.khan@wearejust.co.uk"
+
+$body = "this is a test email"
+
+$props = @{
+    
+SMTPServer = "smtp.office365.com"
+
+From = $sendmbox
+To = $receivembox
+Subject = "test"
+UserSSL = $true 
+port = 587
+Credential = New-Object System.Management.Automation.PSCredential($sendmbox,$pwd_2)
+}
+
+Send-MailMessage @props $body  
+-------------------------------------
+
+PS /home/noman> $pwd_1 = "Computerworld123456!"
+PS /home/noman> $pws_2 = ConvertTo-SecureString $pwd_1 -AsPlainText -Force
+PS /home/noman> 
+PS /home/noman> $sendmbox = "noman.khan@wearejust.o.uk"
+PS /home/noman> 
+PS /home/noman> $receivembox = "noman.khan@wearejust.co.uk"
+PS /home/noman> 
+PS /home/noman> $body = "this is a test email"
+PS /home/noman> 
+PS /home/noman> $props = @{
+>>     
+>> SMTPServer = "smtp.office365.com"
+>> 
+>> From = $sendmbox
+>> To = $receivembox
+>> Subject = "test"
+>> UserSSL = $true 
+>> port = 587
+>> Credential = New-Object System.Management.Automation.PSCredential($sendmbox,$pwd_2)
+>> }
+New-Object: 
+Line |
+  10 |  … redential = New-Object System.Management.Automation.PSCredential($sen …
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Exception calling ".ctor" with "2" argument(s): "Cannot process argument because the value of argument "password" is null. Change the value of argument "password" to a non-null value."
+PS /home/noman> 
+PS /home/noman> Send-MailMessage @props $body  
+Send-MailMessage: Cannot validate argument on parameter 'To'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again.
