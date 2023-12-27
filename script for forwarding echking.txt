@@ -43,5 +43,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -Verb RunA
 
 @echo off
 PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""%~dp0YourScript.ps1""' -Verb RunAs}"
-
+-------------------------
+@echo off
+PowerShell.exe -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell.exe -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File ""C:\Test\Noman\Email_Forwarding.ps1""' -Verb RunAs}"
 
