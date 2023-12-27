@@ -35,3 +35,8 @@ else {
 
 Send-MailMessage -To "recipient@example.com" -From "sender@example.com" `
                  -Subject "Forwarding Report" -Body $body -SmtpServer "smtp.office365.com"
+
+------------------------------------------
+
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process -Verb RunAs powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"D:\z_Batchs e Scripts\Batchs\Normaliza_LUFS\ArqsNorms_LUFS_pass.ps1\" -_vLUF %_vLUF%'"
+
