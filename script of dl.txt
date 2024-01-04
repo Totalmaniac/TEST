@@ -161,6 +161,23 @@ foreach ($list in $lists){
 
     $results += $details
 
+_----------------
+
+$groups = Import-Csv C:\dl.csv
+
+foreach ($group in $groups) {
+
+    $name = $group.Name  
+    $alias = $group.Alias
+    $desc = $group.Description 
+    $managedBy = $group.ManagedBy -split ";" 
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress -Description $desc
+
+}
+
 }
 
 $results
