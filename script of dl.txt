@@ -144,3 +144,23 @@ foreach ($dl in $distLists) {
   Write-Output "" # Empty line between DLs
 
 }
+-----------------
+
+$lists = @("DL name1","DL name2","DL name3")
+
+$results = @()
+
+foreach ($list in $lists){
+
+    $dl = Get-DistributionGroup -Identity $list
+
+    $details = [PSCustomObject]@{
+        Name = $dl.DisplayName
+        Description = $dl.Description
+    }
+
+    $results += $details
+
+}
+
+$results
