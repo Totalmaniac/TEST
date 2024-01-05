@@ -1,0 +1,18 @@
+$output = @()
+Get-Mailbox -ResultSize Unlimited | ForEach-Object {
+    $user = $_.DisplayName
+    $mailboxSize = ($_.TotalItemSize.ToString().Split("(")[1].Split(" ")[0]/1MB).ToString("N2") + " MB"
+    if($_.ArchiveStatus -eq "Active"){
+        $archiveSize = ($_.ArchiveTotalItemSize.ToString().Split("(")[1].Split(" ")[0]/1MB).ToString("N2") + " MB"
+    }
+    else {
+        $archiveSize = "Disabled"
+    }
+    $output += New-Object PSObject -Property @{
+        "Username" = $user
+        "MailboxSize" = $mailboxSize
+        "ArchiveSize" = $archiveSize
+    }
+}
+
+$output | Export-Csv -Path "C:\usermailboxes.csv" -NoTypeInformation
