@@ -16,3 +16,10 @@ Get-Mailbox -ResultSize Unlimited | ForEach-Object {
 }
 
 $output | Export-Csv -Path "C:\usermailboxes.csv" -NoTypeInformation
+
+ForEach-Object : You cannot call a method on a null-valued expression.
+At line:1 char:37
++ Get-Mailbox -ResultSize Unlimited | ForEach-Object {
++                                     ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [ForEach-Object], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull,Microsoft.PowerShell.Commands.ForEachObjectCommand
