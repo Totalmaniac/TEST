@@ -35,3 +35,20 @@ Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics | Select DisplayName, 
 
 
 Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics | Select DisplayName, TotalItemSize | Sort-Object TotalItemSize -Descending
+
+
+
+
+$userMailboxes = Get-Content -Path "C:\Path\To\UserMailboxes.txt"
+
+# Loop through each user mailbox and retrieve its total size
+foreach ($userMailbox in $userMailboxes) {
+    $mailboxStatistics = Get-MailboxStatistics -Identity $userMailbox
+    if ($mailboxStatistics) {
+        $displayName = $mailboxStatistics.DisplayName
+        $totalSize = $mailboxStatistics.TotalItemSize
+        Write-Host "$displayName - Total Size: $totalSize"
+    } else {
+        Write-Host "Mailbox not found for user: $userMailbox"
+    }
+}
