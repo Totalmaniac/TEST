@@ -211,3 +211,11 @@ foreach ($group in $groups) {
   New-DistributionGroup -Name $name -Alias $aliases -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress -Description $desc
 
 }
+
+
+
+New-DistributionGroup: 
+Line |
+  10 |    New-DistributionGroup -Name $name -Alias $aliases -ManagedBy $manag …
+     |                                             ~~~~~~~~
+     | Cannot process argument transformation on parameter 'Alias'. Cannot convert value to type System.String.
