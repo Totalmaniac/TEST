@@ -29,3 +29,6 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 
 
 Get-Mailbox -ResultSize Unlimited | Select-Object DisplayName,@{Name="TotalItemSize (MB)";Expression={$_.TotalItemSize.ToString().Split("(")[1].Split(" ")[0]}} | Export-Csv -Path C:\mailboxes.csv -NoTypeInformation
+
+
+Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics | Select DisplayName, @{Name="TotalItemSize (GB)";Expression={[math]::Round($_.TotalItemSize.Value.ToGB(),2)}} | Sort-Object TotalItemSizeGB -Descending
