@@ -23,3 +23,6 @@ At line:1 char:37
 +                                     ~~~~~~~~~~~~~~~~
     + CategoryInfo          : InvalidOperation: (:) [ForEach-Object], RuntimeException
     + FullyQualifiedErrorId : InvokeMethodOnNull,Microsoft.PowerShell.Commands.ForEachObjectCommand
+
+
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Select-Object DisplayName, @{Name="TotalItemSize";Expression={$_.TotalItemSize.ToString().Split("(")[1].Split(" ")[0]}}, @{Name="ArchiveTotalItemSize";Expression={$_.ArchiveTotalItemSize.ToString().Split("(")[1].Split(" ")[0]}} | Export-Csv -Path C:\users\usermailboxes.csv -NoTypeInformation
