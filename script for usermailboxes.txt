@@ -32,3 +32,6 @@ Get-Mailbox -ResultSize Unlimited | Select-Object DisplayName,@{Name="TotalItemS
 
 
 Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics | Select DisplayName, @{Name="TotalItemSize (GB)";Expression={[math]::Round($_.TotalItemSize.Value.ToGB(),2)}} | Sort-Object TotalItemSizeGB -Descending
+
+
+Get-Mailbox -ResultSize Unlimited | Get-MailboxStatistics | Select DisplayName, TotalItemSize | Sort-Object TotalItemSize -Descending
