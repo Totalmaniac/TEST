@@ -219,3 +219,23 @@ Line |
   10 |    New-DistributionGroup -Name $name -Alias $aliases -ManagedBy $manag …
      |                                             ~~~~~~~~
      | Cannot process argument transformation on parameter 'Alias'. Cannot convert value to type System.String.
+
+
+
+
+
+$groups = Import-Csv C:\dl.csv 
+
+foreach ($group in $groups) {
+
+  $name = $group.Name
+  $aliases = $group.Alias -split ","
+  $aliasString = $aliases -join ","
+  $desc = $group.Description
+  $managedBy = $group.ManagedBy -split ";"
+  $members = $group.Members -split ";"
+  $primarySmtpAddress = $group.PrimarySmtpAddress
+
+  New-DistributionGroup -Name $name -Alias $aliasString -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress -Description $desc
+
+}
