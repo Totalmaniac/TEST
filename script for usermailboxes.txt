@@ -52,3 +52,22 @@ foreach ($userMailbox in $userMailboxes) {
         Write-Host "Mailbox not found for user: $userMailbox"
     }
 }
+
+
+
+
+# Read the list of user display names from a CSV file
+$userDisplayNames = Import-Csv -Path "C:\Path\To\UserMailboxes.csv" | Select-Object -ExpandProperty DisplayName
+
+# Loop through each user display name and retrieve the corresponding mailbox size
+foreach ($userDisplayName in $userDisplayNames) {
+    $userMailbox = Get-Mailbox -Filter { DisplayName -eq $userDisplayName }
+    if ($userMailbox) {
+        $mailboxStatistics = Get-MailboxStatistics -Identity $userMailbox.Identity
+        $displayName = $userMailbox.DisplayName
+        $totalSize = $mailboxStatistics.TotalItemSize
+        Write-Host "$displayName - Total Size: $totalSize"
+    } else {
+        Write-Host "Mailbox not found for display name: $userDisplayName"
+    }
+}
