@@ -1,0 +1,31 @@
+# Path to CSV file 
+$csvPath = "C:\csv\groups.csv"
+
+# Import CSV
+$groups = Import-Csv $csvPath 
+
+# Connect to Exchange Online  
+Connect-ExchangeOnline
+
+# Loop through each row to create the groups
+foreach ($group in $groups) {
+
+    # Build owners array
+    $owners = $group.Owners.Split(",") | ForEach-Object {Get-User -Identity $_}
+    
+    # Build members array 
+    $members = $group.Members.Split(",") | ForEach-Object {Get-User -Identity $_}
+
+    # Create group without alias
+    New-DistributionGroup -Name $group.GroupName `
+                          -Type Security `
+                          -PrimarySmtpAddress $group.Email `
+                          -DisplayName $group.GroupName `
+                          -ManagedBy $owners `
+                          -Members $members `
+                          -Notes $group.Description
+
+    Write-Host "Created group $($group.GroupName)"
+}
+
+Disconnect-ExchangeOnline
