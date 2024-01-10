@@ -94,3 +94,11 @@ foreach ($userDisplayName in $userDisplayNames) {
     }
 }
 
+
+---------------------
+
+Get-MailboxPermission -Identity "SharedMailboxName" | Where-Object {$_.User -like "*"} | ForEach-Object {
+  Write-Host "User:" $_.User
+  Write-Host "Send As:" ($_.CanSendAs -eq "True")
+}
+
