@@ -102,3 +102,7 @@ Get-MailboxPermission -Identity "SharedMailboxName" | Where-Object {$_.User -lik
   Write-Host "Send As:" ($_.CanSendAs -eq "True")
 }
 
+_---------------------------
+
+Get-MailboxPermission -Identity "SharedMailboxName" | Where-Object {$_.User -like "*" -and $_.AccessRights -eq "SendAs"} | Remove-MailboxPermission -Confirm:$false
+
