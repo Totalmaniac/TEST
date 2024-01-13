@@ -245,3 +245,6 @@ foreach ($group in $groups) {
 
 New-DistributionGroup: Cannot process argument transformation on parameter 'Alias'. Cannot convert value "finaltesting5@wearejust.co.uk,finaltesting2@JustRetirement.mail.onmicrosoft.com,finaltesting3@justretirement.com" to type "System.String". Error:
 "Alias: The length of the property is too long. The maximum length is 64 and the length of the value provided is 112."
+----------------------------------
+
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Select-Object Name,TotalItemSize,ArchiveTotalItemSize
