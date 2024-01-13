@@ -247,4 +247,11 @@ New-DistributionGroup: Cannot process argument transformation on parameter 'Alia
 "Alias: The length of the property is too long. The maximum length is 64 and the length of the value provided is 112."
 ----------------------------------
 
+
+
 Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Select-Object Name,TotalItemSize,ArchiveTotalItemSize
+
+
+
+
+Get-MailboxStatistics -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Select-Object DisplayName,TotalItemSize,ArchiveTotalItemSize
