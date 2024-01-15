@@ -295,3 +295,12 @@ foreach ($dlName in $DistributionGroups.Keys) {
     # Set the email addresses for the distribution group
     Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
 }
+
+-------------------
+
+$DLs = Get-DistributionGroup
+
+foreach ($DL in $DLs) {
+    $DLInfo = Get-DistributionGroup -Identity $DL.Identity | Select-Object DisplayName, Description
+    Write-Output $DLInfo
+}
