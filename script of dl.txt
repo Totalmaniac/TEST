@@ -255,3 +255,27 @@ Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox
 
 
 Get-MailboxStatistics -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Select-Object DisplayName,TotalItemSize,ArchiveTotalItemSize
+
+
+-----------------
+
+$dlArray = @("Final DL", "DL 2", "DL 1")
+
+foreach ($dlName in $dlArray) {
+    $distributionGroup = Get-DistributionGroup -Identity $dlName
+
+    if ($distributionGroup) {
+        # Output distribution group name as a header
+        Write-Host "$dlName"
+
+        $filteredEmailAddresses = $distributionGroup.EmailAddresses | Where-Object {
+            $_ -ne $null -and $_ -ne $distributionGroup.PrimarySmtpAddress
+        }
+
+        # Output filtered email addresses for the current distribution group
+        $filteredEmailAddresses | ForEach-Object { Write-Host "  $_" }
+
+        # Add a newline for better separation between groups
+        Write-Host ""
+    }
+}
