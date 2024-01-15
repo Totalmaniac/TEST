@@ -304,3 +304,12 @@ foreach ($DL in $DLs) {
     $DLInfo = Get-DistributionGroup -Identity $DL.Identity | Select-Object DisplayName, Description
     Write-Output $DLInfo
 }
+
+_----------------
+
+Get-MailboxPermission "SharedMailbox@domain.com" | 
+  Where-Object { 
+    ($_.IsInherited -eq $false) -and  
+    ($_.AccessRights -match "SendAs") 
+  } | 
+  Select-Object User,AccessRights
