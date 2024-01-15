@@ -279,3 +279,19 @@ foreach ($dlName in $dlArray) {
         Write-Host ""
     }
 }
+------------------------
+
+# Define a hashtable where keys are distribution group names and values are arrays of email addresses
+$DistributionGroups = @{
+    "Final DL" = @("finalDL321341@infosystech.co.uk", "finalDL4561@infosystech.co.uk")
+    "DL 2" = @("finalDL3212@infosystech.co.uk", "Finaldl123@infosystech.co.uk")
+    "DL 1" = @("sample@infosystech.co.uk", "sample2@infoSystechs.onmicrosoft.com")
+}
+
+# Iterate through the hashtable
+foreach ($dlName in $DistributionGroups.Keys) {
+    $emailAddresses = $DistributionGroups[$dlName]
+
+    # Set the email addresses for the distribution group
+    Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
+}
