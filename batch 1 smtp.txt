@@ -79,4 +79,7 @@ Formated SMTPs:
 
 "JustDeliveryChangeFunction@wearejust.co.uk" = @("  smtp:JustDeliveryChangeFunction@JustRetirement.mail.onmicrosoft.com", "  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aad1e8920a64d27810fa45cd4cf6bce-Just Delive", "  smtp:JustDeliveryChangeFunction@justretirement.onmicrosoft.com", "  smtp:JustDeliveryChangeFunction@justretirement.com", "  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryChangeFunction", "  SMTP:JustDeliveryChangeFunction@wearejust.co.uk")
 
+
+"JustDeliveryBusinessAnalystsDL@wearejust.co.uk" = @('smtp:JustDeliveryBusinessAnalystsDL@JustRetirement.mail.onmicrosoft.com', '  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryStartUpandDesignDL', '  SMTP:JustDeliveryBusinessAnalystsDL@wearejust.co.uk', '  smtp:JustDeliveryStartUpandDesignDL@wearejust.co.uk', '  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBusinessAnalystsDL', '  smtp:JustDeliveryBusinessAnalystsDL@justretirement.com', '  smtp:JustDeliveryBusinessAnalystsDL@justretirement.onmicrosoft.com', '  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=32f3bd2157304d4aa841856936f04043-Just Delive', '  smtp:JustDeliveryStartUpandDesignDL@justretirement.onmicrosoft.com', '  smtp:JustDeliveryStartUpandDesignDL@justretirement.com')
+
     
