@@ -313,3 +313,12 @@ Get-MailboxPermission "SharedMailbox@domain.com" |
     ($_.AccessRights -match "SendAs") 
   } | 
   Select-Object User,AccessRights
+
+------------------------
+
+Get-MailboxPermission "SharedMailbox@domain.com" | 
+  Where-Object { 
+    ($_.IsInherited -eq $false) -and
+    ($_.AccessRights -match "FullAccess")  
+  } |
+  Select-Object User, AccessRights
