@@ -1,0 +1,60 @@
+CentralChangeTeamDL@wearejust.co.uk
+  SMTP:CentralChangeTeamDL@wearejust.co.uk
+  smtp:CentralChangeTeamDL@JustRetirement.mail.onmicrosoft.com
+  smtp:CentralChangeTeamDL@justretirement.com
+  smtp:JustDeliveryChangeManagementDL@JustRetirement.onmicrosoft.com
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8f8b324b1f154100a8338f878528d008
+
+JustChangeDeliveryManagersDL@wearejust.co.uk
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustChangeDeliveryManagersDL;
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustChangeDeliveryManagerDL;
+  smtp:JustChangeDeliveryManagersDL@justretirement.onmicrosoft.com
+  smtp:JustChangeDeliveryManagersDL@JustRetirement.mail.onmicrosoft.com
+  smtp:JustChangeDeliveryManagersDL@justretirement.com
+  SMTP:JustChangeDeliveryManagersDL@wearejust.co.uk
+  smtp:JustChangeDeliveryManagers@justretirement.com
+  smtp:JustChangeDeliveryManagers@wearejust.co.uk
+  smtp:JustDeliveryProgrammeManagementDL@JustRetirement.mail.onmicrosoft.com
+  smtp:JustChangeDeliveryManagers@justretirement.onmicrosoft.com
+  smtp:JustChangeDeliveryManagers@JustRetirement.mail.onmicrosoft.com
+  X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2ad2748f15b54e44ab0d9b01b7f58d1b-Just Delive
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryProgrammeManagementDL;
+  smtp:JustDeliveryProgrammeManagementDL@wearejust.co.uk
+  smtp:JustDeliveryProgrammeManagementDL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryProgrammeManagementDL@justretirement.com
+
+JustDeliveryBusinessAnalystsDL@wearejust.co.uk
+  smtp:JustDeliveryBusinessAnalystsDL@JustRetirement.mail.onmicrosoft.com
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryStartUpandDesignDL;
+  SMTP:JustDeliveryBusinessAnalystsDL@wearejust.co.uk
+  smtp:JustDeliveryStartUpandDesignDL@wearejust.co.uk
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBusinessAnalystsDL;
+  smtp:JustDeliveryBusinessAnalystsDL@justretirement.com
+  smtp:JustDeliveryBusinessAnalystsDL@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=32f3bd2157304d4aa841856936f04043-Just Delive
+  smtp:JustDeliveryStartUpandDesignDL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryStartUpandDesignDL@justretirement.com
+
+JustDeliveryPMODL@wearejust.co.uk
+  smtp:JustDeliveryPMODL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1f42daa464044f8b88c86759c7b4db45-Just Delive
+  smtp:JustDeliveryPMODL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryPMODL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryPMODL;
+  SMTP:JustDeliveryPMODL@wearejust.co.uk
+
+VSLeadDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1937b22616aa49a3919059fa2d38f4d5-4abd4cb7-52
+  smtp:VSLeadDL@justretirement.onmicrosoft.com
+  smtp:VSLeadDL@justretirement.com
+  smtp:VSLeadDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=VSLeadDL;
+  SMTP:VSLeadDL@wearejust.co.uk
+
+JustDeliveryChangeFunction@wearejust.co.uk
+  smtp:JustDeliveryChangeFunction@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4aad1e8920a64d27810fa45cd4cf6bce-Just Delive
+  smtp:JustDeliveryChangeFunction@justretirement.onmicrosoft.com
+  smtp:JustDeliveryChangeFunction@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryChangeFunction;
+  SMTP:JustDeliveryChangeFunction@wearejust.co.uk
