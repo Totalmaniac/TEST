@@ -26,7 +26,7 @@ JustDeliveryBITeamDL@wearejust.co.uk
   SMTP:JustDeliveryBITeamDL@wearejust.co.uk
 ----------------------------------------------------------------------------------
 
-@{
+$DistributionGroups = @{
  "JustDeliveryArchitectureChangeApprovalDL@wearejust.co.uk"=@("smtp:JustDeliveryArchitectureChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d35b31225de649388923a9f4e4fb5964-Just Delive","smtp:JustDeliveryArchitectureChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryArchitectureChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryArchitectureChangeApprovalDL")
 
 "JustDeliveryBI-DataChangeApprovalDL@wearejust.co.uk"=@("smtp:JustDeliveryBI-DataChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f8460cb470854cb18e2c7e17314b0dd6-Just Delive","smtp:JustDeliveryBI-DataChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryBI-DataChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBI-DataChangeApprovalDL")
