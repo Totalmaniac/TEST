@@ -34,3 +34,11 @@ $DistributionGroups = @{
 "JustDeliveryBITeamDL@wearejust.co.uk"=@("smtp:g_dis_ITCOBISupport@partnership.co.uk","X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ea21ef8a5c6f41bcb86aed8aef614901-Just Delive","smtp:Group-ITCO-BITeam@partnership.co.uk","smtp:JustDeliveryBITeamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryBITeamDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBITeamDL")
 }
 
+foreach ($dlName in $DistributionGroups.Keys) {
+    $emailAddresses = $DistributionGroups[$dlName]
+
+    # Set the email addresses for the distribution group
+    Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
+}
+
+
