@@ -1,0 +1,27 @@
+SMTP 
+
+JustDeliveryArchitectureChangeApprovalDL@wearejust.co.uk
+  smtp:JustDeliveryArchitectureChangeApprovalDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d35b31225de649388923a9f4e4fb5964-Just Delive
+  smtp:JustDeliveryArchitectureChangeApprovalDL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryArchitectureChangeApprovalDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryArchitectureChangeApprovalDL;
+  SMTP:JustDeliveryArchitectureChangeApprovalDL@wearejust.co.uk
+
+JustDeliveryBI-DataChangeApprovalDL@wearejust.co.uk
+  smtp:JustDeliveryBI-DataChangeApprovalDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f8460cb470854cb18e2c7e17314b0dd6-Just Delive
+  smtp:JustDeliveryBI-DataChangeApprovalDL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryBI-DataChangeApprovalDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBI-DataChangeApprovalDL;
+  SMTP:JustDeliveryBI-DataChangeApprovalDL@wearejust.co.uk
+
+JustDeliveryBITeamDL@wearejust.co.uk
+  smtp:g_dis_ITCOBISupport@partnership.co.uk
+  X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ea21ef8a5c6f41bcb86aed8aef614901-Just Delive
+  smtp:Group-ITCO-BITeam@partnership.co.uk
+  smtp:JustDeliveryBITeamDL@justretirement.onmicrosoft.com
+  smtp:JustDeliveryBITeamDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBITeamDL;
+  SMTP:JustDeliveryBITeamDL@wearejust.co.uk
+
