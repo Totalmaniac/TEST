@@ -19,3 +19,7 @@ foreach ($message in $appMessages) {
     }
     $details | Format-Table -AutoSize
 }
+-----------------------------
+Second Script:
+Get-NetworkConnectionInfo | Where-Object { $_.Name -match "SMTP" } | Select-Object LocalAddress, RemoteAddress, ProcessName
+
