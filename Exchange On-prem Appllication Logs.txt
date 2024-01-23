@@ -1,0 +1,21 @@
+# Get messages from the message tracking log
+$messages = Get-MessageTrackingLog -ResultSize Unlimited -Start (Get-Date).AddDays(-7)
+
+# Filter messages related to application connections
+$appMessages = $messages | Where-Object { $_.Source -eq "STOREDRIVER" -or $_.Source -eq "SMTP" }
+
+# Display relevant information
+foreach ($message in $appMessages) {
+    $details = @{
+        'Timestamp'      = $message.Timestamp
+        'EventId'        = $message.EventId
+        'Source'         = $message.Source
+        'MessageSubject' = $message.MessageSubject
+        'Sender'         = $message.Sender
+        'Recipients'     = $message.Recipients
+        'ClientHostname' = $message.ClientHostname
+        'ServerHostname' = $message.ServerHostname
+        'SourceContext'  = $message.SourceContext
+    }
+    $details | Format-Table -AutoSize
+}
