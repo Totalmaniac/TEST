@@ -42,4 +42,12 @@ $DistributionGroups = @{
 "JustDeliveryChangeLineManagementGroup@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=81f6fd055a1b4d5aaa27e56fe578c62c-Just Delive","smtp:JustDeliveryChangeLineManagementGroup@justretirement.onmicrosoft.com","smtp:JustDeliveryChangeLineManagementGroup@justretirement.com","smtp:JustDeliveryChangeLineManagementGroup@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryChangeLineManagementGroup")
 }
 
+# Iterate through the hashtable
+foreach ($dlName in $DistributionGroups.Keys) {
+    $emailAddresses = $DistributionGroups[$dlName]
+
+    # Set the email addresses for the distribution group
+    Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
+}
+
 
