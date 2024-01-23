@@ -29,3 +29,17 @@ JustDeliveryChangeLineManagementGroup@wearejust.co.uk
   smtp:JustDeliveryChangeLineManagementGroup@JustRetirement.mail.onmicrosoft.com
   X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryChangeLineManagementGroup;
   SMTP:JustDeliveryChangeLineManagementGroup@wearejust.co.uk
+
+-------------------------------------------------------------------------------------
+
+$DistributionGroups = @{
+"JustDeliveryBusinessAnalystsContractors@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4e8bff2eddba4b3ba0d15cefebc7bde1-Group_80927","smtp:JustDeliveryBusinessAnalystsContractors@justretirement.onmicrosoft.com","smtp:JustDeliveryBusinessAnalystsContractors@justretirement.com","smtp:JustDeliveryBusinessAnalystsContractors@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBusinessAnalystsContractors")
+
+"JustDeliveryBusinessReadinessChangeApprovalDL@wearejust.co.uk" =@("smtp:JustDeliveryBusinessReadinessChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=03a2301d73284c088c405cd89eb65790-Just Delive","smtp:JustDeliveryBusinessReadinessChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryBusinessReadinessChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryBusinessReadinessChangeAppro")
+
+"JustDeliveryCABAttendeesDL@wearejust.co.uk" =@("smtp:JustDeliveryCABAttendeesDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=44e0d110c5b343c3aa8a6112214c1e69-Just Delive","smtp:JustDeliveryCABAttendeesDL@justretirement.onmicrosoft.com","smtp:JustDeliveryCABAttendeesDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryCABAttendeesDL")
+
+"JustDeliveryChangeLineManagementGroup@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=81f6fd055a1b4d5aaa27e56fe578c62c-Just Delive","smtp:JustDeliveryChangeLineManagementGroup@justretirement.onmicrosoft.com","smtp:JustDeliveryChangeLineManagementGroup@justretirement.com","smtp:JustDeliveryChangeLineManagementGroup@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryChangeLineManagementGroup")
+}
+
+
