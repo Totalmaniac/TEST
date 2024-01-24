@@ -322,3 +322,25 @@ Get-MailboxPermission "SharedMailbox@domain.com" |
     ($_.AccessRights -match "FullAccess")  
   } |
   Select-Object User, AccessRights
+
+_----------------------------------------------
+
+#Create array with the DL names you want to get info for
+$DLs = @("Executives", "Sales", "Marketing")  
+
+#Create array to store output
+$DLInfo = @()
+
+#Loop through the array  
+foreach ($DLName in $DLs) {
+
+  #Get the distribution group details for this DL
+  $DLDetails = Get-DistributionGroup $DLName | Select Name, Description  
+
+  #Add details to output array
+  $DLInfo += $DLDetails
+
+}
+
+#Output array with selected DL descriptions 
+$DLInfo
