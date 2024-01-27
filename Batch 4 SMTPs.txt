@@ -22,13 +22,6 @@ JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk
   X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-ThirdPartyConsultan;
   SMTP:JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk
 
-JustDeliveryDataTeamCommunicateIncidentsDL@wearejust.co.uk
-  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a6658deea8ad4ca3b058e4059e631b2b-Just Delive
-  smtp:JustDeliveryDataTeamCommunicateIncidentsDL@justretirement.onmicrosoft.com
-  smtp:JustDeliveryDataTeamCommunicateIncidentsDL@justretirement.com
-  smtp:JustDeliveryDataTeamCommunicateIncidentsDL@JustRetirement.mail.onmicrosoft.com
-  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamCommunicateIncidents;
-  SMTP:JustDeliveryDataTeamCommunicateIncidentsDL@wearejust.co.uk
 
 JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk
   x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be
@@ -144,9 +137,6 @@ $DistributionGroups = @{
 
 "JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2d040c50fee1490da816de6c7e33bb3c-9b83460b-bc","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-ThirdPartyConsultan;")
 
-"JustDeliveryDataTeamCommunicateIncidentsDL@wearejust.co.uk" +@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a6658deea8ad4ca3b058e4059e631b2b-Just Delive","smtp:JustDeliveryDataTeamCommunicateIncidentsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamCommunicateIncidentsDL@justretirement.com","smtp:JustDeliveryDataTeamCommunicateIncidentsDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamCommunicateIncidents;")
-
-"JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk" =@()
 
 
 
