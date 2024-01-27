@@ -365,3 +365,22 @@ foreach ($DLName in $DLs) {
 
 #Output array with selected DL descriptions 
 $DLInfo
+------------------------------------
+
+# Array containing the DL names
+$DLArray = @("DL1", "DL2", "DL3")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL members
+    $DLMembers = Get-DistributionGroupMember -Identity $DLName
+
+    # Output DL name and corresponding members
+    Write-Host "DL: $DLName"
+    foreach ($Member in $DLMembers) {
+        Write-Host "  Member: $($Member.DisplayName)"
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
