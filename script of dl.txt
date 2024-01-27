@@ -384,3 +384,32 @@ foreach ($DLName in $DLArray) {
     # Add a separator for better readability
     Write-Host "------------------------"
 }
+
+_----------------------------------------
+
+# Array containing the DL names
+$DLArray = @("DL1", "DL2", "DL3")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL information including managed by (owners)
+    $DLInfo = Get-DistributionGroup -Identity $DLName
+
+    # Output DL name and corresponding owners
+    Write-Host "DL: $($DLInfo.DisplayName)"
+    
+    # Check if the DL has any owners
+    if ($DLInfo.ManagedBy -ne $null) {
+        Write-Host "  Owners:"
+        foreach ($Owner in $DLInfo.ManagedBy) {
+            $OwnerUser = Get-Mailbox $Owner
+            Write-Host "    $($OwnerUser.DisplayName)"
+        }
+    }
+    else {
+        Write-Host "  No owners specified."
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
