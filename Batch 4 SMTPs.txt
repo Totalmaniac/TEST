@@ -24,11 +24,7 @@ JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk
 
 
 JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk
-  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be
-  smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com
-  smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com
-  smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com
-  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;
+  "x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;"
   SMTP:JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk
 
 JustDeliveryDL@wearejust.co.uk
@@ -136,6 +132,8 @@ $DistributionGroups = @{
 "JustDeliveryDataTeam-GodelConsultantsDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8c267675e89749da939b1b1bda8b8179-Just Delive","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-GodelConsultantsDL;")
 
 "JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2d040c50fee1490da816de6c7e33bb3c-9b83460b-bc","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-ThirdPartyConsultan;")
+
+"JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;")
 
 
 
