@@ -413,3 +413,52 @@ foreach ($DLName in $DLArray) {
     # Add a separator for better readability
     Write-Host "------------------------"
 }
+-------------------------------------------------------
+
+
+# Array containing the DL names
+$DLArray = @("DL 1", "DL 2", "Final DL")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL members
+    $DLMembers = Get-DistributionGroupMember -Identity $DLName
+
+    # Output DL name and corresponding members' email addresses
+    Write-Host "DL: $DLName"
+    foreach ($Member in $DLMembers) {
+        Write-Host "  $($Member.PrimarySmtpAddress)"
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
+
+_---------------------------------------
+
+# Array containing the DL names
+$DLArray = @("DL 1", "DL 2", "Final DL")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL information including managed by (owners)
+    $DLInfo = Get-DistributionGroup -Identity $DLName
+
+    # Output DL name
+    Write-Host "DL: $($DLInfo.DisplayName)"
+    
+    # Check if the DL has any owners
+    if ($DLInfo.ManagedBy -ne $null) {
+        Write-Host "Owners:"
+        foreach ($Owner in $DLInfo.ManagedBy) {
+            $OwnerUser = Get-Mailbox $Owner
+            Write-Host "  $($OwnerUser.PrimarySmtpAddress)"
+        }
+    }
+    else {
+        Write-Host "No owners specified."
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
