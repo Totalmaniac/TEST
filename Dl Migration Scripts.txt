@@ -1,0 +1,133 @@
+#TO GET THE OWNERS OF DL'S
+
+# Array containing the DL names
+$DLArray = @("DL 1", "DL 2", "Final DL")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL information including managed by (owners)
+    $DLInfo = Get-DistributionGroup -Identity $DLName
+
+    # Output DL name
+    Write-Host "DL: $($DLInfo.DisplayName)"
+    
+    # Check if the DL has any owners
+    if ($DLInfo.ManagedBy -ne $null) {
+        Write-Host "Owners:"
+        foreach ($Owner in $DLInfo.ManagedBy) {
+            $OwnerUser = Get-Mailbox $Owner
+            Write-Host "  $($OwnerUser.PrimarySmtpAddress)"
+        }
+    }
+    else {
+        Write-Host "No owners specified."
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
+
+---------------------------------------------
+#TO GET MEMBERS OF DL'S
+
+# Array containing the DL names
+$DLArray = @("DL 1", "DL 2", "Final DL")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL members
+    $DLMembers = Get-DistributionGroupMember -Identity $DLName
+
+    # Output DL name and corresponding members' email addresses
+    Write-Host "DL: $DLName"
+    foreach ($Member in $DLMembers) {
+        Write-Host "  $($Member.PrimarySmtpAddress)"
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
+
+-----------------------------------------------------
+
+
+#THIS IS THE SCRIPT TO GET DESCRIPTION OF DL'S
+
+#Create array with the DL names you want to get info for
+$DLs = @("DL 1", "DL 2", "Final DL")  
+
+#Create array to store output
+$DLInfo = @()
+
+#Loop through the array  
+foreach ($DLName in $DLs) {
+
+  #Get the distribution group details for this DL
+  $DLDetails = Get-DistributionGroup $DLName | Select Name, Description  
+
+  #Add details to output array
+  $DLInfo += $DLDetails
+
+}
+
+#Output array with selected DL descriptions 
+$DLInfo
+
+------------------------------------------------------------
+#TO GET ALL SMTP'S OF DL'S (RUN IN ON PREM EXCHNAGE)
+
+$dlArray = @("DL 1", "DL 2", "Final DL")
+
+foreach ($dlName in $dlArray) {
+    $distributionGroup = Get-DistributionGroup -Identity $dlName
+
+    if ($distributionGroup) {
+        # Output distribution group name as a header
+        Write-Host "$dlName"
+
+        $filteredEmailAddresses = $distributionGroup.EmailAddresses | Where-Object {
+            $_ -ne $null -and $_ -ne $distributionGroup.PrimarySmtpAddress
+        }
+
+        # Output filtered email addresses for the current distribution group
+        $filteredEmailAddresses | ForEach-Object { Write-Host "  $_" }
+
+        # Add a newline for better separation between groups
+        Write-Host ""
+    }
+}
+----------------------------------------------------------------
+#TO CREATE DL'S USING CSV
+
+$groups = Import-Csv "/home/noman/Batch 2 dl migration.csv"
+
+foreach ($group in $groups) {
+
+    $name = $group.Name  
+    $alias = $group.Alias
+    $desc = $group.Description 
+    $managedBy = $group.ManagedBy -split ";" 
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress -Description $desc
+
+}
+
+----------------------------------------------
+#TO ADD ALL THE SMTP'S OD DL'S AFTER THEY ARE CREATED 
+
+# Define a hashtable where keys are distribution group names and values are arrays of email addresses
+$DistributionGroups = @{
+    "Final DL" = @("finalDL321341@infosystech.co.uk", "finalDL4561@infosystech.co.uk")
+    "DL 2" = @("finalDL3212@infosystech.co.uk", "Finaldl123@infosystech.co.uk")
+    "DL 1" = @("sample@infosystech.co.uk", "sample2@infoSystechs.onmicrosoft.com")
+}
+
+# Iterate through the hashtable
+foreach ($dlName in $DistributionGroups.Keys) {
+    $emailAddresses = $DistributionGroups[$dlName]
+
+    # Set the email addresses for the distribution group
+    Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
+}
