@@ -1,0 +1,2 @@
+Get-ReceiveConnector | Format-List Name,Bindings
+Get-SendConnector | Format-List Name,SourceTransportServers
