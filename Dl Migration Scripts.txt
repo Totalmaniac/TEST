@@ -119,9 +119,13 @@ foreach ($group in $groups) {
 
 # Define a hashtable where keys are distribution group names and values are arrays of email addresses
 $DistributionGroups = @{
-    "Final DL" = @("finalDL321341@infosystech.co.uk", "finalDL4561@infosystech.co.uk")
-    "DL 2" = @("finalDL3212@infosystech.co.uk", "Finaldl123@infosystech.co.uk")
-    "DL 1" = @("sample@infosystech.co.uk", "sample2@infoSystechs.onmicrosoft.com")
+"JustDeliveryDataAnalysisTeam@wearejust.co.uk" =@("smtp:JustDeliveryDataAnalysisTeam@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3d355d732c9d42ce8087aa5fb1cd3664-Just Delive","smtp:JustDeliveryDataAnalysisTeam@justretirement.onmicrosoft.com","smtp:JustDeliveryDataAnalysisTeam@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataAnalysisTeam;")
+
+"JustDeliveryDataTeam-GodelConsultantsDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8c267675e89749da939b1b1bda8b8179-Just Delive","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-GodelConsultantsDL;")
+
+"JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2d040c50fee1490da816de6c7e33bb3c-9b83460b-bc","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-ThirdPartyConsultan;")
+
+"JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;")
 }
 
 # Iterate through the hashtable
