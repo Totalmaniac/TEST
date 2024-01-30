@@ -1,0 +1,161 @@
+$dl = "JustDeliveryDL@wearejust.co.uk"
+$members = Get-DistributionGroupMember -Identity $dl | 
+             ForEach-Object { 
+                Get-Recipient -Identity $_.Name | 
+                    Select-Object -ExpandProperty PrimarySmtpAddress 
+             }
+
+$members
+
+--------------------------------------
+
+$DLOwners = Get-DistributionGroup "JustDeliveryBITeamDL@wearejust.co.uk
+" | Select-Object ManagedBy
+
+ForEach ($owner in $DLOwners.ManagedBy){
+    Get-User -Filter "UserPrincipalName -eq '$owner'" | Select-Object PrimarySmtpAddress
+}
+DLOwners
+
+---------------------------------------------
+
+
+$lists = @("JustDeliveryDataAnalysisTeam@wearejust.co.uk","JustDeliveryDataTeam-GodelConsultantsDL@wearejust.co.uk","JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk","JustDeliveryDataTeamCommunicateIncidentsDL@wearejust.co.uk","JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk","JustDeliveryDL@wearejust.co.uk","JustDeliveryDWDevelopers@wearejust.co.uk","JustDeliveryEngineeringGodelDL@wearejust.co.uk","JustDeliveryInformationSecurityChangeApprovalDL@wearejust.co.uk","JustDeliveryInfrastructureArchitectureDL@wearejust.co.uk","JustDeliveryInfrastructureChangeApprovalDL@wearejust.co.uk","JustDeliveryITGovernanceDL@wearejust.co.uk","JustDeliveryLeadBusinessAnalystsDL@wearejust.co.uk","JustDeliveryManagementTeamDL@wearejust.co.uk","JustDeliveryPartnersDL@wearejust.co.uk","JustDeliveryPeopleManagers@wearejust.co.uk","JustDeliveryPlatformTeamDL@wearejust.co.uk")
+
+$results = @()
+
+foreach ($list in $lists){
+
+    $dl = Get-DistributionGroup -Identity $list
+
+    $details = [PSCustomObject]@{
+        Name = $dl.DisplayName
+        Description = $dl.Description
+    }
+
+    $results += $details
+
+-----------------------------------------------------
+
+#Create array with the DL names you want to get info for
+$DLs = @("JustDeliveryPMPracticeGroupDL@wearejust.co.uk","JustDeliveryProjectManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryProjectManagersDL@wearejust.co.uk","JustDeliveryReleaseManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryRetirementLendingDL@wearejust.co.uk","JustDeliveryScrumMastersDL@wearejust.co.uk","JustDeliverySecurityRequestsDL@wearejust.co.uk","JustDeliveryServiceDeskChangeApprovalDL@wearejust.co.uk","JustDeliverySSABAttendeesDL@wearejust.co.uk","JustDeliveryTechnicalArchitectureDL@wearejust.co.uk","JustDeliveryTechnologySKIPLevelDL@wearejust.co.uk","JustDeliveryUKRetailCareProjectTeamDL@wearejust.co.uk","JustDeliveryUKRetailGreenteamDL@wearejust.co.uk","JustDeliveryUKRetailPricingCommittee@wearejust.co.uk","JustDeliveryUKRetailRateChangeCommittee@wearejust.co.uk","JustDeliveryUKRetailValueStreamDL@wearejust.co.uk","JustDeliveryUKRetailYellowteamDL@wearejust.co.uk","JustDeliveryVaronisAlertsDL@wearejust.co.uk")  
+
+#Create array to store output
+$DLInfo = @()
+
+#Loop through the array  
+foreach ($DLName in $DLs) {
+
+  #Get the distribution group details for this DL
+  $DLDetails = Get-DistributionGroup $DLName | Select Name, Description  
+
+  #Add details to output array
+  $DLInfo += $DLDetails
+
+}
+
+#Output array with selected DL descriptions 
+$DLInfo
+
+------------------------------------------------------------
+
+$dlArray = @("JustDeliveryPMPracticeGroupDL@wearejust.co.uk","JustDeliveryProjectManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryProjectManagersDL@wearejust.co.uk","JustDeliveryReleaseManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryRetirementLendingDL@wearejust.co.uk","JustDeliveryScrumMastersDL@wearejust.co.uk","JustDeliverySecurityRequestsDL@wearejust.co.uk","JustDeliveryServiceDeskChangeApprovalDL@wearejust.co.uk","JustDeliverySSABAttendeesDL@wearejust.co.uk","JustDeliveryTechnicalArchitectureDL@wearejust.co.uk","JustDeliveryTechnologySKIPLevelDL@wearejust.co.uk","JustDeliveryUKRetailCareProjectTeamDL@wearejust.co.uk","JustDeliveryUKRetailGreenteamDL@wearejust.co.uk","JustDeliveryUKRetailPricingCommittee@wearejust.co.uk","JustDeliveryUKRetailRateChangeCommittee@wearejust.co.uk","JustDeliveryUKRetailValueStreamDL@wearejust.co.uk","JustDeliveryUKRetailYellowteamDL@wearejust.co.uk","JustDeliveryVaronisAlertsDL@wearejust.co.uk"
+)
+
+foreach ($dlName in $dlArray) {
+    $distributionGroup = Get-DistributionGroup -Identity $dlName
+
+    if ($distributionGroup) {
+        # Output distribution group name as a header
+        Write-Host "$dlName"
+
+        $filteredEmailAddresses = $distributionGroup.EmailAddresses | Where-Object {
+            $_ -ne $null -and $_ -ne $distributionGroup.PrimarySmtpAddress
+        }
+
+        # Output filtered email addresses for the current distribution group
+        $filteredEmailAddresses | ForEach-Object { Write-Host "  $_" }
+
+        # Add a newline for better separation between groups
+        Write-Host ""
+    }
+}
+----------------------------------------------------------------
+# Array containing the DL names
+$DLArray = @("JustDeliveryPMPracticeGroupDL@wearejust.co.uk","JustDeliveryProjectManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryProjectManagersDL@wearejust.co.uk","JustDeliveryReleaseManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryRetirementLendingDL@wearejust.co.uk","JustDeliveryScrumMastersDL@wearejust.co.uk","JustDeliverySecurityRequestsDL@wearejust.co.uk","JustDeliveryServiceDeskChangeApprovalDL@wearejust.co.uk","JustDeliverySSABAttendeesDL@wearejust.co.uk","JustDeliveryTechnicalArchitectureDL@wearejust.co.uk","JustDeliveryTechnologySKIPLevelDL@wearejust.co.uk","JustDeliveryUKRetailCareProjectTeamDL@wearejust.co.uk","JustDeliveryUKRetailGreenteamDL@wearejust.co.uk","JustDeliveryUKRetailPricingCommittee@wearejust.co.uk","JustDeliveryUKRetailRateChangeCommittee@wearejust.co.uk","JustDeliveryUKRetailValueStreamDL@wearejust.co.uk","JustDeliveryUKRetailYellowteamDL@wearejust.co.uk","JustDeliveryVaronisAlertsDL@wearejust.co.uk")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL members
+    $DLMembers = Get-DistributionGroupMember -Identity $DLName
+
+    # Output DL name and corresponding members
+    Write-Host "DL: $DLName"
+    foreach ($Member in $DLMembers) {
+        Write-Host "  Member: $($Member.DisplayName)"
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
+-----------------------------------------------------------
+
+# Array containing the DL names
+$DLArray = @("JustDeliveryPMPracticeGroupDL@wearejust.co.uk","JustDeliveryProjectManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryProjectManagersDL@wearejust.co.uk","JustDeliveryReleaseManagementChangeApprovalDL@wearejust.co.uk","JustDeliveryRetirementLendingDL@wearejust.co.uk","JustDeliveryScrumMastersDL@wearejust.co.uk","JustDeliverySecurityRequestsDL@wearejust.co.uk","JustDeliveryServiceDeskChangeApprovalDL@wearejust.co.uk","JustDeliverySSABAttendeesDL@wearejust.co.uk","JustDeliveryTechnicalArchitectureDL@wearejust.co.uk","JustDeliveryTechnologySKIPLevelDL@wearejust.co.uk","JustDeliveryUKRetailCareProjectTeamDL@wearejust.co.uk","JustDeliveryUKRetailGreenteamDL@wearejust.co.uk","JustDeliveryUKRetailPricingCommittee@wearejust.co.uk","JustDeliveryUKRetailRateChangeCommittee@wearejust.co.uk","JustDeliveryUKRetailValueStreamDL@wearejust.co.uk","JustDeliveryUKRetailYellowteamDL@wearejust.co.uk","JustDeliveryVaronisAlertsDL@wearejust.co.uk")
+
+# Loop through each DL in the array
+foreach ($DLName in $DLArray) {
+    # Get DL information including managed by (owners)
+    $DLInfo = Get-DistributionGroup -Identity $DLName
+
+    # Output DL name and corresponding owners
+    Write-Host "DL: $($DLInfo.DisplayName)"
+    
+    # Check if the DL has any owners
+    if ($DLInfo.ManagedBy -ne $null) {
+        Write-Host "  Owners:"
+        foreach ($Owner in $DLInfo.ManagedBy) {
+            $OwnerUser = Get-Mailbox $Owner
+            Write-Host "    $($OwnerUser.DisplayName)"
+        }
+    }
+    else {
+        Write-Host "  No owners specified."
+    }
+
+    # Add a separator for better readability
+    Write-Host "------------------------"
+}
+-------------------------------------------------------------
+
+$groups = Import-Csv "/home/noman/Batch 2 dl migration.csv"
+
+foreach ($group in $groups) {
+
+    $name = $group.Name  
+    $alias = $group.Alias
+    $desc = $group.Description 
+    $managedBy = $group.ManagedBy -split ";" 
+    $members = $group.Members -split ";"
+    $primarySmtpAddress = $group.PrimarySmtpAddress
+
+    New-DistributionGroup -Name $name -Alias $alias -ManagedBy $managedBy -Members $members -PrimarySmtpAddress $primarySmtpAddress -Description $desc
+
+}
+
+----------------------------------------------
+
+# Define a hashtable where keys are distribution group names and values are arrays of email addresses
+$DistributionGroups = @{
+    "Final DL" = @("finalDL321341@infosystech.co.uk", "finalDL4561@infosystech.co.uk")
+    "DL 2" = @("finalDL3212@infosystech.co.uk", "Finaldl123@infosystech.co.uk")
+    "DL 1" = @("sample@infosystech.co.uk", "sample2@infoSystechs.onmicrosoft.com")
+}
+
+# Iterate through the hashtable
+foreach ($dlName in $DistributionGroups.Keys) {
+    $emailAddresses = $DistributionGroups[$dlName]
+
+    # Set the email addresses for the distribution group
+    Set-DistributionGroup -Identity $dlName -EmailAddresses @{Add=$emailAddresses}
+}
