@@ -135,6 +135,17 @@ $DistributionGroups = @{
 
 "JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;")
 
+-----------------------------------------------------------------------------
+"JustDeliveryDL@wearejust.co.uk" =@("smtp:JustDeliveryDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8f11f850a67a4c26a00e115c06011114-Just Delive","smtp:JustDeliveryDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDL;")
+  
+
+"JustDeliveryDWDevelopers@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e7b181225f684b6f8776184cadfc1154-Just Delive","smtp:JustDeliveryDWDevelopers@justretirement.onmicrosoft.com","smtp:JustDeliveryDWDevelopers@justretirement.com","smtp:JustDeliveryDWDevelopers@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDWDevelopers;")
+
+
+"JustDeliveryEngineeringGodelDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d0cb81ff8f4e43a09e5ce793d37cba12-Just Delive","smtp:JustDeliveryEngineeringGodelDL@justretirement.onmicrosoft.com","smtp:JustDeliveryEngineeringGodelDL@justretirement.com","smtp:JustDeliveryEngineeringGodelDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryEngineeringGodelDL;")
+
+
+"JustDeliveryInformationSecurityChangeApprovalDL@wearejust.co.uk" =@("smtp:JustDeliveryInformationSecurityChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=28f470b247634db1aa404a6772fbc7dd-Just Delive","smtp:JustDeliveryInformationSecurityChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryInformationSecurityChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryInformationSecurityChangeApp;")
 
 
 
