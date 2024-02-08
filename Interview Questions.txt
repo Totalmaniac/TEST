@@ -1,0 +1,38 @@
+Hyper V 
+- What is Hyper V?
+- How do you create and manage checkpoints in Hyper-V?
+- What are the different storage options for virtual machines in Hyper-V?
+
+Intune
+- How do you create a Clodu PC on Intune? Gweneral steps 
+- How does the provisioning policy work on intune?
+- What are the different enrollment methods for devices in Intune?
+- How can you connect to your W365 Cloud PC?
+
+Exchnage On-Prem and Online 
+- How do you migrate from on-premises Exchange to Exchange Online?
+- How can you migrate Dl's from on prem to online exchnage?
+- What are the different deployment options whn migrating from on prem to online 
+- When creating a batch of shared mailboxes in xchnage online why cant I see a specific mailbox even though it exsits. Give some reasons.
+- What are the diffrent types of groups in exchnage online?
+- How to configure mail flow of a shared mailbox and what does it do?
+
+VDI On-Prem
+- How can you create a VDI from server manager?
+- How What are pooled VDI's?
+- What are pools in server manager?
+- If I have permissions to a VDI but cannot connect ot it what could be the reasons? How would you trouleshoot this?
+
+Azure
+- How do you configure SSO for an enterprise applcation in Azure
+- How do you renew secrets for an enterprise application in azure
+- How do you take a backup of a VM or a backup of a disk in Azure
+- What is PIM in Azure and why is it used?
+
+Server
+- How can you decomission a server? Tell proper steps and precautions to be taken while doing this?
+- If you are unable to connect to a server which you have access to what troubleshooting steps would you take to see why you can't connect?
+- What is GPO in Active Directory?
+- How can you renew an internal SSL certificate of a srver? General steps.
+
+
