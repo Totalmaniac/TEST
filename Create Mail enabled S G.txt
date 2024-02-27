@@ -1,0 +1,11 @@
+# Connect to Exchange Online PowerShell
+Connect-ExchangeOnline -UserPrincipalName <AdminUPN> -ShowProgress $true
+
+# Create the mail-enabled security group
+New-DistributionGroup -Name "GroupName" -Type "Security" -MemberJoinRestriction "Closed" -MemberDepartRestriction "Closed" -DisplayName "Display Name" -Alias "Alias" -PrimarySmtpAddress "group@example.com"
+
+# Add an owner to the group
+Add-DistributionGroupOwner -Identity "GroupName" -Owner "OwnerUPN"
+
+# Disconnect from Exchange Online PowerShell session (optional)
+Disconnect-ExchangeOnline -Confirm:$false
