@@ -1,0 +1,16 @@
+groupName = "YourSecurityGroupName"
+
+# Get the members of the security group
+try {
+    $members = Get-ADGroupMember -Identity $groupName
+    if ($members.Count -eq 0) {
+        Write-Host "The security group '$groupName' has no members."
+    } else {
+        Write-Host "Members of the security group '$groupName':"
+        foreach ($member in $members) {
+            Write-Host $member.Name
+        }
+    }
+} catch {
+    Write-Host "An error occurred: $_"
+}
