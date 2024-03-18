@@ -1,0 +1,25 @@
+# Connect to Azure
+Connect-AzAccount
+
+# Get all Enterprise Applications
+$enterpriseApps = Get-AzADServicePrincipal -All $true | Where-Object {$_.Tags.ContainsKey('WindowsAzureActiveDirectoryIntegratedApp')}
+
+# Initialize an array to store results
+$certificateExpiryDates = @()
+
+# Loop through each Enterprise Application
+foreach ($app in $enterpriseApps) {
+    # Check if certificates exist
+    if ($app.KeyCredentials.Count -gt 0) {
+        # Loop through each certificate
+        foreach ($cert in $app.KeyCredentials) {
+            $certificateExpiryDates += [PSCustomObject]@{
+                'Enterprise Application Name' = $app.DisplayName
+                'Certificate Expiry Date'     = $cert.EndDate
+            }
+        }
+    }
+}
+
+# Display the results
+$certificateExpiryDates | Format-Table -AutoSize
