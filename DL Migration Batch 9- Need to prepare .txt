@@ -257,227 +257,229 @@ DL: _DLMonthEndStatusUpdates@wearejust.co.uk
 DL: ActuarialDevelopmentsDL@wearejust.co.uk
 ------------------------
 DL: ActuarialReportingandAnalysisDL@wearejust.co.uk
-  Jeremy.James@wearejust.co.uk
-  Emma.Mowatt@wearejust.co.uk
-  Jez.Monksfield@wearejust.co.uk
-  Janet.Death@wearejust.co.uk
-  Dean.Senior@wearejust.co.uk
-  James.Hoggan@wearejust.co.uk
-  Susan.Young@wearejust.co.uk
-  Klaus.Eifridt@wearejust.co.uk
-  Natalie.Creevy@wearejust.co.uk
-  Devendra.Paramasvaran@wearejust.co.uk
-  Anthony.Rohman@wearejust.co.uk
-  Wai.Lau@wearejust.co.uk
-  Dan.Charles@wearejust.co.uk
-  Karthiga.Kiritharagopalan@wearejust.co.uk
-  Rachael.Davies@wearejust.co.uk
-  Amanda.Chikosha@wearejust.co.uk
-  Kishan.Amin@wearejust.co.uk
-  Sana.Hussain@wearejust.co.uk
-  Zachary.Ieong@wearejust.co.uk
-  Sabrina.Shergill@wearejust.co.uk
-  Osama.Rehman@wearejust.co.uk
-  Kelvin.Li@wearejust.co.uk
-  Amy.Liu@wearejust.co.uk
-  Sherry.Zhang@wearejust.co.uk
-  Liam.Ramful@wearejust.co.uk
-  Johnathan.Hoy@wearejust.co.uk
-  Jaimin.Vadhwana@wearejust.co.uk
-  David.Walker@wearejust.co.uk
-  Sean.McCready@wearejust.co.uk
-  Stephen.Ohuneniese@wearejust.co.uk
-  Adi.Sepang@wearejust.co.uk
-  Renishka.DeSilva@wearejust.co.uk
-  Yuhe.Zhang@wearejust.co.uk
-  Tiffany.Lam@wearejust.co.uk
-  Michelle.HarneyNolan@wearejust.co.uk
-  Ethan.Gray@wearejust.co.uk
-  James.Cooper@wearejust.co.uk
-  Bryan.So@wearejust.co.uk
-  Vasilis.Pepetsios@wearejust.co.uk
-  Kieran.Holliday@wearejust.co.uk
-  Kurt.Yuan@wearejust.co.uk
+  Jeremy.James@wearejust.co.uk;Emma.Mowatt@wearejust.co.uk;Jez.Monksfield@wearejust.co.uk;
+Janet.Death@wearejust.co.uk;
+Dean.Senior@wearejust.co.uk;
+James.Hoggan@wearejust.co.uk;
+Susan.Young@wearejust.co.uk;
+Klaus.Eifridt@wearejust.co.uk;
+Natalie.Creevy@wearejust.co.uk;
+Devendra.Paramasvaran@wearejust.co.uk;
+Anthony.Rohman@wearejust.co.uk;
+Wai.Lau@wearejust.co.uk;
+Dan.Charles@wearejust.co.uk;
+Karthiga.Kiritharagopalan@wearejust.co.uk;
+Rachael.Davies@wearejust.co.uk;
+Amanda.Chikosha@wearejust.co.uk;
+Kishan.Amin@wearejust.co.uk;
+Sana.Hussain@wearejust.co.uk;
+Zachary.Ieong@wearejust.co.uk;
+Sabrina.Shergill@wearejust.co.uk;
+Osama.Rehman@wearejust.co.uk;
+Kelvin.Li@wearejust.co.uk;
+Amy.Liu@wearejust.co.uk;
+Sherry.Zhang@wearejust.co.uk;
+Liam.Ramful@wearejust.co.uk;
+Johnathan.Hoy@wearejust.co.uk;
+Jaimin.Vadhwana@wearejust.co.uk;
+David.Walker@wearejust.co.uk;
+Sean.McCready@wearejust.co.uk;
+Stephen.Ohuneniese@wearejust.co.uk;
+Adi.Sepang@wearejust.co.uk;
+Renishka.DeSilva@wearejust.co.uk;
+Yuhe.Zhang@wearejust.co.uk;
+Tiffany.Lam@wearejust.co.uk;
+Michelle.HarneyNolan@wearejust.co.uk;
+Ethan.Gray@wearejust.co.uk;
+James.Cooper@wearejust.co.uk;
+Bryan.So@wearejust.co.uk;
+Vasilis.Pepetsios@wearejust.co.uk;
+Kieran.Holliday@wearejust.co.uk;
+Kurt.Yuan@wearejust.co.uk
+
 ------------------------
 DL: CoSeCDL@wearejust.co.uk
-  Natasha.Crystal@wearejust.co.uk
-  Simon.Watson@wearejust.co.uk
-  Hilary.Black@wearejust.co.uk
-  Stephanie.Spencer@wearejust.co.uk
+  Natasha.Crystal@wearejust.co.uk;
+Simon.Watson@wearejust.co.uk;
+Hilary.Black@wearejust.co.uk;
+Stephanie.Spencer@wearejust.co.uk;
 ------------------------
 DL: FinanceDataTeamDL@wearejust.co.uk
-  Mathew.Wakefield@wearejust.co.uk
-  Raidas.Naginevicius@wearejust.co.uk
-  Matthew.Allard@wearejust.co.uk
-  Albano.Seitaj@wearejust.co.uk
-  HoKan.Chow@wearejust.co.uk
-  Srividhya.Veluswamy@wearejust.co.uk
-  Thrilokya.Dharma@wearejust.co.uk
-  Peter.Abraham@wearejust.co.uk
-  Jason.Higgs@wearejust.co.uk
-  Moiez.Babiker@wearejust.co.uk
-  Matt.Gee@wearejust.co.uk
+  Mathew.Wakefield@wearejust.co.uk;
+Raidas.Naginevicius@wearejust.co.uk;
+Matthew.Allard@wearejust.co.uk;
+Albano.Seitaj@wearejust.co.uk;
+HoKan.Chow@wearejust.co.uk;
+Srividhya.Veluswamy@wearejust.co.uk;
+Thrilokya.Dharma@wearejust.co.uk;
+Peter.Abraham@wearejust.co.uk;
+Jason.Higgs@wearejust.co.uk;
+Moiez.Babiker@wearejust.co.uk;
+Matt.Gee@wearejust.co.uk;
 ------------------------
 DL: FinanceSystems1@wearejust.co.uk
-  Graham.Robertson@wearejust.co.uk
-  Terry.Gadd@wearejust.co.uk
-  Sarah.Clarke@wearejust.co.uk
-  Allan.Webster@wearejust.co.uk
-  Mark.WWilliams@wearejust.co.uk
-  Tristan.Jackson@wearejust.co.uk
-  Kamran.Khan@wearejust.co.uk
-  Ian.Heeley@wearejust.co.uk
-  Peter.Abraham@wearejust.co.uk
-  Giancarlo.Mosetti@wearejust.co.uk
-  Sam.Smith@wearejust.co.uk
+  Graham.Robertson@wearejust.co.uk;
+Terry.Gadd@wearejust.co.uk;
+Sarah.Clarke@wearejust.co.uk;
+Allan.Webster@wearejust.co.uk;
+Mark.WWilliams@wearejust.co.uk;
+Tristan.Jackson@wearejust.co.uk;
+Kamran.Khan@wearejust.co.uk;
+Ian.Heeley@wearejust.co.uk;
+Peter.Abraham@wearejust.co.uk;
+Giancarlo.Mosetti@wearejust.co.uk;
+Sam.Smith@wearejust.co.uk;
+
 ------------------------
 DL: GroupFinanceTreasuryTeamDL@wearejust.co.uk
-  Nick.Ketley@wearejust.co.uk
-  Jonathan.Bell@wearejust.co.uk
-  Tom.Eaton@wearejust.co.uk
-  Nalini.Potavadoo@wearejust.co.uk
-  Lucy.Goriup@wearejust.co.uk
-  Daniel.Snipe@wearejust.co.uk
-  Sam.Wyan@wearejust.co.uk
-  Jason.Russell@wearejust.co.uk
-  Martin.Strong@wearejust.co.uk
-  Richard.Haffenden@wearejust.co.uk
-  Sharon.Tippler@Wearejust.co.uk
-  Radina.Petkova@wearejust.co.uk
-  Melanie.Bastien@wearejust.co.uk
-  Niraj.Patel@wearejust.co.uk
-  Emeric.Leyrat@wearejust.co.uk
-  Tarryn.Hoare@wearejust.co.uk
-  Matt.Cowie@wearejust.co.uk
-  Ethel.Muringani@wearejust.co.uk
-  Marek.Sasura@wearejust.co.uk
-  Ken.Leung@wearejust.co.uk
-  Helen.StanleyNgada@wearejust.co.uk
-  Mary.Olanipekun@wearejust.co.uk
-  Derick.Varghese@wearejust.co.uk
-  Johan.Doresamy@wearejust.co.uk
-  Ben.Clarkson@wearejust.co.uk
-  Simon.Quinn@wearejust.co.uk
-  Amanda.Nicholls@wearejust.co.uk
-  Angela.Akinyi@wearejust.co.uk
-  Deborah.Burkitt@wearejust.co.uk
-  Ashwini.Ravi@wearejust.co.uk
+
+Nick.Ketley@wearejust.co.uk;
+Jonathan.Bell@wearejust.co.uk;
+Tom.Eaton@wearejust.co.uk;
+Nalini.Potavadoo@wearejust.co.uk;
+Lucy.Goriup@wearejust.co.uk;
+Daniel.Snipe@wearejust.co.uk;
+Sam.Wyan@wearejust.co.uk;
+Jason.Russell@wearejust.co.uk;
+Martin.Strong@wearejust.co.uk;
+Richard.Haffenden@wearejust.co.uk;
+Sharon.Tippler@Wearejust.co.uk;
+Radina.Petkova@wearejust.co.uk;
+Melanie.Bastien@wearejust.co.uk;
+Niraj.Patel@wearejust.co.uk;
+Emeric.Leyrat@wearejust.co.uk;
+Tarryn.Hoare@wearejust.co.uk;
+Matt.Cowie@wearejust.co.uk;
+Ethel.Muringani@wearejust.co.uk;
+Marek.Sasura@wearejust.co.uk;
+Ken.Leung@wearejust.co.uk;
+Helen.StanleyNgada@wearejust.co.uk;
+Mary.Olanipekun@wearejust.co.uk;
+Derick.Varghese@wearejust.co.uk;
+Johan.Doresamy@wearejust.co.uk;
+Ben.Clarkson@wearejust.co.uk;
+Simon.Quinn@wearejust.co.uk;
+Amanda.Nicholls@wearejust.co.uk;
+Angela.Akinyi@wearejust.co.uk;
+Deborah.Burkitt@wearejust.co.uk;
+Ashwini.Ravi@wearejust.co.uk;
 ------------------------
 DL: JustGroupFinanceTeamDL@wearejust.co.uk
-  Theresa.Hartigan@wearejust.co.uk
-  Rick.Britton@wearejust.co.uk
-  Denize.Shevill@wearejust.co.uk
-  Mark.Perry@wearejust.co.uk
-  Mark.Grey@wearejust.co.uk
-  Jonathan.Bell@wearejust.co.uk
-  Stephen.Hewes@wearejust.co.uk
-  Babs.Jallow@wearejust.co.uk
-  Penny.Thompson@wearejust.co.uk
-  Tom.Eaton@wearejust.co.uk
-  Obi.Iroegbulem@wearejust.co.uk
-  James.Buck@wearejust.co.uk
-  Corinne.Smith@wearejust.co.uk
-  Nalini.Potavadoo@wearejust.co.uk
-  Maria.Stammers@wearejust.co.uk
-  Lucy.Goriup@wearejust.co.uk
-  Alistair.Black@wearejust.co.uk
-  Scott.Johnston@wearejust.co.uk
-  Lisa.Brider@wearejust.co.uk
-  Sophie.Fewings@wearejust.co.uk
-  Jason.Russell@wearejust.co.uk
-  Mike.Whiteman@wearejust.co.uk
-  Paul.Johnson@wearejust.co.uk
-  Hannah.Smith@wearejust.co.uk
-  Martin.Strong@wearejust.co.uk
-  Naomi.Ferguson@wearejust.co.uk
-  Richard.Haffenden@wearejust.co.uk
-  Graham.Robertson@wearejust.co.uk
-  Sharon.Tippler@Wearejust.co.uk
-  Iain.Phillips@wearejust.co.uk
-  Simon.Chiles@wearejust.co.uk
-  Claire.Hodgson@wearejust.co.uk
-  Alys.Burton@wearejust.co.uk
-  Radina.Petkova@wearejust.co.uk
-  Ken.Hunt@wearejust.co.uk
-  Allan.Webster@wearejust.co.uk
-  Bingnan.Lai-Zhao@wearejust.co.uk
-  Melanie.Bastien@wearejust.co.uk
-  Mohammed.Rahman@wearejust.co.uk
-  Alastair.Mair@wearejust.co.uk
-  Sabita.Gurung@wearejust.co.uk
-  Matt.Cowie@wearejust.co.uk
-  Sushma.Gurung@wearejust.co.uk
-  Ethel.Muringani@wearejust.co.uk
-  Mina.Zahedi@wearejust.co.uk
-  Michelle.Harbour@wearejust.co.uk
-  Graeme.Marsh@wearejust.co.uk
-  Sammi.Choi@wearejust.co.uk
-  Mary.Olanipekun@wearejust.co.uk
-  Alvin.Arumugam@wearejust.co.uk
-  Faye.MacCallum@wearejust.co.uk
-  Laura.Jolly@wearejust.co.uk
-  Johan.Doresamy@wearejust.co.uk
-  Ben.Clarkson@wearejust.co.uk
-  Simon.Quinn@wearejust.co.uk
-  Winnie.Wong@wearejust.co.uk
-  Amanda.Nicholls@wearejust.co.uk
-  Rob.Myers@wearejust.co.uk
+
+Theresa.Hartigan@wearejust.co.uk;
+Rick.Britton@wearejust.co.uk;
+Denize.Shevill@wearejust.co.uk;
+Mark.Perry@wearejust.co.uk;
+Mark.Grey@wearejust.co.uk;
+Jonathan.Bell@wearejust.co.uk;
+Stephen.Hewes@wearejust.co.uk;
+Babs.Jallow@wearejust.co.uk;
+Penny.Thompson@wearejust.co.uk;
+Tom.Eaton@wearejust.co.uk;
+Obi.Iroegbulem@wearejust.co.uk;
+James.Buck@wearejust.co.uk;
+Corinne.Smith@wearejust.co.uk;
+Nalini.Potavadoo@wearejust.co.uk;
+Maria.Stammers@wearejust.co.uk;
+Lucy.Goriup@wearejust.co.uk;
+Alistair.Black@wearejust.co.uk;
+Scott.Johnston@wearejust.co.uk;
+Lisa.Brider@wearejust.co.uk;
+Sophie.Fewings@wearejust.co.uk;
+Jason.Russell@wearejust.co.uk;
+Mike.Whiteman@wearejust.co.uk;
+Paul.Johnson@wearejust.co.uk;
+Hannah.Smith@wearejust.co.uk;
+Martin.Strong@wearejust.co.uk;
+Naomi.Ferguson@wearejust.co.uk;
+Richard.Haffenden@wearejust.co.uk;
+Graham.Robertson@wearejust.co.uk;
+Sharon.Tippler@Wearejust.co.uk;
+Iain.Phillips@wearejust.co.uk;
+Simon.Chiles@wearejust.co.uk;
+Claire.Hodgson@wearejust.co.uk;
+Alys.Burton@wearejust.co.uk;
+Radina.Petkova@wearejust.co.uk;
+Ken.Hunt@wearejust.co.uk;
+Allan.Webster@wearejust.co.uk;
+Bingnan.Lai-Zhao@wearejust.co.uk;
+Melanie.Bastien@wearejust.co.uk;
+Mohammed.Rahman@wearejust.co.uk;
+Alastair.Mair@wearejust.co.uk;
+Sabita.Gurung@wearejust.co.uk;
+Matt.Cowie@wearejust.co.uk;
+Sushma.Gurung@wearejust.co.uk;
+Ethel.Muringani@wearejust.co.uk;
+Mina.Zahedi@wearejust.co.uk;
+Michelle.Harbour@wearejust.co.uk;
+Graeme.Marsh@wearejust.co.uk;
+Sammi.Choi@wearejust.co.uk;
+Mary.Olanipekun@wearejust.co.uk;
+Alvin.Arumugam@wearejust.co.uk;
+Faye.MacCallum@wearejust.co.uk;
+Laura.Jolly@wearejust.co.uk;
+Johan.Doresamy@wearejust.co.uk;
+Ben.Clarkson@wearejust.co.uk;
+Simon.Quinn@wearejust.co.uk;
+Winnie.Wong@wearejust.co.uk;
+Amanda.Nicholls@wearejust.co.uk;
+Rob.Myers@wearejust.co.uk;
 ------------------------
 DL: JustLegalFLBDL@wearejust.co.uk
-  Suhasini.Gunasena@wearejust.co.uk
-  Clive.Giddings@wearejust.co.uk
-  Kate.Halliwell@wearejust.co.uk
-  Karen.Pettigrew@wearejust.co.uk
-  Elliott.Hughes@wearejust.co.uk
-  Tania.Brick@wearejust.co.uk
-  Fiona.Lavender-Brown@wearejust.co.uk
-  Rachel.Kimberley@wearejust.co.uk
-  Kate.Leonard@wearejust.co.uk
-  Chloe.Gaston@wearejust.co.uk
-  Saman.SalimiPour@wearejust.co.uk
-  Verity.Cruse@wearejust.co.uk
-  Rebecca.McKay@wearejust.co.uk
-  Chloe.RJackson@wearejust.co.uk
-  Muskan.Bhalla@wearejust.co.uk
-  Ian.Dick@wearejust.co.uk
-  Oliver.Janhunen@wearejust.co.uk
+  Suhasini.Gunasena@wearejust.co.uk;
+Clive.Giddings@wearejust.co.uk;
+Kate.Halliwell@wearejust.co.uk;
+Karen.Pettigrew@wearejust.co.uk;
+Elliott.Hughes@wearejust.co.uk;
+Tania.Brick@wearejust.co.uk;
+Fiona.Lavender-Brown@wearejust.co.uk;
+Rachel.Kimberley@wearejust.co.uk;
+Kate.Leonard@wearejust.co.uk;
+Chloe.Gaston@wearejust.co.uk;
+Saman.SalimiPour@wearejust.co.uk;
+Verity.Cruse@wearejust.co.uk;
+Rebecca.McKay@wearejust.co.uk;
+Chloe.RJackson@wearejust.co.uk;
+Muskan.Bhalla@wearejust.co.uk;
+Ian.Dick@wearejust.co.uk;
+Oliver.Janhunen@wearejust.co.uk;
 ------------------------
 DL: AllFinanceLegalandCoSecDL@wearejust.co.uk
-  Paul.Gibbs@wearejust.co.uk
-  Paul.Kelly@wearejust.co.uk
-  JustLegalFLBDL@wearejust.co.uk
-  JustGroupFinanceTeamDL@wearejust.co.uk
-  ActuarialReportingandAnalysisDL@wearejust.co.uk
-  ActuarialSystemsDL@wearejust.co.uk
-  Alistair.Smith@wearejust.co.uk
-  Nigel.Rorke@wearejust.co.uk
-  Christine.Dyer@wearejust.co.uk
-  Kate.Leonard@wearejust.co.uk
-  FinanceDataTeamDL@wearejust.co.uk
-  Alex.Flynn@wearejust.co.uk
-  CoSeCDL@wearejust.co.uk
-  FinanceSystems1@wearejust.co.uk
-  Rakesh.Chopra@wearejust.co.uk
-  GroupFinanceTreasuryTeamDL@wearejust.co.uk
-  Kamran.Khan@wearejust.co.uk
-  Mina.Zahedi@wearejust.co.uk
-  Michelle.Harbour@wearejust.co.uk
-  Marie.Massey@wearejust.co.uk
-  Graeme.Marsh@wearejust.co.uk
-  Mark.Godson@wearejust.co.uk
-  Sammi.Choi@wearejust.co.uk
-  Mary.Olanipekun@wearejust.co.uk
-  Alvin.Arumugam@wearejust.co.uk
-  Faye.MacCallum@wearejust.co.uk
-  Giancarlo.Mosetti@wearejust.co.uk
-  Laura.Jolly@wearejust.co.uk
-  Johan.Doresamy@wearejust.co.uk
-  Ben.Clarkson@wearejust.co.uk
-  Simon.Quinn@wearejust.co.uk
-  Winnie.Wong@wearejust.co.uk
-  Amanda.Nicholls@wearejust.co.uk
-  Sam.Smith@wearejust.co.uk
-  Rob.Myers@wearejust.co.uk
+Paul.Gibbs@wearejust.co.uk;
+Paul.Kelly@wearejust.co.uk;
+JustLegalFLBDL@wearejust.co.uk;
+JustGroupFinanceTeamDL@wearejust.co.uk;
+ActuarialReportingandAnalysisDL@wearejust.co.uk;
+ActuarialSystemsDL@wearejust.co.uk;
+Alistair.Smith@wearejust.co.uk;
+Nigel.Rorke@wearejust.co.uk;
+Christine.Dyer@wearejust.co.uk;
+Kate.Leonard@wearejust.co.uk;
+FinanceDataTeamDL@wearejust.co.uk;
+Alex.Flynn@wearejust.co.uk;
+CoSeCDL@wearejust.co.uk;
+FinanceSystems1@wearejust.co.uk;
+Rakesh.Chopra@wearejust.co.uk;
+GroupFinanceTreasuryTeamDL@wearejust.co.uk;
+Kamran.Khan@wearejust.co.uk;
+Mina.Zahedi@wearejust.co.uk;
+Michelle.Harbour@wearejust.co.uk;
+Marie.Massey@wearejust.co.uk;
+Graeme.Marsh@wearejust.co.uk;
+Mark.Godson@wearejust.co.uk;
+Sammi.Choi@wearejust.co.uk;
+Mary.Olanipekun@wearejust.co.uk;
+Alvin.Arumugam@wearejust.co.uk;
+Faye.MacCallum@wearejust.co.uk;
+Giancarlo.Mosetti@wearejust.co.uk;
+Laura.Jolly@wearejust.co.uk;
+Johan.Doresamy@wearejust.co.uk;
+Ben.Clarkson@wearejust.co.uk;
+Simon.Quinn@wearejust.co.uk;
+Winnie.Wong@wearejust.co.uk;
+Amanda.Nicholls@wearejust.co.uk;
+Sam.Smith@wearejust.co.uk;
+Rob.Myers@wearejust.co.uk;
 ------------------------
 DL: InternalModel@wearejust.co.uk
   Stuart.Paton@wearejust.co.uk
@@ -507,67 +509,72 @@ DL: CapitalManagementDL@wearejust.co.uk
   Cormac.Gleeson@wearejust.co.uk
 ------------------------
 DL: ActuarialDL@wearejust.co.uk
-  ActuarialReportingandAnalysisDL@wearejust.co.uk
-  ActuarialSystemsDL@wearejust.co.uk
-  ActuarialDevelopmentsDL@wearejust.co.uk
-  CapitalManagementDL@wearejust.co.uk
-  AssetLiabilityManagementDL@wearejust.co.uk
+  ActuarialReportingandAnalysisDL@wearejust.co.uk;
+ActuarialSystemsDL@wearejust.co.uk;
+ActuarialDevelopmentsDL@wearejust.co.uk;
+CapitalManagementDL@wearejust.co.uk;
+AssetLiabilityManagementDL@wearejust.co.uk;
 ------------------------
 DL: DemographicRiskDL@wearejust.co.uk
-  Paul.Todd@wearejust.co.uk
-  Henry.Li@wearejust.co.uk
-  Sabrina.Kali@wearejust.co.uk
-  Alex.Birchall@wearejust.co.uk
-  Richard.Willets@wearejust.co.uk
-  Alex.Leonidas@wearejust.co.uk
-  Samiul.Zakaria@wearejust.co.uk
-  Zaki.Ward@wearejust.co.uk
-  Dan.Ryan@wearejust.co.uk
-  Sid.Modi@wearejust.co.uk
+  Paul.Todd@wearejust.co.uk;
+Henry.Li@wearejust.co.uk;
+Sabrina.Kali@wearejust.co.uk;
+Alex.Birchall@wearejust.co.uk;
+Richard.Willets@wearejust.co.uk;
+Alex.Leonidas@wearejust.co.uk;
+Samiul.Zakaria@wearejust.co.uk;
+Zaki.Ward@wearejust.co.uk;
+Dan.Ryan@wearejust.co.uk;
+Sid.Modi@wearejust.co.uk;
 ------------------------
 DL: GroupPricingDL@wearejust.co.uk
-  Paul.Jolly@wearejust.co.uk
-  Oliver.Marsh@wearejust.co.uk
-  Hazel.Tsang@wearejust.co.uk
-  Hari.Nair@wearejust.co.uk
-  Vincent.Wong@wearejust.co.uk
-  Stephen.Croombs@wearejust.co.uk
+  Paul.Jolly@wearejust.co.uk;
+Oliver.Marsh@wearejust.co.uk;
+Hazel.Tsang@wearejust.co.uk;
+Hari.Nair@wearejust.co.uk;
+Vincent.Wong@wearejust.co.uk;
+Stephen.Croombs@wearejust.co.uk;
 ------------------------
 DL: MDDemographicRiskDL@wearejust.co.uk
-  Daniel.Eayres@wearejust.co.uk
-  Jennie.Mussard@wearejust.co.uk
-  Kevin.Clarke@wearejust.co.uk
-  Paul.Todd@wearejust.co.uk
-  Tim.Crayford@wearejust.co.uk
-  Henry.Li@wearejust.co.uk
-  Sabrina.Kali@wearejust.co.uk
-  Alex.Birchall@wearejust.co.uk
-  Richard.Willets@wearejust.co.uk
-  Alex.Leonidas@wearejust.co.uk
-  Samiul.Zakaria@wearejust.co.uk
-  Daisy.Neave@wearejust.co.uk
-  Zaki.Ward@wearejust.co.uk
-  Sid.Modi@wearejust.co.uk
+  Daniel.Eayres@wearejust.co.uk;
+Jennie.Mussard@wearejust.co.uk;
+Kevin.Clarke@wearejust.co.uk;
+Paul.Todd@wearejust.co.uk;
+Tim.Crayford@wearejust.co.uk;
+Henry.Li@wearejust.co.uk;
+Sabrina.Kali@wearejust.co.uk;
+Alex.Birchall@wearejust.co.uk;
+Richard.Willets@wearejust.co.uk;
+Alex.Leonidas@wearejust.co.uk;
+Samiul.Zakaria@wearejust.co.uk;
+Daisy.Neave@wearejust.co.uk;
+Zaki.Ward@wearejust.co.uk;
+Sid.Modi@wearejust.co.uk;
+
 ------------------------
 DL: ReinsuranceDL@wearejust.co.uk
-  Rhian.Price@wearejust.co.uk
-  Katherine.Badcock@wearejust.co.uk
-  Michelle.O'Neill@wearejust.co.uk
+  Rhian.Price@wearejust.co.uk;
+Katherine.Badcock@wearejust.co.uk;
+Michelle.O'Neill@wearejust.co.uk;
+
 ------------------------
 DL: TechnicalUnderwritingDL@wearejust.co.uk
-  Melissa.Taylor@wearejust.co.uk
-  Graham.Childs@wearejust.co.uk
-  Paul.Hoskins@wearejust.co.uk
-  Nikolai.Harrowing@wearejust.co.uk
+  Melissa.Taylor@wearejust.co.uk;
+Graham.Childs@wearejust.co.uk;
+Paul.Hoskins@wearejust.co.uk;
+Nikolai.Harrowing@wearejust.co.uk;
+
 ------------------------
 DL: ChiefPricingDL@wearejust.co.uk
-  GroupPricingDL@wearejust.co.uk
-  ReinsuranceDL@wearejust.co.uk
-  TechnicalUnderwritingDL@wearejust.co.uk
-  DemographicRiskDL@wearejust.co.uk
-  Richard.Willets@wearejust.co.uk
-  Paul.Fulcher@wearejust.co.uk
-  MDDemographicRiskDL@wearejust.co.uk
+
+GroupPricingDL@wearejust.co.uk;
+ReinsuranceDL@wearejust.co.uk;
+TechnicalUnderwritingDL@wearejust.co.uk;
+DemographicRiskDL@wearejust.co.uk;
+Richard.Willets@wearejust.co.uk;
+Paul.Fulcher@wearejust.co.uk;
+MDDemographicRiskDL@wearejust.co.uk;
+
 ------------------------
 Write-ErrorMessage : Ex6F9304|Microsoft.Exchange.Configuratio
 found on 'HE1PR07A001DC01.EURPR07A001.prod.outlook.com'.
@@ -580,171 +587,169 @@ At C:\Users\_itsm live account42\AppData\Local\Temp\tmpEXO_da
 DL: DataScienceDL@wearejust.co.uk
 ------------------------
 DL: DBBusinessDevelopmentDL@wearejust.co.uk
-  Rob.Mechem@wearejust.co.uk
-  Gareth.Rees@wearejust.co.uk
-  Prashant.Mehta@wearejust.co.uk
-  Michael.Herd@wearejust.co.uk
-  Rosie.Mills@wearejust.co.uk
-  Martin.Parker@wearejust.co.uk
-  Peter.Jennings@wearejust.co.uk
-  Alma.Goyanes-Payne@wearejust.co.uk
-  Adam.Watson@wearejust.co.uk
-  Tom.Jobbings@wearejust.co.uk
-  Jerome.Johnston@wearejust.co.uk
-  Le.Hoang@wearejust.co.uk
-  Jon.Taylor@wearejust.co.uk
-  Marco.BordiniJunior@wearejust.co.uk
-  Clare.Crane@wearejust.co.uk
-  Josue.Silva@wearejust.co.uk
-  Andy.Fryer@wearejust.co.uk
-  Geraint.Jones@wearejust.co.uk
-  Temi.Adeoye@wearejust.co.uk
-  Lesley.Heath@wearejust.co.uk
-  Ross.Breckon@wearejust.co.uk
-  Anna.Jakobczak@wearejust.co.uk
-  Maggie.Ruivo@wearejust.co.uk
-  Michael.Westbury@wearejust.co.uk
-  James.Tovell@wearejust.co.uk
-  Katie.Paul@wearejust.co.uk
+ Rob.Mechem@wearejust.co.uk;
+Gareth.Rees@wearejust.co.uk;
+Prashant.Mehta@wearejust.co.uk;
+Michael.Herd@wearejust.co.uk;
+Rosie.Mills@wearejust.co.uk;
+Martin.Parker@wearejust.co.uk;
+Peter.Jennings@wearejust.co.uk;
+Alma.Goyanes-Payne@wearejust.co.uk;
+Adam.Watson@wearejust.co.uk;
+Tom.Jobbings@wearejust.co.uk;
+Jerome.Johnston@wearejust.co.uk;
+Le.Hoang@wearejust.co.uk;
+Jon.Taylor@wearejust.co.uk;
+Marco.BordiniJunior@wearejust.co.uk;
+Clare.Crane@wearejust.co.uk;
+Josue.Silva@wearejust.co.uk;
+Andy.Fryer@wearejust.co.uk;
+Geraint.Jones@wearejust.co.uk;
+Temi.Adeoye@wearejust.co.uk;
+Lesley.Heath@wearejust.co.uk;
+Ross.Breckon@wearejust.co.uk;
+Anna.Jakobczak@wearejust.co.uk;
+Maggie.Ruivo@wearejust.co.uk;
+Michael.Westbury@wearejust.co.uk;
+James.Tovell@wearejust.co.uk;
+Katie.Paul@wearejust.co.uk;
 ------------------------
 DL: DBOperationsDL@wearejust.co.uk
-  Heather.Vaughan@wearejust.co.uk
-  Gareth.Rees@wearejust.co.uk
-  Gail.Eachus@wearejust.co.uk
-  Andy.Collins@wearejust.co.uk
-  Chris.Hall@wearejust.co.uk
-  Michael.Herd@wearejust.co.uk
-  Alex.Nestor@wearejust.co.uk
-  Madhvi.Luckputtya@wearejust.co.uk
-  Anna.Wilson@wearejust.co.uk
-  Hannah.Wadmore@wearejust.co.uk
-  Wendy.Valle@wearejust.co.uk
-  alex.collins@wearejust.co.uk
-  Melwyn.DeNoronha@wearejust.co.uk
-  Laura.Pertile@wearejust.co.uk
-  Marcin.Czaja@wearejust.co.uk
-  Simon.Ellard@wearejust.co.uk
-  Derrick.Gyimah@wearejust.co.uk
-  Megan.Finch@wearejust.co.uk
-  Tom.Joseph@wearejust.co.uk
-  Hilary.Masters@wearejust.co.uk
-  Olivia.Lane@wearejust.co.uk
-  Adam.Mell@wearejust.co.uk
-  Sam.Dutton@wearejust.co.uk
-  Neha.Narvekar@wearejust.co.uk
-  Judel.Velarde@wearejust.co.uk
-  Steve.Kirkham@wearejust.co.uk
-  Coyee.Charles@wearejust.co.uk
-  Alan.Chaplin@wearejust.co.uk
-  Robert.Emler@wearejust.co.uk
-  John.Card@wearejust.co.uk
-  Josue.Silva@wearejust.co.uk
-  Pippa.Taylor@wearejust.co.uk
-  Rajvi.Shah@wearejust.co.uk
-  David.Holdstock@wearejust.co.uk
-  Naomi.Woods-Gray@wearejust.co.uk
-  Jennifer.Mills@wearejust.co.uk
-  Sean.Nyamande@wearejust.co.uk
-  Donald.Bower@wearejust.co.uk
-  George.Aungier@wearejust.co.uk
-  Maggie.Ruivo@wearejust.co.uk
-  James.Hornsby@wearejust.co.uk
+  Heather.Vaughan@wearejust.co.uk;
+Gareth.Rees@wearejust.co.uk;
+Gail.Eachus@wearejust.co.uk;
+Andy.Collins@wearejust.co.uk;
+Chris.Hall@wearejust.co.uk;
+Michael.Herd@wearejust.co.uk;
+Alex.Nestor@wearejust.co.uk;
+Madhvi.Luckputtya@wearejust.co.uk;
+Anna.Wilson@wearejust.co.uk;
+Hannah.Wadmore@wearejust.co.uk;
+Wendy.Valle@wearejust.co.uk;
+alex.collins@wearejust.co.uk;
+Melwyn.DeNoronha@wearejust.co.uk;
+Laura.Pertile@wearejust.co.uk;
+Marcin.Czaja@wearejust.co.uk;
+Simon.Ellard@wearejust.co.uk;
+Derrick.Gyimah@wearejust.co.uk;
+Megan.Finch@wearejust.co.uk;
+Tom.Joseph@wearejust.co.uk;
+Hilary.Masters@wearejust.co.uk;
+Olivia.Lane@wearejust.co.uk;
+Adam.Mell@wearejust.co.uk;
+Sam.Dutton@wearejust.co.uk;
+Neha.Narvekar@wearejust.co.uk;
+Judel.Velarde@wearejust.co.uk;
+Steve.Kirkham@wearejust.co.uk;
+Coyee.Charles@wearejust.co.uk;
+Alan.Chaplin@wearejust.co.uk;
+Robert.Emler@wearejust.co.uk;
+John.Card@wearejust.co.uk;
+Josue.Silva@wearejust.co.uk;
+Pippa.Taylor@wearejust.co.uk;
+Rajvi.Shah@wearejust.co.uk;
+David.Holdstock@wearejust.co.uk;
+Naomi.Woods-Gray@wearejust.co.uk;
+Jennifer.Mills@wearejust.co.uk;
+Sean.Nyamande@wearejust.co.uk;
+Donald.Bower@wearejust.co.uk;
+George.Aungier@wearejust.co.uk;
+Maggie.Ruivo@wearejust.co.uk;
+James.Hornsby@wearejust.co.uk;
+
 ------------------------
 DL: DBPricingDL@wearejust.co.uk
-  Steve.Green@wearejust.co.uk
-  Iroshini.Leanage@wearejust.co.uk
-  Mili.Popat@wearejust.co.uk
-  Oliver.Marsh@wearejust.co.uk
-  Adrian.Ross@wearejust.co.uk
-  Amanda.Chikosha@wearejust.co.uk
-  Louise.TeggartGraves@wearejust.co.uk
-  Christopher.Hussey@wearejust.co.uk
-  Conrad.Chamberlain@wearejust.co.uk
-  Cheryl.Buck@wearejust.co.uk
-  Callum.Ralph@wearejust.co.uk
-  Claydon.Peaker@wearejust.co.uk
-  Ben.Merritt@wearejust.co.uk
-  Russell.Greenstreet@wearejust.co.uk
-  Taylor.Howard@wearejust.co.uk
-  Kaushik.Patel@wearejust.co.uk
-  Richard.GHughes@wearejust.co.uk
-  James.Griffin@wearejust.co.uk
-  Jack.Sarwa@wearejust.co.uk
-  Ravi.Basra@wearejust.co.uk
-  William.Dunn@wearejust.co.uk
-  James.Cole@wearejust.co.uk
-  Emma.Ramsamy@wearejust.co.uk
-  Marcus.Grainger@wearejust.co.uk
-  Matthew.Nelmes@wearejust.co.uk
-  Weihao.Chen@wearejust.co.uk
-  Jordan.Henning@wearejust.co.uk
-  Heidi.Chen@wearejust.co.uk
-  Erjiao.Li@wearejust.co.uk
-  Shivam.Mendiratta@wearejust.co.uk
-  Hazel.Ndlovu@wearejust.co.uk
-  Mayowa.Okulate@wearejust.co.uk
-  Cillian.Richards@wearejust.co.uk
-  Evelyn.Chirara@wearejust.co.uk
-  Hitesh.Talra@wearejust.co.uk
+  Steve.Green@wearejust.co.uk;
+Iroshini.Leanage@wearejust.co.uk;
+Mili.Popat@wearejust.co.uk;
+Oliver.Marsh@wearejust.co.uk;
+Adrian.Ross@wearejust.co.uk;
+Amanda.Chikosha@wearejust.co.uk;
+Louise.TeggartGraves@wearejust.co.uk;
+Christopher.Hussey@wearejust.co.uk;
+Conrad.Chamberlain@wearejust.co.uk;
+Cheryl.Buck@wearejust.co.uk;
+Callum.Ralph@wearejust.co.uk;
+Claydon.Peaker@wearejust.co.uk;
+Ben.Merritt@wearejust.co.uk;
+Russell.Greenstreet@wearejust.co.uk;
+Taylor.Howard@wearejust.co.uk;
+Kaushik.Patel@wearejust.co.uk;
+Richard.GHughes@wearejust.co.uk;
+James.Griffin@wearejust.co.uk;
+Jack.Sarwa@wearejust.co.uk;
+Ravi.Basra@wearejust.co.uk;
+William.Dunn@wearejust.co.uk;
+James.Cole@wearejust.co.uk;
+Emma.Ramsamy@wearejust.co.uk;
+Marcus.Grainger@wearejust.co.uk;
+Matthew.Nelmes@wearejust.co.uk;
+Weihao.Chen@wearejust.co.uk;
+Jordan.Henning@wearejust.co.uk;
+Heidi.Chen@wearejust.co.uk;
+Erjiao.Li@wearejust.co.uk;
+Shivam.Mendiratta@wearejust.co.uk;
+Hazel.Ndlovu@wearejust.co.uk;
+Mayowa.Okulate@wearejust.co.uk;
+Cillian.Richards@wearejust.co.uk;
+Evelyn.Chirara@wearejust.co.uk;
+Hitesh.Talra@wearejust.co.uk;
+
 ------------------------
 DL: DBPropositionDevelopmentDL@wearejust.co.uk
-  Sridhar.Narayan@wearejust.co.uk
-  Savannah.Antunes@wearejust.co.uk
+  Sridhar.Narayan@wearejust.co.uk;Savannah.Antunes@wearejust.co.uk
 ------------------------
 DL: GroupDBDL@wearejust.co.uk
-  DBOperationsDL@wearejust.co.uk
-  DBPropositionDevelopmentDL@wearejust.co.uk
-  DBPricingDL@wearejust.co.uk
-  DBBusinessDevelopmentDL@wearejust.co.uk
+  DBOperationsDL@wearejust.co.uk;DBPropositionDevelopmentDL@wearejust.co.uk;DBPricingDL@wearejust.co.uk;DBBusinessDevelopmentDL@wearejust.co.uk
 ------------------------
 DL: InvestmentsDL@wearejust.co.uk
-  David.Ramroop@wearejust.co.uk
-  Rishma.Patel@wearejust.co.uk
-  Robert.Belcher@wearejust.co.uk
-  Mohamed.Tabi@wearejust.co.uk
-  Aidan.Ginty@wearejust.co.uk
-  Tim.Cannon@wearejust.co.uk
-  Joe.Griffin@wearejust.co.uk
-  Nenna.Gilmour-Platt@wearejust.co.uk
-  Nikola.Valkov@wearejust.co.uk
-  Valentin.Leire@wearejust.co.uk
-  Noshi.Mahmood@wearejust.co.uk
-  Jonathan.Allard@wearejust.co.uk
-  Nimisha.Sodha@wearejust.co.uk
-  Agha.Khan@wearejust.co.uk
-  Benedict.Yung@wearejust.co.uk
-  Gracie.He@wearejust.co.uk
-  Priyanka.Dubb@wearejust.co.uk
-  Davinder.Sembhi@wearejust.co.uk
-  Henry.Buckingham@wearejust.co.uk
-  Jackson.Yuen@wearejust.co.uk
-  Daleep.Shahi@wearejust.co.uk
-  Zak.Newton@wearejust.co.uk
-  Siddharth.Singh@wearejust.co.uk
-  Yugam.Bajaj@wearejust.co.uk
-  Marianne.Mitchell@wearejust.co.uk
-  Oliver.Short@wearejust.co.uk
-  George.Wood@wearejust.co.uk
-  Colman.Cheng@wearejust.co.uk
-  Mochele.Kgabuki@wearejust.co.uk
-  Kate.Mitrofanov@wearejust.co.uk
-  Kiran.Riley@wearejust.co.uk
-  Neel.Ramsing@wearejust.co.uk
-  Harriet.Salmon@wearejust.co.uk
+  David.Ramroop@wearejust.co.uk;
+Rishma.Patel@wearejust.co.uk;
+Robert.Belcher@wearejust.co.uk;
+Mohamed.Tabi@wearejust.co.uk;
+Aidan.Ginty@wearejust.co.uk;
+Tim.Cannon@wearejust.co.uk;
+Joe.Griffin@wearejust.co.uk;
+Nenna.Gilmour-Platt@wearejust.co.uk;
+Nikola.Valkov@wearejust.co.uk;
+Valentin.Leire@wearejust.co.uk;
+Noshi.Mahmood@wearejust.co.uk;
+Jonathan.Allard@wearejust.co.uk;
+Nimisha.Sodha@wearejust.co.uk;
+Agha.Khan@wearejust.co.uk;
+Benedict.Yung@wearejust.co.uk;
+Gracie.He@wearejust.co.uk;
+Priyanka.Dubb@wearejust.co.uk;
+Davinder.Sembhi@wearejust.co.uk;
+Henry.Buckingham@wearejust.co.uk;
+Jackson.Yuen@wearejust.co.uk;
+Daleep.Shahi@wearejust.co.uk;
+Zak.Newton@wearejust.co.uk;
+Siddharth.Singh@wearejust.co.uk;
+Yugam.Bajaj@wearejust.co.uk;
+Marianne.Mitchell@wearejust.co.uk;
+Oliver.Short@wearejust.co.uk;
+George.Wood@wearejust.co.uk;
+Colman.Cheng@wearejust.co.uk;
+Mochele.Kgabuki@wearejust.co.uk;
+Kate.Mitrofanov@wearejust.co.uk;
+Kiran.Riley@wearejust.co.uk;
+Neel.Ramsing@wearejust.co.uk;
+Harriet.Salmon@wearejust.co.uk;
 ------------------------
 DL: MedicalDL@wearejust.co.uk
-  Daniel.Eayres@wearejust.co.uk
-  Jennie.Mussard@wearejust.co.uk
-  Kevin.Clarke@wearejust.co.uk
-  Tim.Crayford@wearejust.co.uk
-  Daisy.Neave@wearejust.co.uk
+  Daniel.Eayres@wearejust.co.uk;
+Jennie.Mussard@wearejust.co.uk;
+Kevin.Clarke@wearejust.co.uk;
+Tim.Crayford@wearejust.co.uk;
+Daisy.Neave@wearejust.co.uk;
 ------------------------
 DL: DeputyCEODL@wearejust.co.uk
-  David.Richardson@wearejust.co.uk
-  InvestmentsDL@wearejust.co.uk
-  MedicalDL@wearejust.co.uk
-  ChiefPricingDL@wearejust.co.uk
-  GroupDBDL@wearejust.co.uk
-  ActuarialDL@wearejust.co.uk
-  DataScienceDL@wearejust.co.uk
-  Miranda.Birkby@wearejust.co.uk
+  David.Richardson@wearejust.co.uk;
+InvestmentsDL@wearejust.co.uk;
+MedicalDL@wearejust.co.uk;
+ChiefPricingDL@wearejust.co.uk;
+GroupDBDL@wearejust.co.uk;
+ActuarialDL@wearejust.co.uk;
+DataScienceDL@wearejust.co.uk;
+Miranda.Birkby@wearejust.co.uk;
