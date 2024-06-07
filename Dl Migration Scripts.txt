@@ -1,7 +1,36 @@
 #TO GET THE OWNERS OF DL'S
 
 # Array containing the DL names
-$DLArray = @("DL 1", "DL 2", "Final DL")
+$DLArray = @("AssetLiabilityManagementDL@wearejust.co.uk",
+"_DLMonthEndStatusUpdates@wearejust.co.uk",
+"ActuarialDevelopmentsDL@wearejust.co.uk",
+"ActuarialReportingandAnalysisDL@wearejust.co.uk",
+"CoSeCDL@wearejust.co.uk",
+"FinanceDataTeamDL@wearejust.co.uk",
+"FinanceSystems1@wearejust.co.uk",
+"GroupFinanceTreasuryTeamDL@wearejust.co.uk",
+"JustGroupFinanceTeamDL@wearejust.co.uk",
+"JustLegalFLBDL@wearejust.co.uk",
+"AllFinanceLegalandCoSecDL@wearejust.co.uk",
+"InternalModel@wearejust.co.uk",
+"CapitalManagementDL@wearejust.co.uk",
+"ActuarialDL@wearejust.co.uk",
+"DemographicRiskDL@wearejust.co.uk",
+"GroupPricingDL@wearejust.co.uk",
+"MDDemographicRiskDL@wearejust.co.uk",
+"ReinsuranceDL@wearejust.co.uk",
+"TechnicalUnderwritingDL@wearejust.co.uk",
+"ChiefPricingDL@wearejust.co.uk",
+"DataScienceDL@wearejust.co.uk ",
+"DBBusinessDevelopmentDL@wearejust.co.uk",
+"DBOperationsDL@wearejust.co.uk",
+"DBPricingDL@wearejust.co.uk",
+"DBPropositionDevelopmentDL@wearejust.co.uk",
+"GroupDBDL@wearejust.co.uk",
+"InvestmentsDL@wearejust.co.uk",
+"MedicalDL@wearejust.co.uk",
+"DeputyCEODL@wearejust.co.uk"
+)
 
 # Loop through each DL in the array
 foreach ($DLName in $DLArray) {
@@ -31,7 +60,36 @@ foreach ($DLName in $DLArray) {
 #TO GET MEMBERS OF DL'S
 
 # Array containing the DL names
-$DLArray = @("DL 1", "DL 2", "Final DL")
+$DLArray = @("AssetLiabilityManagementDL@wearejust.co.uk",
+"_DLMonthEndStatusUpdates@wearejust.co.uk",
+"ActuarialDevelopmentsDL@wearejust.co.uk",
+"ActuarialReportingandAnalysisDL@wearejust.co.uk",
+"CoSeCDL@wearejust.co.uk",
+"FinanceDataTeamDL@wearejust.co.uk",
+"FinanceSystems1@wearejust.co.uk",
+"GroupFinanceTreasuryTeamDL@wearejust.co.uk",
+"JustGroupFinanceTeamDL@wearejust.co.uk",
+"JustLegalFLBDL@wearejust.co.uk",
+"AllFinanceLegalandCoSecDL@wearejust.co.uk",
+"InternalModel@wearejust.co.uk",
+"CapitalManagementDL@wearejust.co.uk",
+"ActuarialDL@wearejust.co.uk",
+"DemographicRiskDL@wearejust.co.uk",
+"GroupPricingDL@wearejust.co.uk",
+"MDDemographicRiskDL@wearejust.co.uk",
+"ReinsuranceDL@wearejust.co.uk",
+"TechnicalUnderwritingDL@wearejust.co.uk",
+"ChiefPricingDL@wearejust.co.uk",
+"DataScienceDL@wearejust.co.uk ",
+"DBBusinessDevelopmentDL@wearejust.co.uk",
+"DBOperationsDL@wearejust.co.uk",
+"DBPricingDL@wearejust.co.uk",
+"DBPropositionDevelopmentDL@wearejust.co.uk",
+"GroupDBDL@wearejust.co.uk",
+"InvestmentsDL@wearejust.co.uk",
+"MedicalDL@wearejust.co.uk",
+"DeputyCEODL@wearejust.co.uk"
+)
 
 # Loop through each DL in the array
 foreach ($DLName in $DLArray) {
@@ -99,7 +157,7 @@ foreach ($dlName in $dlArray) {
 ----------------------------------------------------------------
 #TO CREATE DL'S USING CSV
 
-$groups = Import-Csv "/home/noman/Batch 2 dl migration.csv"
+$groups = Import-Csv "/home/noman/DL Migration Batch4.csv"
 
 foreach ($group in $groups) {
 
@@ -119,13 +177,76 @@ foreach ($group in $groups) {
 
 # Define a hashtable where keys are distribution group names and values are arrays of email addresses
 $DistributionGroups = @{
-"JustDeliveryDataAnalysisTeam@wearejust.co.uk" =@("smtp:JustDeliveryDataAnalysisTeam@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3d355d732c9d42ce8087aa5fb1cd3664-Just Delive","smtp:JustDeliveryDataAnalysisTeam@justretirement.onmicrosoft.com","smtp:JustDeliveryDataAnalysisTeam@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataAnalysisTeam;")
+"JustDeliveryInfrastructureChangeApprovalDL@wearejust.co.uk" =@("smtp:JustDeliveryInfrastructureChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=338b6f11eae14af6bf81b86cfae0aaf2-Just Delive","smtp:JustDeliveryInfrastructureChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryInfrastructureChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryInfrastructureChangeApproval;")}
+ 
+$DistributionGroups = @{
+"JustDeliveryLeadBusinessAnalystsDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1a74e4f0d05740589572982806f1217a-Group_7a09c","smtp:JustDeliveryLeadBusinessAnalystsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryLeadBusinessAnalystsDL@justretirement.com","smtp:JustDeliveryLeadBusinessAnalystsDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryLeadBusinessAnalystsDL;")
 
-"JustDeliveryDataTeam-GodelConsultantsDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8c267675e89749da939b1b1bda8b8179-Just Delive","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@justretirement.com","smtp:JustDeliveryDataTeam-GodelConsultantsDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-GodelConsultantsDL;")
 
-"JustDeliveryDataTeam-ThirdPartyConsultants@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2d040c50fee1490da816de6c7e33bb3c-9b83460b-bc","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@justretirement.com","smtp:JustDeliveryDataTeam-ThirdPartyConsultants@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeam-ThirdPartyConsultan;")
+"JustDeliveryManagementTeamDL@wearejust.co.uk" =@("smtp:JustDeliveryManagementTeamDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=37d31f1672b947db933eae90b5cdf2f0-Just Delive","smtp:JustDeliveryManagementTeamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryManagementTeamDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryManagementTeamDL;")
 
-"JustDeliveryDataTeamEDPTulipRIEndUsersDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c5114af7065f48baa12a6a983144bf0b-98d6efc0-be","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@justretirement.com","smtp:JustDeliveryDataTeamEDPTulipRIEndUsersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryDataTeamEDPTulipRIEndUsersDL;")
+
+"JustDeliveryPartnersDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c761934677d4df582e83bfdfce96dce-a45ca46f-fe","smtp:JustDeliveryPartnersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryPartnersDL@justretirement.com","smtp:JustDeliveryPartnersDL@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryPartnersDL;")
+
+
+"JustDeliveryPeopleManagers@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4cd6167be8b14a06aca91f593aadfdc4-Just Delive","smtp:JustDeliveryPeopleManagers@justretirement.onmicrosoft.com","smtp:JustDeliveryPeopleManagers@justretirement.com","smtp:JustDeliveryPeopleManagers@JustRetirement.mail.onmicrosoft.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryPeopleManagers;")
+
+
+"JustDeliveryPMPracticeGroupDL@wearejust.co.uk" =@("smtp:JustDeliveryPMPracticeGroupDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c1746069624d499ca50e84a621919f60-Just Delive","smtp:JustDeliveryPMPracticeGroupDL@justretirement.onmicrosoft.com","smtp:JustDeliveryPMPracticeGroupDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryPMPracticeGroupDL;")
+
+
+"JustDeliveryProjectManagementChangeApprovalDL@wearejust.co.uk" =@("smtp:JustDeliveryProjectManagementChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d7e1f8b220924caab03a26f3a3ddf720-Just Delive","smtp:JustDeliveryProjectManagementChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryProjectManagementChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryProjectManagementChangeAppro;")
+
+
+"JustDeliveryProjectManagersDL@wearejust.co.uk" =@("smtp:JustDeliveryProjectManagersDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9ae116a005034fe394f20a2f9c130f89-Just Delive","smtp:JustDeliveryProjectManagersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryProjectManagersDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryProjectManagersDL;")
+ 
+
+"JustDeliveryRetirementLendingDL@wearejust.co.uk" =@("smtp:JustDeliveryRetirementLendingDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8d4ec3b65dff4b6e94ed32c464b221ef-Just Delive","smtp:JustDeliveryRetirementLendingDL@justretirement.onmicrosoft.com","smtp:JustDeliveryRetirementLendingDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryRetirementLendingDL;")
+
+
+"JustDeliveryScrumMastersDL@wearejust.co.uk" =@("smtp:JustDeliveryScrumMastersDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0c66a03a2d9b47249f0272abe8310320-Just Delive","smtp:JustDeliveryScrumMastersDL@justretirement.onmicrosoft.com","smtp:JustDeliveryScrumMastersDL@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryScrumMastersDL;")
+
+
+"JustDeliverySecurityRequestsDL@wearejust.co.uk" =@("smtp:JustDeliverySecurityRequestsDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2e017c7dbfd84ecfb110c8e866f8e644-Just Delive","smtp:JustDeliverySecurityRequestsDL@justretirement.onmicrosoft.com","smtp:JustDeliverySecurityRequestsDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliverySecurityRequestsDL;")
+
+$DistributionGroups = @{
+"JustDeliveryServiceDeskChangeApprovalDL@wearejust.co.uk" =@("smtp:JustDeliveryServiceDeskChangeApprovalDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7d9b38a88b0e41079f5d400a543183b4-Just Delive","smtp:JustDeliveryServiceDeskChangeApprovalDL@justretirement.onmicrosoft.com","smtp:JustDeliveryServiceDeskChangeApprovalDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryServiceDeskChangeApprovalDL;")}
+
+
+"JustDeliverySSABAttendeesDL@wearejust.co.uk" =@("smtp:JustDeliverySSABAttendeesDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2ee1b25a970d4f809e1aefebfcb857a9-Just Delive","smtp:JustDeliverySSABAttendeesDL@justretirement.onmicrosoft.com","smtp:JustDeliverySSABAttendeesDL@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliverySSABAttendeesDL;")
+ 
+
+"JustDeliveryTechnicalArchitectureDL@wearejust.co.uk" =@("smtp:JustDeliveryTechnicalArchitectureDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=dea3138eb8234dad929fa1d0e3d1f90e-Just Delive","smtp:JustDeliveryTechnicalArchitectureDL@justretirement.onmicrosoft.com","smtp:JustDeliveryTechnicalArchitectureDL@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryTechnicalArchitectureDL;")
+
+
+"JustDeliveryTechnologySKIPLevelDL@wearejust.co.uk" =@("x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f1c183d6952b49479fbcbd2113a8c5b3-e0851cb9-79","smtp:JustDeliveryTechnologySKIPLevelDL@justretirement.onmicrosoft.com","smtp:JustDeliveryTechnologySKIPLevelDL@justretirement.com","smtp:JustDeliveryTechnologySKIPLevelDL@JustRetirement.mail.onmicrosoft.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryTechnologySKIPLevelDL;")
+
+
+"JustDeliveryUKRetailCareProjectTeamDL@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailCareProjectTeamDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a358dc7678d549b18a5fd94558611591-Just Delive","smtp:JustDeliveryUKRetailCareProjectTeamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailCareProjectTeamDL@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailCareProjectTeamDL;")
+
+
+"JustDeliveryUKRetailGreenteamDL@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailGreenteamDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c6cf1160f35943aa914a320e3176d175-Just Delive","smtp:JustDeliveryUKRetailGreenteamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailGreenteamDL@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailGreenteamDL;")
+
+
+"JustDeliveryUKRetailPricingCommittee@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailPricingCommittee@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b2a09e4a19de42ba962f4726147515c1-Just Delive","smtp:JustDeliveryUKRetailPricingCommittee@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailPricingCommittee@justretirement.com",
+  "X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailPricingCommittee;")
+
+
+"JustDeliveryUKRetailRateChangeCommittee@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailRateChangeCommittee@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e0e31e780bdf4bd38ee921aee3905836-Just Delive","smtp:JustDeliveryUKRetailRateChangeCommittee@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailRateChangeCommittee@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailRateChangeCommittee;")
+
+
+"JustDeliveryUKRetailValueStreamDL@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailValueStreamDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=734dbe84cad949408f0d22842dfb609a-Just Delive","smtp:JustDeliveryUKRetailValueStreamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailValueStreamDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailValueStreamDL;")
+
+"JustDeliveryUKRetailYellowteamDL@wearejust.co.uk" =@("smtp:JustDeliveryUKRetailYellowteamDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7d70fe3880f14fca9a175ecd457354b9-Just Delive","smtp:JustDeliveryUKRetailYellowteamDL@justretirement.onmicrosoft.com","smtp:JustDeliveryUKRetailYellowteamDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryUKRetailYellowteamDL;")
+
+
+"JustDeliveryVaronisAlertsDL@wearejust.co.uk" =@("smtp:JustDeliveryVaronisAlertsDL@JustRetirement.mail.onmicrosoft.com","x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=edbdefe150c249358b87c57c73e1b09e-Just Delive","smtp:group_varonisalerts@partnership.co.uk","smtp:JustDeliveryVaronisAlertsDL@justretirement.onmicrosoft.com","smtp:JustDeliveryVaronisAlertsDL@justretirement.com","X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=JustDeliveryVaronisAlertsDL;")
 }
 
 # Iterate through the hashtable
