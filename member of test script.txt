@@ -1,0 +1,24 @@
+# List of DLs
+$dls = @("DL1", "DL2", "DL3")
+
+# Initialize a hashtable to store the results
+$results = @{}
+
+# Loop through each DL in the list
+foreach ($dl in $dls) {
+    # Get the DL's memberof attribute
+    $memberof = Get-ADGroup -Identity $dl -Properties memberof | Select-Object -ExpandProperty memberof
+    
+    # Add the results to the hashtable
+    $results[$dl] = $memberof
+}
+
+# Output the results in the desired format
+foreach ($dl in $results.Keys) {
+    Write-Output "$dl memberof"
+    if ($results[$dl]) {
+        $results[$dl] | ForEach-Object { Write-Output "  $_" }
+    } else {
+        Write-Output "  No members found"
+    }
+}
