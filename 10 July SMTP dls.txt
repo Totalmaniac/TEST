@@ -1,0 +1,513 @@
+OperationsManagementDistList@wearejust.co.uk
+  smtp:OperationsManagementDistList@JustRetirement.mail.onmicrosoft.com
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9f45d91953de443880102503f9aa2131
+  smtp:OperationsManagementDistList@justretirement.com
+  SMTP:OperationsManagementDistList@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe8b2cdaccf6418abf2c534d72175f3f-Operations
+  smtp:OperationsManagementDistList@justretirement.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=OperationsManagementDistList;
+
+OpsTeamLeadersDistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=176ef55b4a0e4ad38da06a81474b3062-Op
+  X500:/o=Exchange Organization001/ou=First Administrative Group/cn=Recipients/cn=OpsTeamLeadersDistributionList
+  smtp:OpsTeamLeadersDistributionList@justretirement.com
+  SMTP:OpsTeamLeadersDistributionList@wearejust.co.uk
+  smtp:OpsTeamLeadersDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6d77685c51af41319a2dea45438b7e5a-Ops Team Le
+  smtp:OpsTeamLeadersDistributionList@JustRetirement.mail.onmicrosoft.com
+  smtp:OpsTeamLeadersDistributionList@justretirement.co.uk
+  smtp:OpsTeamLeadersDistributionList@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=OpsTeamLeadersDistributionList;
+
+OracleEBSUsersDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6996447b513f4df584b222ff6760e9d8-08aaed83-63
+  smtp:OracleEBSUsersDL@justretirement.onmicrosoft.com
+  smtp:OracleEBSUsersDL@justretirement.com
+  smtp:OracleEBSUsersDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=OracleEBSUsersDL;
+  SMTP:OracleEBSUsersDL@wearejust.co.uk
+
+OrbusiServerDL@wearejust.co.uk
+  smtp:OrbusiServerDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=47cffa919f4a49ad8c715a6bf5c80105-Orbus iServ
+  smtp:OrbusiServerDL@justretirement.onmicrosoft.com
+  smtp:OrbusiServerDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=OrbusiServerDL;
+  SMTP:OrbusiServerDL@wearejust.co.uk
+
+P1Communications@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=852d749bac034172912ad19f87b77504-P1 Communic
+  smtp:P1Communications@justretirement.onmicrosoft.com
+  smtp:P1Communications@justretirement.com
+  smtp:P1Communications@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=P1Communications;
+  SMTP:P1Communications@wearejust.co.uk
+
+PA'sDL@wearejust.co.uk
+  smtp:PA'sDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=517521701aee467dad1105b96e1790e7-PA's DL
+  smtp:PA'sDL@justretirement.onmicrosoft.com
+  smtp:PA'sDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PA'sDL;
+  SMTP:PA'sDL@wearejust.co.uk
+
+PADailyMIDistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=16a16222f29a4f9e9809f73f70913a9e-PA
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=PA Daily MI Distribution List812
+  smtp:PADailyMIDistributionList@justretirement.com
+  SMTP:PADailyMIDistributionList@wearejust.co.uk
+  smtp:PADailyMIDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8b4be0dba4c0455e8f27207f790f6635-PA Daily MI
+  smtp:PADailyMIDistributionList@justretirement.co.uk
+  smtp:PADailyMIDistributionList@justretirement.net
+  smtp:PADailyMIDistributionList@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PADailyMIDistributionList;
+
+PADistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=218e842e5ece40bab356c11efeaddae0-PA
+  X500:/o=Exchange Organization001/ou=First Administrative Group/cn=Recipients/cn=PADistributionList
+  smtp:PADistributionList@justretirement.com
+  SMTP:PADistributionList@wearejust.co.uk
+  smtp:PADistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=121db8bf09e948f3b751c87545336aea-PA Distribu
+  smtp:PADistributionList@JustRetirement.mail.onmicrosoft.com
+  smtp:PADistributionList@justretirement.co.uk
+  smtp:PADistributionList@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PADistributionList;
+
+PLACLAnnuitiesActuarial@wearejust.co.uk
+  smtp:PLACLAnnuitiesActuarial@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ec52d0267007487dba87fe0868e2c5d0-PLACL Annui
+  smtp:PLACLAnnuitiesActuarial@justretirement.onmicrosoft.com
+  smtp:PLACLAnnuitiesActuarial@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PLACLAnnuitiesActuarial;
+  SMTP:PLACLAnnuitiesActuarial@wearejust.co.uk
+
+PLACLAnnuitiesFinance@wearejust.co.uk
+  smtp:PLACLAnnuitiesFinance@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=be6b2524ca82462db27f637f52df2a36-PLACL Annui
+  smtp:PLACLAnnuitiesFinance@justretirement.onmicrosoft.com
+  smtp:PLACLAnnuitiesFinance@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PLACLAnnuitiesFinance;
+  SMTP:PLACLAnnuitiesFinance@wearejust.co.uk
+
+PMODistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=38e0bc4f1525430b9f5c768d6acbdee0-PM
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e7a8d7419c6d4e7a9693bbc74e15ce24
+  smtp:PMODistributionList@justretirement.com
+  SMTP:PMODistributionList@wearejust.co.uk
+  smtp:PMODistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cc38865e3f3b484abd6d372c3d4c8a26-PMO Distrib
+  smtp:PMODistributionList@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PMODistributionList;
+
+PRACoordDistList@wearejust.co.uk
+  smtp:PRACoordDistList@JustRetirement.mail.onmicrosoft.com
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9262df4f80884eaaaba8fb525684a679-PR
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=fe89e5aff14b4be79e4c6d50fefaeaa1
+  smtp:PRACoordDistList@justretirement.com
+  SMTP:PRACoordDistList@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9ac9e0fd79348ecab8d845bb332d92e-PRA Co-ord
+  smtp:PRACoordDistList@justretirement.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PRACoordDistList;
+
+PressOfficeDL@wearejust.co.uk
+  smtp:PressOfficeDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=691791d6d55b4d379ec6495d32bab853-Press Offic
+  smtp:PressOfficeDL@justretirement.onmicrosoft.com
+  smtp:PressOfficeDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PressOfficeDL;
+  SMTP:PressOfficeDL@wearejust.co.uk
+
+privateinvestmentsDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=44015f10827448df82d3cff5775f24a6-279dde83-07
+  smtp:privateinvestmentsDL@justretirement.onmicrosoft.com
+  smtp:privateinvestmentsDL@justretirement.com
+  smtp:privateinvestmentsDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=privateinvestmentsDL;
+  SMTP:privateinvestmentsDL@wearejust.co.uk
+
+PrognoSys2.0WorkingGroupDL@wearejust.co.uk
+  smtp:PrognoSys2.0WorkingGroupDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=66a1477a2f704110b177422fa84dfe04-PrognoSys 2
+  smtp:PrognoSys2.0WorkingGroupDL@justretirement.onmicrosoft.com
+  smtp:PrognoSys2.0WorkingGroupDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PrognoSys2.0WorkingGroupDL;
+  SMTP:PrognoSys2.0WorkingGroupDL@wearejust.co.uk
+
+ProjectTeamHarryDL@wearejust.co.uk
+  smtp:ProjectTeamHarryDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9aa9539801984554a935d0725ed4caf4-Project Tea
+  smtp:ProjectTeamHarryDL@justretirement.onmicrosoft.com
+  smtp:ProjectTeamHarryDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ProjectTeamHarryDL;
+  SMTP:ProjectTeamHarryDL@wearejust.co.uk
+
+ProvidingRetirementSolutionsDevandTestDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=471b2535773a4f668a9bf0d7cebf8e08-Providing R
+  smtp:ProvidingRetirementSolutionsDevandTestDL@justretirement.onmicrosoft.com
+  smtp:ProvidingRetirementSolutionsDevandTestDL@justretirement.com
+  smtp:ProvidingRetirementSolutionsDevandTestDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ProvidingRetirementSolutionsDevandTestDL;
+  SMTP:ProvidingRetirementSolutionsDevandTestDL@wearejust.co.uk
+
+ProvidingRetirementSolutionsDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e4910884ddf9498bb286a0557fd67123-Providing R
+  smtp:ProvidingRetirementSolutionsDL@justretirement.onmicrosoft.com
+  smtp:ProvidingRetirementSolutionsDL@justretirement.com
+  smtp:ProvidingRetirementSolutionsDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ProvidingRetirementSolutionsDL;
+  SMTP:ProvidingRetirementSolutionsDL@wearejust.co.uk
+
+PublicCreditDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=603196dbf44d43aebf385367278eccbc-3c4764a5-54
+  smtp:PublicCreditDL@justretirement.onmicrosoft.com
+  smtp:PublicCreditDL@justretirement.com
+  smtp:PublicCreditDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=PublicCreditDL;
+  SMTP:PublicCreditDL@wearejust.co.uk
+
+QOTDEANBProcess@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bc8e683a95244f9da4267417d2b18955-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD EA NB Process
+  smtp:QOTDEANBProcess@justretirement.com
+  SMTP:QOTDEANBProcess@wearejust.co.uk
+  smtp:QOTDEANBProcess@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=24cff1b1bd4d442f9425a9c218a21680-QOTD EA NB
+  smtp:QOTDEANBProcess@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDEANBProcess@justretirement.co.uk
+  smtp:QOTDEANBProcess@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDEANBProcess;
+
+QOTDEAPAS@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=df8618fcb4ae48e5baafa6b5de764163-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD EA PAS Distribution List4f8
+  smtp:QOTDEAPAS@justretirement.com
+  SMTP:QOTDEAPAS@wearejust.co.uk
+  smtp:QOTDEAPAS@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d34c6705a9d84b739340d9da2b5033ae-QOTD EA PAS
+  smtp:QOTDEAPAS@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDEAPAS;
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDEAPASDistributionlist;
+  smtp:QOTDEAPASDistributionlist@justretirement.com
+  smtp:QOTDEAPAS@justretirement.net
+  smtp:QOTDEAPAS@justretirement.co.uk
+  smtp:QOTDEAPASDistributionlist@justretirement.co.uk
+  smtp:QOTDEAPASDistributionlist@justretirement.net
+
+QOTDGeneralKnowledge@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f3503edd97fc44cf813c8387fce2f03b-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD General Knowledge
+  smtp:QOTDGeneralKnowledge@justretirement.com
+  SMTP:QOTDGeneralKnowledge@wearejust.co.uk
+  smtp:QOTDGeneralKnowledge@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d36a65d498dc4df78b3c295d184413da-QOTD Genera
+  smtp:QOTDGeneralKnowledge@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDGeneralKnowledge@justretirement.co.uk
+  smtp:QOTDGeneralKnowledge@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDGeneralKnowledge;
+
+QOTDINANBProcess@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a52490356e704f92a469b7894ef349d5-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD INA NB Process424
+  smtp:QOTDINANBProcess@justretirement.com
+  SMTP:QOTDINANBProcess@wearejust.co.uk
+  smtp:QOTDINANBProcess@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=50169f0949a44c57bb0d0bfc2f18db5e-QOTD INA NB
+  smtp:QOTDINANBProcess@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDINANBProcess@justretirement.co.uk
+  smtp:QOTDINANBProcess@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDINANBProcess;
+
+QOTDJRSADviserProduct@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=d4907f0d02dd4474813f38b14b604e53-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD JRS Adviser Product
+  smtp:QOTDJRSADviserProduct@justretirement.com
+  SMTP:QOTDJRSADviserProduct@wearejust.co.uk
+  smtp:QOTDJRSADviserProduct@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=bb4a9283668240358521840caa15725f-QOTD JRS Ad
+  smtp:QOTDJRSADviserProduct@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDJRSADviserProduct@justretirement.co.uk
+  smtp:QOTDJRSADviserProduct@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDJRSADviserProduct;
+
+QOTDJRSAdviserTechnical@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7d1d0d25635e4fc88d89ed5a0f1ea83e-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD JRS Adviser Technical
+  smtp:QOTDJRSAdviserTechnical@justretirement.com
+  SMTP:QOTDJRSAdviserTechnical@wearejust.co.uk
+  smtp:QOTDJRSAdviserTechnical@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=0ed74141a1cd436382c8398327c2bc2b-QOTD JRS Ad
+  smtp:QOTDJRSAdviserTechnical@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDJRSAdviserTechnical@justretirement.co.uk
+  smtp:QOTDJRSAdviserTechnical@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDJRSAdviserTechnical;
+
+qotdjrsannuityservicedesk@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=70de1977a2b44d50ba7e5fa6ac3d9f6a-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD JRS Annuity Serviceae8
+  smtp:qotdjrsannuityservicedesk@justretirement.com
+  SMTP:qotdjrsannuityservicedesk@wearejust.co.uk
+  smtp:qotdjrsannuityservicedesk@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ff6b467b3905452ebcd52d69b96eb51a-QOTD JRS An
+  smtp:qotdjrsannuityservicedesk@JustRetirement.mail.onmicrosoft.com
+  smtp:qotdjrsannuityservicedesk@justretirement.co.uk
+  smtp:qotdjrsannuityservicedesk@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=qotdjrsannuityservicedesk;
+
+QOTDRAC@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e7707a92a45f4ab8b1006483a4494187-QO
+  X500:/o=Exchange Organization001/ou=First Administrative Group/cn=Recipients/cn=QOTDRAC
+  smtp:QOTDRAC@justretirement.com
+  SMTP:QOTDRAC@wearejust.co.uk
+  smtp:QOTDRAC@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=165c67c660e94ef999dcc766c0e7c9db-QOTD RAC
+  smtp:QOTDRAC@JustRetirement.mail.onmicrosoft.com
+  smtp:QOTDRAC@justretirement.co.uk
+  smtp:QOTDRAC@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDRAC;
+
+QOTDTest@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=93abb431e8ab48cc8b7c6e7278d447c3-QO
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=QOTD Teste42
+  smtp:QOTDTest@justretirement.com
+  SMTP:QOTDTest@wearejust.co.uk
+  smtp:QOTDTest@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e528e040997d4e3b8b86225f321b2ccc-QOTD Test
+  smtp:QOTDTest@justretirement.co.uk
+  smtp:QOTDTest@justretirement.net
+  smtp:QOTDTest@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QOTDTest;
+
+QualityPayments&AnalysisTeamDistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=07174d82d2064b03a40ab2aeedb7968b-Qu
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=83a602ac569148589bd176a14dc7a250
+  smtp:QualityPayments&AnalysisTeamDistributionList@justretirement.com
+  SMTP:QualityPayments&AnalysisTeamDistributionList@wearejust.co.uk
+  smtp:QualityPayments&AnalysisTeamDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=65727fb2708b49a5822bdd978e939be7-Quality Pay
+  smtp:QualityPayments&AnalysisTeamDistributionList@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QualityPayments?AnalysisTeamDistribution;
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=QualityPayments?AnalysisTeam;
+  smtp:QualityPayments&AnalysisTeam@justretirement.com
+  smtp:QualityPayments&AnalysisTeam@JustRetirement.mail.onmicrosoft.com
+
+RCBelfastDistributionList@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=3d992b59235f4da08ed1c31cfe8bf2e1-_DL HUB RC
+  smtp:RCBelfastDistributionList@justretirement.onmicrosoft.com
+  smtp:RCBelfastDistributionList@justretirement.com
+  smtp:RCBelfastDistributionList@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RCBelfastDistributionList;
+  SMTP:RCBelfastDistributionList@wearejust.co.uk
+
+ReblBackBookExceptionsDL@wearejust.co.uk
+  smtp:ReblBackBookExceptionsDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ae6b7bf6aae3476d946e9c35e69b016a-ReblBackBoo
+  smtp:ReblBackBookExceptionsDL@justretirement.onmicrosoft.com
+  smtp:ReblBackBookExceptionsDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ReblBackBookExceptionsDL;
+  SMTP:ReblBackBookExceptionsDL@wearejust.co.uk
+
+ReblFaRExceptionsDL@wearejust.co.uk
+  smtp:ReblFaRExceptionsDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=60816422eb794879b6ae31548a0553f0-ReblFaR Exc
+  smtp:ReblFaRExceptionsDL@justretirement.onmicrosoft.com
+  smtp:ReblFaRExceptionsDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ReblFaRExceptionsDL;
+  SMTP:ReblFaRExceptionsDL@wearejust.co.uk
+
+
+
+RegulatoryAuditandComplianceDistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9de5725c625a4a72bd0cfb3571d4fd65-Re
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Audit And Compliance Distribution List
+  smtp:RegulatoryAuditandComplianceDistributionList@justretirement.com
+  SMTP:RegulatoryAuditandComplianceDistributionList@wearejust.co.uk
+  smtp:RegulatoryAuditandComplianceDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e5600ccad00441348753d01d5b30add3-Regulatory
+  smtp:RegulatoryAuditandComplianceDistributionList@JustRetirement.mail.onmicrosoft.com
+  smtp:RegulatoryAuditandComplianceDistributionList@justretirement.co.uk
+  smtp:RegulatoryAuditandComplianceDistributionList@justretirement.net
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RegulatoryAuditandComplianceDistribution;
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=AuditandComplianceDistributionList;
+  smtp:AuditandComplianceDistributionList@justretirement.com
+  smtp:AuditandComplianceDistributionList@justretirement.co.uk
+  smtp:AuditandComplianceDistributionList@justretirement.net
+
+Reigatedistributionlist@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aec4306740974512bb263b2a6680a338-Reigate dis
+  smtp:Reigatedistributionlist@justretirement.onmicrosoft.com
+  smtp:Reigatedistributionlist@justretirement.com
+  smtp:Reigatedistributionlist@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=Reigatedistributionlist;
+  SMTP:Reigatedistributionlist@wearejust.co.uk
+
+ReportSubscriptions@wearejust.co.uk
+  smtp:ReportSubscriptions@JustRetirement.mail.onmicrosoft.com
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=339e884e4d6f49c6baba5eead5d7e64b-Re
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=374fbe37fbaf4d659b40045b26d71988
+  smtp:ReportSubscriptions@justretirement.com
+  SMTP:ReportSubscriptions@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=4639909fddce48b1aef36a526806c66d-ReportSubsc
+  smtp:ReportSubscriptions@justretirement.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ReportSubscriptions;
+
+ResponsibleInvestmentDL@wearejust.co.uk
+  smtp:RI@wearejust.co.uk
+  X500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=1c50154846c145c7a9294e7b51051dc8-Responsible
+  smtp:ResponsibleInvestmentDL@justretirement.onmicrosoft.com
+  smtp:ResponsibleInvestmentDL@justretirement.com
+  smtp:ResponsibleInvestmentDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ResponsibleInvestmentDL;
+  SMTP:ResponsibleInvestmentDL@wearejust.co.uk
+
+RetailActuarialDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5a472909534d49ac92f276b1cbf588b1-1a2e04a0-54
+  smtp:RetailActuarialDL@justretirement.onmicrosoft.com
+  smtp:RetailActuarialDL@justretirement.com
+  smtp:RetailActuarialDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailActuarialDL;
+  SMTP:RetailActuarialDL@wearejust.co.uk
+
+RetailDirectReports@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2391cf0ef5ed4c7b964cd23f7bd8507e-Retail Dire
+  smtp:RetailDirectReports@justretirement.onmicrosoft.com
+  smtp:RetailDirectReports@justretirement.com
+  smtp:RetailDirectReports@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailDirectReports;
+  SMTP:RetailDirectReports@wearejust.co.uk
+
+RetailLeadershipTeamDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e1b77668b6ae4c2d860455acd14a5060-04a4ee78-b0
+  smtp:RetailLeadershipTeamDL@justretirement.onmicrosoft.com
+  smtp:RetailLeadershipTeamDL@justretirement.com
+  smtp:RetailLeadershipTeamDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailLeadershipTeamDL;
+  SMTP:RetailLeadershipTeamDL@wearejust.co.uk
+
+RetailRCCRCDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5356f1e28547464f887a6563d9d28b3f-Retail RCCR
+  smtp:RetailRCCRCDL@justretirement.onmicrosoft.com
+  smtp:RetailRCCRCDL@justretirement.com
+  smtp:RetailRCCRCDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailRCCRCDL;
+  SMTP:RetailRCCRCDL@wearejust.co.uk
+
+RetailSMTDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ce5ba356095f4a12972c58bc7d0afd34-aca290ef-f8
+  smtp:RetailSMTDL@justretirement.onmicrosoft.com
+  smtp:RetailSMTDL@justretirement.com
+  smtp:RetailSMTDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailSMTDL;
+  SMTP:RetailSMTDL@wearejust.co.uk
+
+RetailTechPricing&UWCommitteeDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=6537fcefadf74a3ca2679bc5e176921b-Retail Tech
+  smtp:RetailTechPricing&UWCommitteeDL@justretirement.onmicrosoft.com
+  smtp:RetailTechPricing&UWCommitteeDL@justretirement.com
+  smtp:RetailTechPricing&UWCommitteeDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetailTechPricing?UWCommitteeDL;
+  SMTP:RetailTechPricing&UWCommitteeDL@wearejust.co.uk
+
+RetirementIncomePricingCHangeCommitteeDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=aba6d1557f754873ad3ebdffe64ab6d2-Retirement
+  smtp:RetirementIncomePricingCHangeCommitteeDL@justretirement.onmicrosoft.com
+  smtp:RetirementIncomePricingCHangeCommitteeDL@justretirement.com
+  smtp:RetirementIncomePricingCHangeCommitteeDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementIncomePricingCHangeCommitteeDL;
+  SMTP:RetirementIncomePricingCHangeCommitteeDL@wearejust.co.uk
+
+RetirementLending-Int&GroupDevelopmentDirectReportsDL@wearejust.co.uk
+  smtp:RetirementLending-Int&GroupDevelopmentDirectReportsDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8b47f4aef9d74d79a21507c8f104ee90-Retirement
+  smtp:RetirementLending-Int&GroupDevelopmentDirectReportsDL@justretirement.onmicrosoft.com
+  smtp:RetirementLending-Int&GroupDevelopmentDirectReportsDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLending-Int?GroupDevelopmentDi;
+  SMTP:RetirementLending-Int&GroupDevelopmentDirectReportsDL@wearejust.co.uk
+
+RetirementLending-Int&GroupDevelopmentManagementDL@wearejust.co.uk
+  smtp:RetirementLending-Int&GroupDevelopmentManagementDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f5070bf5271d43be851321cec44b0780-Retirement
+  smtp:RetirementLending-Int&GroupDevelopmentManagementDL@justretirement.onmicrosoft.com
+  smtp:RetirementLending-Int&GroupDevelopmentManagementDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLending-Int?GroupDevelopmentMa;
+  SMTP:RetirementLending-Int&GroupDevelopmentManagementDL@wearejust.co.uk
+
+RetirementLendingPricingChangeCommittee@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=7f8b67c6cd6541bd8b7b4785b4826b8f-Retirement
+  smtp:RetirementLendingPricingChangeCommittee@justretirement.onmicrosoft.com
+  smtp:RetirementLendingPricingChangeCommittee@justretirement.com
+  smtp:RetirementLendingPricingChangeCommittee@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLendingPricingChangeCommittee;
+  SMTP:RetirementLendingPricingChangeCommittee@wearejust.co.uk
+
+RetirementLendingPricingSubCommitteeDL@wearejust.co.uk
+  smtp:RetirementLendingPricingSubCommitteeDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=f9217e0a7e0c4b4da5b004178421eefa-Retirement
+  smtp:RetirementLendingPricingSubCommitteeDL@justretirement.onmicrosoft.com
+  smtp:RetirementLendingPricingSubCommitteeDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLendingPricingSubCommitteeDL;
+  SMTP:RetirementLendingPricingSubCommitteeDL@wearejust.co.uk
+
+RetirementLendingPropositionsTeamDL@wearejust.co.uk
+  smtp:RetirementLendingPropositionsTeamDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=78ef05f4e477453aa32b7cf51f1e93ab-Retirement
+  smtp:RetirementLendingPropositionsTeamDL@justretirement.onmicrosoft.com
+  smtp:RetirementLendingPropositionsTeamDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLendingPropositionsTeamDL;
+  SMTP:RetirementLendingPropositionsTeamDL@wearejust.co.uk
+
+RetirementLendingSMTDL@wearejust.co.uk
+  smtp:RetirementLendingSMTDL@JustRetirement.mail.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8cff3d4f4be94f3cabe57989f35777d7-Retirement
+  smtp:RetirementLendingSMTDL@justretirement.onmicrosoft.com
+  smtp:RetirementLendingSMTDL@justretirement.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RetirementLendingSMTDL;
+  SMTP:RetirementLendingSMTDL@wearejust.co.uk
+
+RewardandRecognitionTeamDistributionList@wearejust.co.uk
+  smtp:RewardandRecognitionTeamDistributionList@justretirement.com
+  SMTP:RewardandRecognitionTeamDistributionList@wearejust.co.uk
+  smtp:RewardandRecognitionTeamDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8522ce468d8e44f9aad456cabd4403a7-Reward and
+  smtp:RewardandRecognitionTeamDistributionList@justretirement.co.uk
+  smtp:RewardandRecognitionTeamDistributionList@justretirement.net
+  smtp:RewardandRecognitionTeamDistributionList@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RewardandRecognitionTeamDistributionList;
+
+ReynholmTeamDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5088dac971314df1ab5792d82e456f37-Reynholm Te
+  smtp:ReynholmTeamDL@justretirement.onmicrosoft.com
+  smtp:ReynholmTeamDL@justretirement.com
+  smtp:ReynholmTeamDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=ReynholmTeamDL;
+  SMTP:ReynholmTeamDL@wearejust.co.uk
+
+RHAccessDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ff3da397cad448d4ba98990d4aa38698-a5c63504-22
+  smtp:RHAccessDL@justretirement.onmicrosoft.com
+  smtp:RHAccessDL@justretirement.com
+  smtp:RHAccessDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RHAccessDL;
+  SMTP:RHAccessDL@wearejust.co.uk
+
+RHCarParkDistributionList@wearejust.co.uk
+  X500:/o=Partnership Assurance/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=ea9523989a734efc8a8648ba2fb2aa9b-RH
+  X500:/o=Exchange Organization001/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=EH Car Park Distribution List848
+  smtp:RHCarParkDistributionList2@justretirement.com
+  SMTP:RHCarParkDistributionList@wearejust.co.uk
+  smtp:RHCarParkDistributionList@justretirement.onmicrosoft.com
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=47f7eec5171749299c67594fcce32338-RH Car Park
+  smtp:RHCarParkDistributionList@JustRetirement.mail.onmicrosoft.com
+  x400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RHCarParkDistributionList2;
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RHCarParkDistributionList;
+  smtp:RHCarParkDistributionList2@justretirement.co.uk
+  smtp:RHCarParkDistributionList2@justretirement.net
+
+RHDigitalWealthDL@wearejust.co.uk
+  x500:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=07d7c13f1bff4ff5b2897c666342820a-1c73f7af-20
+  smtp:RHDigitalWealthDL@justretirement.onmicrosoft.com
+  smtp:RHDigitalWealthDL@justretirement.com
+  smtp:RHDigitalWealthDL@JustRetirement.mail.onmicrosoft.com
+  X400:C=GB;A= ;P=Exchange Organiz;O=Exchange;S=RHDigitalWealthDL;
+  SMTP:RHDigitalWealthDL@wearejust.co.uk
