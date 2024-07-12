@@ -15,3 +15,33 @@ foreach ($group in $groups) {
 }
 
 $groupDetails | Export-Csv -Path "C:\GroupDetails.csv" -NoTypeInformation
+
+_---------------------------------
+
+$groups = Get-DistributionGroup -ResultSize Unlimited
+$groupDetails = @()
+
+foreach ($group in $groups) {
+    $owners = Get-Group -Identity $group.Name | Select-Object -ExpandProperty ManagedBy
+    $ownerEmails = @()
+    foreach ($owner in $owners) {
+        $ownerEmails += (Get-User -Identity $owner).PrimarySmtpAddress
+    }
+
+    $members = Get-DistributionGroupMember -Identity $group.Name
+    $memberEmails = $members | Where-Object { $_.RecipientType -ne "GroupMailbox" } | Select-Object -ExpandProperty PrimarySmtpAddress
+    $nestedGroups = $members | Where-Object { $_.RecipientType -eq "GroupMailbox" } | Select-Object -ExpandProperty PrimarySmtpAddress
+
+    $groupDetail = [PSCustomObject]@{
+        Name        = $group.Name
+        Alias       = $group.Alias
+        PrimarySMTP = $group.PrimarySmtpAddress.ToString()
+        GroupType   = $group.GroupType
+        Owners      = $ownerEmails -join ";"
+        Members     = $memberEmails -join ";"
+        NestedGroups = $nestedGroups -join ";"
+    }
+    $groupDetails += $groupDetail
+}
+
+$groupDetails | Export-Csv -Path "C:\GroupDetails.csv" -NoTypeInformation
