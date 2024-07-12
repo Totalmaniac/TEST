@@ -1,0 +1,17 @@
+$groups = Get-DistributionGroup -ResultSize Unlimited
+$groupDetails = @()
+
+foreach ($group in $groups) {
+    $groupDetail = [PSCustomObject]@{
+        Name        = $group.Name
+        Alias       = $group.Alias
+        PrimarySMTP = $group.PrimarySmtpAddress.ToString()
+        GroupType   = $group.GroupType
+        Owners      = (Get-DistributionGroup | Get-DistributionGroupOwner).PrimarySmtpAddress -join ";"
+        Members     = (Get-DistributionGroupMember -Identity $group.Name).PrimarySmtpAddress -join ";"
+        NestedGroups = (Get-DistributionGroupMember -Identity $group.Name | Where-Object {$_.RecipientType -eq "GroupMailbox"}).PrimarySmtpAddress -join ";"
+    }
+    $groupDetails += $groupDetail
+}
+
+$groupDetails | Export-Csv -Path "C:\GroupDetails.csv" -NoTypeInformation
